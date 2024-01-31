@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>链接框示例</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .link-box {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .baidu {
+    background-color: red;
+  }
+  .google {
+    background-color: green;
+  }
+</style>
+</head>
+<body>
+
+<div class="link-box baidu" onclick="window.location='https://www.baidu.com';">百度</div>
+<div class="link-box google" onclick="window.location='https://www.google.com';">谷歌</div>
+
+</body>
+</html>
