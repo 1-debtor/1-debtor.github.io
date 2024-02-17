@@ -17,6 +17,9 @@
 		<div class="button-cell">4*4</div>
     </div>
     <a href="javascript:newgame();" id="newgame"  onclick="newgame()">Restart</a>
+<!-- Play Music Button -->
+    <button id="playButton">Play Music</button>
+
     <div id="score-cell">
 		<div class="score-cell">fraction</div>
 		<div class="button-cell"><span id="score">0</span></div>      
@@ -53,6 +56,8 @@
     <div class="grid-cell" id="grid-cell-3-3"></div>
 </div>
 <!-- 分享标签 -->
+<audio id="backgroundMusic" src="music/1.mp3" preload="auto"></audio>
+<div id="lyrics" style="padding: 20px; color: rgb(122, 39, 39); background-color: rgb(180, 167, 167); margin-top: 60px;"></div>
 <!-- JiaThis Button BEGIN -->
 <div class="jiathis_style_32x32">
 	<a class="jiathis_button_qzone"></a>
@@ -68,5 +73,6 @@
 <script type="text/javascript" src="js/support.js"></script>
 <script type="text/javascript" src="js/show.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/gc.js"></script>
 </body>
 </html>

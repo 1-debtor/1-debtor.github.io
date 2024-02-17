@@ -213,3 +213,11 @@ document.addEventListener('touchend',function(event){
     }
 });
 
+function openMusic() {
+    var music = document.getElementById("backgroundMusic"); // 获取音频元素
+    if (music.paused) {
+        music.play(); // 如果音乐暂停，则播放
+    } else {
+        music.pause(); // 如果音乐正在播放，则暂停
+    }
+}
