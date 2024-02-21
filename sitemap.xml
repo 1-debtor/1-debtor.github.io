@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ccww.me/Nav-Pan/index.html</loc>
+    
+    <lastmod>2024-02-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ccww.me/posts/c3afe34b.html</loc>
     
     <lastmod>2024-02-21</lastmod>
@@ -11,16 +20,16 @@
   </url>
   
   <url>
-    <loc>https://www.ccww.me/posts/cfac5202.html</loc>
+    <loc>https://www.ccww.me/posts/3f9e9b0e.html</loc>
     
-    <lastmod>2024-02-20</lastmod>
+    <lastmod>2024-02-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.ccww.me/posts/3f9e9b0e.html</loc>
+    <loc>https://www.ccww.me/posts/cfac5202.html</loc>
     
     <lastmod>2024-02-20</lastmod>
     
