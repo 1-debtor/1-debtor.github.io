@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://www.ccww.me/%E6%B5%8B%E8%AF%95/N/README.html</loc>
+    <loc>https://www.ccww.me/%E6%B5%8B%E8%AF%95/N/404.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -326,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://www.ccww.me/%E6%B5%8B%E8%AF%95/N/404.html</loc>
+    <loc>https://www.ccww.me/%E6%B5%8B%E8%AF%95/N/README.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -474,14 +474,14 @@
   </url>
   
   <url>
-    <loc>https://www.ccww.me/categories/English/</loc>
+    <loc>https://www.ccww.me/categories/music/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ccww.me/categories/music/</loc>
+    <loc>https://www.ccww.me/categories/English/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
