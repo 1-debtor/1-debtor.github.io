@@ -326,13 +326,6 @@
 
   
   <url>
-    <loc>https://www.ccww.me/tags/ai/</loc>
-    <lastmod>2024-02-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ccww.me/tags/alist/</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -340,7 +333,7 @@
   </url>
   
   <url>
-    <loc>https://www.ccww.me/tags/study/</loc>
+    <loc>https://www.ccww.me/tags/ai/</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -348,6 +341,13 @@
   
   <url>
     <loc>https://www.ccww.me/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2024-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ccww.me/tags/study/</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -363,13 +363,6 @@
   </url>
   
   <url>
-    <loc>https://www.ccww.me/categories/markdown%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-02-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ccww.me/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -377,7 +370,7 @@
   </url>
   
   <url>
-    <loc>https://www.ccww.me/categories/music/</loc>
+    <loc>https://www.ccww.me/categories/markdown%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -385,6 +378,13 @@
   
   <url>
     <loc>https://www.ccww.me/categories/test/</loc>
+    <lastmod>2024-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ccww.me/categories/music/</loc>
     <lastmod>2024-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -1,11 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const songs = [
-    { title: '台风', file: 'assets/music/台风.mp3', lyricsFile: 'assets/lyrics/taifeng.txt' },
-    { title: '稻香', file: 'assets/music/1.mp3', lyricsFile: 'assets/lyrics/1.txt' },
-    { title: '遥望', file: 'assets/music/遥望.mp3', lyricsFile: 'assets/lyrics/遥望.txt' },
-    { title: '普通人生', file: 'assets/music/普通人生.mp3', lyricsFile: 'assets/lyrics/普通人生.txt' }
-  ];
+  // 异步加载songs.json文件
+  fetch('songs.json')
+    .then(response => response.json())
+    .then(songs => {
+      initializePlayer(songs);
+    })
+    .catch(error => console.error('Error loading the songs:', error));
+});
 
+function initializePlayer(songs) {
   const audioPlayer = document.getElementById('audioPlayer');
   const songListElement = document.getElementById('songList');
   const lyricsElement = document.getElementById('lyrics');
@@ -14,19 +17,20 @@ document.addEventListener('DOMContentLoaded', function() {
   const progressBar = document.getElementById('progressBar');
   const progressTime = document.getElementById('progressTime');
   const loopBtn = document.getElementById('loopBtn');
-  
   let isPlaying = false;
   let currentSongIndex = -1;
   let isLooping = false;
   let parsedLyrics = [];
 
+  // 填充歌曲列表
   songs.forEach((song, index) => {
     const li = document.createElement('li');
     li.textContent = song.title;
     li.classList.add('p-2', 'hover:bg-gray-700');
-    li.addEventListener('click', () => playSong(index));
+    li.addEventListener('click', () => playSong(index, song.file, song.lyricsFile));
     songListElement.appendChild(li);
   });
+
 
   playPauseBtn.addEventListener('click', togglePlayPause);
   volumeControl.addEventListener('input', (event) => audioPlayer.volume = event.target.value / 100);
@@ -153,8 +157,8 @@ function playNextSong() {
     lyricsElement.innerHTML = ''; // 清除当前显示的歌词
 
     // 计算应该显示的歌词的起始和结束索引
-    const startIndex = Math.max(currentIndex - 1, 0); // 确保不会小于0
-    const endIndex = Math.min(currentIndex + 1, parsedLyrics.length - 1); // 确保不会超出数组范围
+    const startIndex = Math.max(currentIndex - 2, 0); // 确保不会小于0
+    const endIndex = Math.min(currentIndex + 2, parsedLyrics.length - 2); // 确保不会超出数组范围
 
     // 循环遍历并显示这段范围内的歌词
     for (let i = startIndex; i <= endIndex; i++) {
@@ -184,4 +188,4 @@ function playNextSong() {
           lyricsElement.scrollTop = currentLine.offsetTop - lyricsElement.offsetTop - (lyricsElement.offsetHeight / 2) + (currentLine.offsetHeight / 2);
       }
  }
-});
+};
