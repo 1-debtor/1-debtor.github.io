@@ -1,0 +1,62 @@
+:root {
+  --highlight-color: rgba(225, 76, 130, 0.999);
+  --normal-color: rgb(47, 235, 178);
+  --normal-font-size: 1.5rem;
+  --highlight-font-size: 8rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.scrollable-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 100%;
+  overflow-y: auto;
+  border-right: 20px solid rgb(128, 108, 108);
+  text-align: center;
+  font-style: italic;
+  font-size: 3rem;
+  width: 300px; /* 设置一个固定的宽度 */
+}
+
+.lyrics {
+  white-space: pre-wrap;
+  width: 1000px; /* 设置一个固定的宽度 */
+}
+
+
+.lyric-line {
+  font-size: var(--normal-font-size);
+  color: var(--normal-color);
+  transition: all 0.3s ease;
+}
+
+.lyric-line.highlight {
+  font-size: var(--highlight-font-size);
+  color: var(--highlight-color);
+}
+
+#authorName {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  color: rgb(83, 3, 3);
+}
