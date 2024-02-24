@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   max-height: 100%;
   overflow-y: auto;
   border-right: 20px solid rgb(128, 108, 108);
@@ -36,11 +37,22 @@ body {
   width: 300px; /* 设置一个固定的宽度 */
 }
 
+#songList {
+  margin: auto 0;
+}
+
 .lyrics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   white-space: pre-wrap;
   width: 1000px; /* 设置一个固定的宽度 */
 }
 
+#lyrics {
+  margin: auto 0;
+}
 
 .lyric-line {
   font-size: var(--normal-font-size);
