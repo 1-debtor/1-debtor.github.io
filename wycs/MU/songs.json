@@ -1,13 +1,13 @@
 [
     {
+    "title": "稻香",
+    "file": "assets/music/1.mp3",
+      "lyricsFile": "assets/lyrics/1.txt"
+    },
+    {
       "title": "台风",
       "file": "assets/music/台风.mp3",
       "lyricsFile": "assets/lyrics/taifeng.txt"
-    },
-    {
-      "title": "稻香",
-      "file": "assets/music/1.mp3",
-      "lyricsFile": "assets/lyrics/1.txt"
     },
     {
       "title": "遥望",
@@ -18,6 +18,11 @@
       "title": "普通人生",
       "file": "assets/music/普通人生.mp3",
       "lyricsFile": "assets/lyrics/普通人生.txt"
+    },
+    {
+      "title": "我想牵着你的手",
+      "file": "assets/music/我想牵着你的手.mp3",
+      "lyricsFile": "assets/music/我想牵着你的手.txt"
     }
   ]
   
