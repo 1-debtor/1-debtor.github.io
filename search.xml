@@ -1408,4 +1408,13 @@ https://3g.gljlw.com/diy/douyin.php</p>
 <p>使用视频链接： <iframe height="500" width="100%" src="https://www.yingshi.tv/vod/play/id/165947/sid/1/nid/1.htm" frameborder="0" allowfullscreen=""> </iframe></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>多个GitHub账号SSH部署-hexo</title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
+<li>https://www.freecodecamp.org/chinese/news/manage-multiple-github-accounts-the-ssh-way/</li>
+<li>https://blog.csdn.net/qq_36759224/article/details/86546729</li>
+</ul>
+]]></content>
+  </entry>
 </search>
