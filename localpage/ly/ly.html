@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>time</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Blackadder ITC', '楷体', serif;
+    background-image: url('https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402140027746.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .title, .new-timer-title {
+    color: white;
+    font-size: 64px; /* Adjusted font size for consistency */
+    margin-bottom: 20px; /* Ensure spacing */
+  }
+  .timer, .extended-timer, .new-timer {
+  color: black; /* 修改文字颜色为黑色 */
+  font-size: 32px;
+  background-color: white; /* 修改背景颜色为白色 */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #ccc; /* 添加边框 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 添加阴影，增加质感 */
+}
+</style>
+</head>
+<body>
+
+<div class="background-overlay">
+  <div class="title">❤️JWJ&XYC❤️</div>
+  <div class="timer" id="timer"></div>
+  <div class="extended-timer" id="extendedTimer" style="display: none;"></div>
+  <div class="new-timer-title">🌎海外漂泊🌎：</div>
+  <div class="new-timer" id="newTimer"></div>
+</div>
+
+<script>
+  function updateTime() {
+    const startDate = new Date('2022-08-20T00:00:00');
+    const newStartDate = new Date('2023-11-02T00:00:00');
+    const now = new Date();
+    const elapsed = now - startDate;
+    const newElapsed = now - newStartDate;
+    const elapsedDate = new Date(elapsed);
+    const newElapsedDate = new Date(newElapsed);
+    const days = Math.floor(elapsed / (1000 * 60 * 60 * 24));
+    const newDays = Math.floor(newElapsed / (1000 * 60 * 60 * 24));
+    const hours = elapsedDate.getUTCHours();
+    const newHours = newElapsedDate.getUTCHours();
+    const minutes = elapsedDate.getUTCMinutes();
+    const newMinutes = newElapsedDate.getUTCMinutes();
+    const seconds = elapsedDate.getUTCSeconds();
+    const newSeconds = newElapsedDate.getUTCSeconds();
+    document.getElementById('timer').textContent = `${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
+    document.getElementById('newTimer').textContent = `${newDays}天 ${newHours}小时 ${newMinutes}分钟 ${newSeconds}秒`;
+    
+    // Check if elapsed time is more than a year
+    const years = elapsedDate.getUTCFullYear() - 1970; // Since epoch is 1970
+    if (years > 0) {
+      document.getElementById('extendedTimer').style.display = 'block';
+      document.getElementById('extendedTimer').textContent = `${years}年 ${elapsedDate.getUTCMonth()}月 ${elapsedDate.getUTCDate() - 1}日 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
+    } else {
+      document.getElementById('extendedTimer').style.display = 'none';
+}
+}
+setInterval(updateTime, 1000);
+</script>
+
+</body>
+</html>
