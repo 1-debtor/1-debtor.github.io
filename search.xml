@@ -756,16 +756,6 @@ sk-dsdsdd(编一个)</li>
 ]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/11/16/%E8%A7%A3%E9%99%A4%E6%8E%A8%E9%80%81%E9%99%90%E5%88%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: 解除推送限制</span><br><span class="line">categories: 博客折腾</span><br><span class="line">date: 2024-11-06 23:52:33</span><br></pre></td></tr></table></figure>
-<p>错误信息</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> ! [remote rejected] HEAD -&gt; master (push declined due to </span><br><span class="line">repository rule violations)</span><br></pre></td></tr></table></figure>
-<p><strong>解除 GitHub 的推送保护</strong>：</p>
-<p>如果你确定已删除所有敏感信息，可以访问 GitHub 提供的链接，解除对你推送的阻止：</p>
-]]></content>
-  </entry>
-  <entry>
     <title>资源搜索(待整理)</title>
     <url>/2024/02/19/%E8%B5%84%E6%BA%90%E6%90%9C%E7%B4%A2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><em>资源聚合</em></h1>
@@ -1308,5 +1298,15 @@ sk-dsdsdd(编一个)</li>
       <tags>
         <tag>hexo</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/11/16/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E8%A7%A3%E9%99%A4%E6%8E%A8%E9%80%81%E9%99%90%E5%88%B6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: 解除推送限制</span><br><span class="line">date: 2024-03-15 03:00:14</span><br><span class="line">tags: hexo</span><br><span class="line">categories: 博客折腾</span><br></pre></td></tr></table></figure>
+<p>错误信息</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> ! [remote rejected] HEAD -&gt; master (push declined due to </span><br><span class="line">repository rule violations)</span><br></pre></td></tr></table></figure>
+<p><strong>解除 GitHub 的推送保护</strong>：</p>
+<p>如果你确定已删除所有敏感信息，可以访问 GitHub 提供的链接，解除对你推送的阻止：</p>
+]]></content>
   </entry>
 </search>
