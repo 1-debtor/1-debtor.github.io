@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>laTeX学习</title>
+    <url>/2024/01/31/laTeX%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
+<h1>hexo 中显示 latex :</h1>
+<h2 id="安装">安装</h2>
+<ol>
+<li>
+<p>npm un hexo-renderer-marked  # 先将原有的渲染器卸载<br>
+npm i hexo-renderer-pandoc# 安装pandoc</p>
+</li>
+<li>
+<p>在主题配置文件_config.yml 中找到math关键词，将mathjax的false改为true。</p>
+</li>
+<li>
+<p>本地安装pandoc 后重启</p>
+</li>
+</ol>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mi>f</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mn>2</mn><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mn>3</mn><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mi>n</mi><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mi>n</mi></msup><mo>+</mo><mo>⋯</mo></mrow><annotation encoding="application/x-tex">f(x) = f(a) + f&#x27;(a)(x-a) + \frac{f&#x27;&#x27;(a)}{2!}(x-a)^2 + \frac{f&#x27;&#x27;&#x27;(a)}{3!}(x-a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n + \cdots</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0019em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.4095em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0645em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278em;"><span style="top:-2.931em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′′</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.4095em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0645em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278em;"><span style="top:-2.931em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′′′</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.5067em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1617em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9667em;"><span style="top:-2.9667em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5357em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mathnormal mtight">n</span><span class="mclose mtight">)</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.313em;"></span><span class="minner">⋯</span></span></span></span></p>
+<h2 id="换行">换行</h2>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">\begin&#123;align&#125;</span><br><span class="line">a_&#123;11&#125;&amp; =b_&#123;11&#125;\\\\</span><br><span class="line">a_&#123;22&#125;&amp; =b_&#123;22&#125;+c_&#123;22&#125;</span><br><span class="line">\end&#123;align&#125;</span><br></pre></td></tr></table></figure>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd class ="mtr-glue"></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>a</mi><mn>11</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msub><mi>b</mi><mn>11</mn></msub></mrow></mstyle></mtd><mtd class ="mtr-glue"></mtd><mtd class ="mml-eqn-num"></mtd></mtr><mtr><mtd class ="mtr-glue"></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>a</mi><mn>22</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msub><mi>b</mi><mn>22</mn></msub><mo>+</mo><msub><mi>c</mi><mn>22</mn></msub></mrow></mstyle></mtd><mtd class ="mtr-glue"></mtd><mtd class ="mml-eqn-num"></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{align}
+a_{11}&amp; =b_{11}\\
+a_{22}&amp; =b_{22}+c_{22}
+\end{align}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3em;vertical-align:-1.25em;"></span><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span></span></span><span class="tag"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.75em;"><span class="pstrut" style="height:2.84em;"></span><span class="eqn-num"></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:2.84em;"></span><span class="eqn-num"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span></span></span></span></p>
+<ul>
+<li>
+<p>开头结尾加入</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\begin</span>&#123;align&#125;  <span class="keyword">\end</span>&#123;align&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>\begin{align}f(x)\\& = f(a) + f'(a)(x-a) + \\&\frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots + \\&\frac{f^{(n)}(a)}{n!}(x-a)^n + \\&\cdots\end{align}</p>
+]]></content>
+  </entry>
+  <entry>
     <title>CSC文件</title>
     <url>/2024/02/24/CSC/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -15,83 +49,6 @@
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>alist搭建</title>
-    <url>/2024/02/06/alist%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>突然浏览到 别人的博客 加载了个人网盘 了解到alist 感觉有点用</p>
-</blockquote>
-<h1>1. 本地安装</h1>
-<ol>
-<li>
-<p>下载win-zip包</p>
-</li>
-<li>
-<p>解压后在路径 中输入CMD</p>
-</li>
-<li>
-<p>终端中输入alist server</p>
-</li>
-<li>
-<p>界面中有登录密码(password)</p>
-</li>
-<li>
-<p>浏览器中输入<strong>127.0.0.1:5244</strong></p>
-</li>
-<li>
-<p>登录admin, 输入原始密码，之后可更改</p>
-</li>
-</ol>
-<h1>2. 挂载网盘</h1>
-<ul>
-<li>参考官网文档</li>
-</ul>
-<h1>3. 挂载本地</h1>
-<ol>
-<li>下载安装 RaiDrive 软件</li>
-<li>添加:arrow_right:添加 NAS:arrow_right: webDAV :arrow_right:去掉地址√  :arrow_right:地址输入: 127.0.0.1:arrow_right: 端口输入5244:arrow_right: 路径输入：/dav:arrow_right:  输入alist账号密码 :arrow_right:点击<strong>链接</strong></li>
-</ol>
-<p>​	打开我的电脑即可看到</p>
-<h1>4. 开机自启</h1>
-<ol>
-<li>
-<p>新建 VBS文件 ,输入代码：</p>
-<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Set</span> ws = <span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;C:\alist-windows-amd64\alist.exe server&quot;</span>,vbhide</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>放入alist文件夹，添加快捷方式</p>
-</li>
-<li>
-<p>双击即运行</p>
-</li>
-<li>
-<p>开启自启</p>
-<p>win r →shell:startup</p>
-<p>将快捷方式拖入</p>
-</li>
-</ol>
-<h1>5 公网访问</h1>
-<ul>
-<li>教程:<br>
-<a href="https://www.youtube.com/watch?v=1YRq0846yWs">没有软路由、NAS，外网访问家中电脑里的alist? 只需一个域名</a></li>
-</ul>
-<h1>参考</h1>
-<ul>
-<li>
-<p>github: <a href="https://github.com/alist-org/alist">https://github.com/alist-org/alist</a></p>
-</li>
-<li>
-<p>zhihu: <a href="https://zhuanlan.zhihu.com/p/668599673">https://zhuanlan.zhihu.com/p/668599673</a></p>
-</li>
-<li>
-<p>官方文档：<a href="https://alist.nn.ci/zh/guide/">https://alist.nn.ci/zh/guide/</a></p>
-</li>
-<li>
-<p>B站教程：<a href="https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click">https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click</a></p>
-</li>
-</ul>
-]]></content>
   </entry>
   <entry>
     <title>markdown-学习</title>
@@ -236,12 +193,12 @@
 <h1>音频插入</h1>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer title author https://freetyst.nf.migu.cn/public/product9th/product45/2022/02/1715/2022%E5%B9%B402%E6%9C%8816%E6%97%A513%E7%82%B946%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%9B%B8%E4%BF%A1%E9%9F%B3%E4%B9%905014%E9%A6%96336965/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3<span class="emphasis">_40_</span>16<span class="emphasis">_Stero/64049302802154634.mp3?Key=d36ca4d36ac4d634&amp;Tim=1705596711348&amp;channelid=00&amp;msisdn=6b21654dae894e7181885e6c3b56b439&amp;CI=640493028022600919000006004798&amp;F=000009 %&#125;</span></span><br></pre></td></tr></table></figure>
 
-        <div id="aplayer-dHYStjzJ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-gYfXTKho" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-dHYStjzJ"),
+            element: document.getElementById("aplayer-gYfXTKho"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -266,6 +223,176 @@
 <h1>Tips</h1>
 <ul>
 <li>ctrl + .  切换标点的全角和半角</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>markdown-学习</title>
+    <url>/2024/01/17/render+railway%E6%90%AD%E5%BB%BAcoze-discordproxy%20APl+%20chatgpt-on-wechat/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><em><strong>昨晚看到论坛佬友分享的，备份一下自己的过程 <img src="https://linux.do/images/emoji/apple/innocent.png?v=12" alt=":innocent:"> <img src="https://linux.do/images/emoji/apple/innocent.png?v=12" alt=":innocent:"> <img src="https://linux.do/images/emoji/apple/innocent.png?v=12" alt=":innocent:"></strong></em></p>
+<p><strong>适用于没有服务器 喜欢一键部署 <img src="https://linux.do/images/emoji/apple/rofl.png?v=12" alt=":rofl:"></strong></p>
+<ul>
+<li>教程参考（<strong>直接抄袭</strong>）：<br>
+<a href="https://www.atray.cn/2024/02/18/8.html">https://www.atray.cn/2024/02/18/8.html</a><br>
+<a href="https://www.bilibili.com/video/BV1EJ4m1b7Mi/?spm_id_from=333.1007.top_right_bar_window_history.content.click">https://www.bilibili.com/video/BV1EJ4m1b7Mi/?spm_id_from=333.1007.top_right_bar_window_history.content.click</a></li>
+<li>使用项目地址：<br>
+<a href="https://github.com/deanxv/coze-discord-proxy">https://github.com/deanxv/coze-discord-proxy</a><br>
+<a href="https://github.com/zhayujie/chatgpt-on-wechat">https://github.com/zhayujie/chatgpt-on-wechat</a></li>
+</ul>
+<h2 id="准备">准备</h2>
+<h2 id="render的8个Environment-Variables变量以及获取方式：">render的8个Environment Variables变量以及获取方式：</h2>
+<ol>
+<li><strong>GUILD_ID</strong></li>
+</ol>
+<p>discord中新创建的服务器ID 右键<code>服务器名称</code>查看</p>
+<ol>
+<li><strong>CHANNEL_ID</strong></li>
+</ol>
+<p>右键discord中 <code>&lt;#常规&gt;</code> 查看</p>
+<ol>
+<li><strong>BOT_TOKEN</strong></li>
+</ol>
+<p><a href="https://discord.com/developers/">https://discord.com/developers/</a></p>
+<p>新建的第一个机器人，复制Application ID，BOt→Reset token</p>
+<p><strong>复制保存token</strong></p>
+<p>bot→开启权限</p>
+<p>bot→OAuth2 URL Generator→勾选bot，继续勾选administor</p>
+<p><img src="https://linux.do/uploads/default/optimized/3X/8/4/84bd41d7556880e2b0a0109d4617d0fedf04b2b2_2_690x50.png" alt="image"></p>
+<p>image2000×145 22.6 KB</p>
+<p>打开链接，拉入频道，授权管理员</p>
+<ol>
+<li><strong>COZE_BOT_ID</strong></li>
+</ol>
+<p><a href="https://discord.com/developers/">https://discord.com/developers/</a></p>
+<p>继续新建另一个bot</p>
+<p>复制<strong>ID</strong> token … … 拉入频道… …</p>
+<p><a href="https://www.coze.com/">https://www.coze.com/</a></p>
+<p><img src="https://linux.do/uploads/default/optimized/3X/4/4/44326df4b784763a81acc414ac7830475aca0e03_2_345x160.jpeg" alt="image"></p>
+<p>image2000×931 129 KB</p>
+<p>将此token与coze绑定<br>
+注意修改character，不然是灰色的</p>
+<ol>
+<li><strong>PORT</strong><br>
+443</li>
+<li><strong>PROXY_SECRET</strong><br>
+sk-dsdsdd(编一个)</li>
+<li><strong>TZ</strong></li>
+</ol>
+<p>Asia/Shanghai</p>
+<ol>
+<li><strong>USER_AUTHORIZATION</strong></li>
+</ol>
+<p>打开discord频道，点击F12，在频道中发言，F5刷新，找到AUTHORIZATION</p>
+<p><img src="https://linux.do/uploads/default/optimized/3X/1/8/1888994d307c088e403542f0ed41d5f83569b1a4_2_345x69.jpeg" alt="image"></p>
+<p>image2000×403 201 KB</p>
+<h2 id="开始部署（render）">开始部署（render）</h2>
+<p><img src="https://linux.do/uploads/default/optimized/3X/4/b/4b4df08e481e9d8da922c33ec454ad73da237b67_2_345x161.jpeg" alt="image"></p>
+<p>image2000×939 189 KB</p>
+<h3 id="使用：">使用：</h3>
+<ul>
+<li>
+<p>api地址：</p>
+<p><img src="https://linux.do/uploads/default/optimized/3X/4/5/457593fe83effb87cb1751d8e72b91130f5fb94a_2_345x100.jpeg" alt="image"></p>
+<p>image2000×581 73.1 KB</p>
+</li>
+<li>
+<p>key:就是刚刚编的</p>
+</li>
+</ul>
+<h3 id="保活："><strong>保活</strong>：</h3>
+<p>Render的服务在15分钟后没有数据就会休眠，参考教程使用实时监控保活<a href="https://monitor.dnspod.cn/">https://monitor.dnspod.cn/</a></p>
+<p><img src="https://linux.do/uploads/default/optimized/3X/b/8/b81c3d0fecd829890d6f8534c2f73daf48b4cc3c_2_345x98.png" alt="image"></p>
+<p>image2000×571 68.4 KB</p>
+<h3 id="railway">railway</h3>
+<h2 id="继续接入微信-小号">继续接入微信(小号)</h2>
+<p><a href="https://railway.app/template/qApznZ?referralCode=RC3znh">https://railway.app/template/qApznZ?referralCode=RC3znh</a></p>
+<h3 id="Variables变量：">Variables变量：</h3>
+<ul>
+<li>添加open_ai_api_base：就是刚刚render生成的链接，最后加个/v1</li>
+<li>修改open_ai_api_key：刚刚设置的key</li>
+<li>修改model: gpt-4</li>
+<li>修改group_name_white_list:[“ALL_GROUP”] （每个群都能@使用）</li>
+<li>修改single_chat_prefix：[“”] （不用对话前加名称，可以直接对话）</li>
+<li>修改group_chat_prefix：[“@你的微信名称”]</li>
+</ul>
+<p>部署完成后在deploy logs中 查看二维码 扫描登录</p>
+<p><a href="https://linux.do/uploads/default/original/3X/d/e/def77fac28de37e5df8cc17271b49935341ea030.jpeg"><img src="https://linux.do/uploads/default/optimized/3X/d/e/def77fac28de37e5df8cc17271b49935341ea030_2_690x272.jpeg" alt="image"></a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>alist搭建</title>
+    <url>/2024/02/06/alist%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>突然浏览到 别人的博客 加载了个人网盘 了解到alist 感觉有点用</p>
+</blockquote>
+<h1>1. 本地安装</h1>
+<ol>
+<li>
+<p>下载win-zip包</p>
+</li>
+<li>
+<p>解压后在路径 中输入CMD</p>
+</li>
+<li>
+<p>终端中输入alist server</p>
+</li>
+<li>
+<p>界面中有登录密码(password)</p>
+</li>
+<li>
+<p>浏览器中输入<strong>127.0.0.1:5244</strong></p>
+</li>
+<li>
+<p>登录admin, 输入原始密码，之后可更改</p>
+</li>
+</ol>
+<h1>2. 挂载网盘</h1>
+<ul>
+<li>参考官网文档</li>
+</ul>
+<h1>3. 挂载本地</h1>
+<ol>
+<li>下载安装 RaiDrive 软件</li>
+<li>添加:arrow_right:添加 NAS:arrow_right: webDAV :arrow_right:去掉地址√  :arrow_right:地址输入: 127.0.0.1:arrow_right: 端口输入5244:arrow_right: 路径输入：/dav:arrow_right:  输入alist账号密码 :arrow_right:点击<strong>链接</strong></li>
+</ol>
+<p>​	打开我的电脑即可看到</p>
+<h1>4. 开机自启</h1>
+<ol>
+<li>
+<p>新建 VBS文件 ,输入代码：</p>
+<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Set</span> ws = <span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;C:\alist-windows-amd64\alist.exe server&quot;</span>,vbhide</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>放入alist文件夹，添加快捷方式</p>
+</li>
+<li>
+<p>双击即运行</p>
+</li>
+<li>
+<p>开启自启</p>
+<p>win r →shell:startup</p>
+<p>将快捷方式拖入</p>
+</li>
+</ol>
+<h1>5 公网访问</h1>
+<ul>
+<li>教程:<br>
+<a href="https://www.youtube.com/watch?v=1YRq0846yWs">没有软路由、NAS，外网访问家中电脑里的alist? 只需一个域名</a></li>
+</ul>
+<h1>参考</h1>
+<ul>
+<li>
+<p>github: <a href="https://github.com/alist-org/alist">https://github.com/alist-org/alist</a></p>
+</li>
+<li>
+<p>zhihu: <a href="https://zhuanlan.zhihu.com/p/668599673">https://zhuanlan.zhihu.com/p/668599673</a></p>
+</li>
+<li>
+<p>官方文档：<a href="https://alist.nn.ci/zh/guide/">https://alist.nn.ci/zh/guide/</a></p>
+</li>
+<li>
+<p>B站教程：<a href="https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click">https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click</a></p>
+</li>
 </ul>
 ]]></content>
   </entry>
@@ -377,133 +504,6 @@
       <tags>
         <tag>ai</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>laTeX学习</title>
-    <url>/2024/01/31/laTeX%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
-<h1>hexo 中显示 latex :</h1>
-<h2 id="安装">安装</h2>
-<ol>
-<li>
-<p>npm un hexo-renderer-marked  # 先将原有的渲染器卸载<br>
-npm i hexo-renderer-pandoc# 安装pandoc</p>
-</li>
-<li>
-<p>在主题配置文件_config.yml 中找到math关键词，将mathjax的false改为true。</p>
-</li>
-<li>
-<p>本地安装pandoc 后重启</p>
-</li>
-</ol>
-<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mi>f</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mn>2</mn><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mn>3</mn><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mi>n</mi><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mi>n</mi></msup><mo>+</mo><mo>⋯</mo></mrow><annotation encoding="application/x-tex">f(x) = f(a) + f&#x27;(a)(x-a) + \frac{f&#x27;&#x27;(a)}{2!}(x-a)^2 + \frac{f&#x27;&#x27;&#x27;(a)}{3!}(x-a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n + \cdots</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0019em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.4095em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0645em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278em;"><span style="top:-2.931em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′′</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.4095em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0645em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278em;"><span style="top:-2.931em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′′′</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.5067em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1617em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9667em;"><span style="top:-2.9667em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5357em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mathnormal mtight">n</span><span class="mclose mtight">)</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.313em;"></span><span class="minner">⋯</span></span></span></span></p>
-<h2 id="换行">换行</h2>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">\begin&#123;align&#125;</span><br><span class="line">a_&#123;11&#125;&amp; =b_&#123;11&#125;\\\\</span><br><span class="line">a_&#123;22&#125;&amp; =b_&#123;22&#125;+c_&#123;22&#125;</span><br><span class="line">\end&#123;align&#125;</span><br></pre></td></tr></table></figure>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd class ="mtr-glue"></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>a</mi><mn>11</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msub><mi>b</mi><mn>11</mn></msub></mrow></mstyle></mtd><mtd class ="mtr-glue"></mtd><mtd class ="mml-eqn-num"></mtd></mtr><mtr><mtd class ="mtr-glue"></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>a</mi><mn>22</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msub><mi>b</mi><mn>22</mn></msub><mo>+</mo><msub><mi>c</mi><mn>22</mn></msub></mrow></mstyle></mtd><mtd class ="mtr-glue"></mtd><mtd class ="mml-eqn-num"></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{align}
-a_{11}&amp; =b_{11}\\
-a_{22}&amp; =b_{22}+c_{22}
-\end{align}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3em;vertical-align:-1.25em;"></span><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span></span></span><span class="tag"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.75em;"><span class="pstrut" style="height:2.84em;"></span><span class="eqn-num"></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:2.84em;"></span><span class="eqn-num"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span></span></span></span></p>
-<ul>
-<li>
-<p>开头结尾加入</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\begin</span>&#123;align&#125;  <span class="keyword">\end</span>&#123;align&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>\begin{align}f(x)\\& = f(a) + f'(a)(x-a) + \\&\frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots + \\&\frac{f^{(n)}(a)}{n!}(x-a)^n + \\&\cdots\end{align}</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>markdown-学习</title>
-    <url>/2024/01/17/render+railway%E6%90%AD%E5%BB%BAcoze-discordproxy%20APl+%20chatgpt-on-wechat/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><em><strong>昨晚看到论坛佬友分享的，备份一下自己的过程 <img src="https://linux.do/images/emoji/apple/innocent.png?v=12" alt=":innocent:"> <img src="https://linux.do/images/emoji/apple/innocent.png?v=12" alt=":innocent:"> <img src="https://linux.do/images/emoji/apple/innocent.png?v=12" alt=":innocent:"></strong></em></p>
-<p><strong>适用于没有服务器 喜欢一键部署 <img src="https://linux.do/images/emoji/apple/rofl.png?v=12" alt=":rofl:"></strong></p>
-<ul>
-<li>教程参考（<strong>直接抄袭</strong>）：<br>
-<a href="https://www.atray.cn/2024/02/18/8.html">https://www.atray.cn/2024/02/18/8.html</a><br>
-<a href="https://www.bilibili.com/video/BV1EJ4m1b7Mi/?spm_id_from=333.1007.top_right_bar_window_history.content.click">https://www.bilibili.com/video/BV1EJ4m1b7Mi/?spm_id_from=333.1007.top_right_bar_window_history.content.click</a></li>
-<li>使用项目地址：<br>
-<a href="https://github.com/deanxv/coze-discord-proxy">https://github.com/deanxv/coze-discord-proxy</a><br>
-<a href="https://github.com/zhayujie/chatgpt-on-wechat">https://github.com/zhayujie/chatgpt-on-wechat</a></li>
-</ul>
-<h2 id="准备">准备</h2>
-<h2 id="render的8个Environment-Variables变量以及获取方式：">render的8个Environment Variables变量以及获取方式：</h2>
-<ol>
-<li><strong>GUILD_ID</strong></li>
-</ol>
-<p>discord中新创建的服务器ID 右键<code>服务器名称</code>查看</p>
-<ol>
-<li><strong>CHANNEL_ID</strong></li>
-</ol>
-<p>右键discord中 <code>&lt;#常规&gt;</code> 查看</p>
-<ol>
-<li><strong>BOT_TOKEN</strong></li>
-</ol>
-<p><a href="https://discord.com/developers/">https://discord.com/developers/</a></p>
-<p>新建的第一个机器人，复制Application ID，BOt→Reset token</p>
-<p><strong>复制保存token</strong></p>
-<p>bot→开启权限</p>
-<p>bot→OAuth2 URL Generator→勾选bot，继续勾选administor</p>
-<p><img src="https://linux.do/uploads/default/optimized/3X/8/4/84bd41d7556880e2b0a0109d4617d0fedf04b2b2_2_690x50.png" alt="image"></p>
-<p>image2000×145 22.6 KB</p>
-<p>打开链接，拉入频道，授权管理员</p>
-<ol>
-<li><strong>COZE_BOT_ID</strong></li>
-</ol>
-<p><a href="https://discord.com/developers/">https://discord.com/developers/</a></p>
-<p>继续新建另一个bot</p>
-<p>复制<strong>ID</strong> token … … 拉入频道… …</p>
-<p><a href="https://www.coze.com/">https://www.coze.com/</a></p>
-<p><img src="https://linux.do/uploads/default/optimized/3X/4/4/44326df4b784763a81acc414ac7830475aca0e03_2_345x160.jpeg" alt="image"></p>
-<p>image2000×931 129 KB</p>
-<p>将此token与coze绑定<br>
-注意修改character，不然是灰色的</p>
-<ol>
-<li><strong>PORT</strong><br>
-443</li>
-<li><strong>PROXY_SECRET</strong><br>
-sk-dsdsdd(编一个)</li>
-<li><strong>TZ</strong></li>
-</ol>
-<p>Asia/Shanghai</p>
-<ol>
-<li><strong>USER_AUTHORIZATION</strong></li>
-</ol>
-<p>打开discord频道，点击F12，在频道中发言，F5刷新，找到AUTHORIZATION</p>
-<p><img src="https://linux.do/uploads/default/optimized/3X/1/8/1888994d307c088e403542f0ed41d5f83569b1a4_2_345x69.jpeg" alt="image"></p>
-<p>image2000×403 201 KB</p>
-<h2 id="开始部署（render）">开始部署（render）</h2>
-<p><img src="https://linux.do/uploads/default/optimized/3X/4/b/4b4df08e481e9d8da922c33ec454ad73da237b67_2_345x161.jpeg" alt="image"></p>
-<p>image2000×939 189 KB</p>
-<h3 id="使用：">使用：</h3>
-<ul>
-<li>
-<p>api地址：</p>
-<p><img src="https://linux.do/uploads/default/optimized/3X/4/5/457593fe83effb87cb1751d8e72b91130f5fb94a_2_345x100.jpeg" alt="image"></p>
-<p>image2000×581 73.1 KB</p>
-</li>
-<li>
-<p>key:就是刚刚编的</p>
-</li>
-</ul>
-<h3 id="保活："><strong>保活</strong>：</h3>
-<p>Render的服务在15分钟后没有数据就会休眠，参考教程使用实时监控保活<a href="https://monitor.dnspod.cn/">https://monitor.dnspod.cn/</a></p>
-<p><img src="https://linux.do/uploads/default/optimized/3X/b/8/b81c3d0fecd829890d6f8534c2f73daf48b4cc3c_2_345x98.png" alt="image"></p>
-<p>image2000×571 68.4 KB</p>
-<h3 id="railway">railway</h3>
-<h2 id="继续接入微信-小号">继续接入微信(小号)</h2>
-<p><a href="https://railway.app/template/qApznZ?referralCode=RC3znh">https://railway.app/template/qApznZ?referralCode=RC3znh</a></p>
-<h3 id="Variables变量：">Variables变量：</h3>
-<ul>
-<li>添加open_ai_api_base：就是刚刚render生成的链接，最后加个/v1</li>
-<li>修改open_ai_api_key：刚刚设置的key</li>
-<li>修改model: gpt-4</li>
-<li>修改group_name_white_list:[“ALL_GROUP”] （每个群都能@使用）</li>
-<li>修改single_chat_prefix：[“”] （不用对话前加名称，可以直接对话）</li>
-<li>修改group_chat_prefix：[“@你的微信名称”]</li>
-</ul>
-<p>部署完成后在deploy logs中 查看二维码 扫描登录</p>
-<p><a href="https://linux.do/uploads/default/original/3X/d/e/def77fac28de37e5df8cc17271b49935341ea030.jpeg"><img src="https://linux.do/uploads/default/optimized/3X/d/e/def77fac28de37e5df8cc17271b49935341ea030_2_690x272.jpeg" alt="image"></a></p>
-]]></content>
   </entry>
   <entry>
     <title>对联</title>
@@ -756,28 +756,49 @@ sk-dsdsdd(编一个)</li>
 ]]></content>
   </entry>
   <entry>
-    <title>hexo标签外挂学习</title>
-    <url>/2024/02/09/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/hexo%20%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. Tabs</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs test1 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h1>2. Note</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="2-1-icon">2.1 icon</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- &#123;% note green &#x27;fas fa-fan&#x27; simple%&#125;</span><br><span class="line">  green &#x27;fas-&#x27;</span><br><span class="line">  &#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">- &#123;% note danger no-icon %&#125;</span><br><span class="line">  no-icon</span><br><span class="line">  &#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">- &gt; 引用</span><br></pre></td></tr></table></figure>
-<h1>3. Button</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn &#x27;https://butterfly.js.org/&#x27;,Butterfly %&#125;</span><br></pre></td></tr></table></figure>
-<h1>参考</h1>
-<ul>
-<li>小嘉 <a href="https://blog.imzjw.cn/posts/bfdocs/#%E5%85%A8%E8%BE%B9%E6%A1%86%E5%8F%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A2%9C%E8%89%B2">https://blog.imzjw.cn/posts/bfdocs/#全边框及自定义颜色</a></li>
-<li></li>
-</ul>
+    <title>资源搜索(待整理)</title>
+    <url>/2024/02/19/%E8%B5%84%E6%BA%90%E6%90%9C%E7%B4%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><em>资源聚合</em></h1>
+<p><a href="https://pan.mediy.cn/">https://pan.mediy.cn/</a> | 综合</p>
+<p><a href="https://pan.ecve.cn/">https://pan.ecve.cn/</a> | 综合</p>
+<p><a href="https://al.chirmyram.com/">https://al.chirmyram.com/</a> | 综合-盘</p>
+<p><a href="https://alist.shenzjd.com/">https://alist.shenzjd.com/</a> | 综合-盘</p>
+<p><a href="https://zi0.cc/">https://zi0.cc/</a>   |游戏</p>
+<p><a href="https://alist.toc.icu/">https://alist.toc.icu/</a> | 动漫</p>
+<p><a href="https://cnxiaobai.com/">https://cnxiaobai.com/</a>   <a href="https://file.cnxiaobai.com/">https://file.cnxiaobai.com/</a>  | 综合 PC 手机资源</p>
+<p><a href="https://pluginschat.com/">https://pluginschat.com/</a> | 综合  （<a href="https://docs.qq.com/sheet/DVXp5Q2dRTVRXb2VS?tab=oz0lgd%EF%BC%89">https://docs.qq.com/sheet/DVXp5Q2dRTVRXb2VS?tab=oz0lgd）</a></p>
+<p><a href="https://www.cuppaso.com/">https://www.cuppaso.com/</a> | 综合</p>
+<p><a href="https://atym.app/">https://atym.app/</a> | 影视</p>
+<p><a href="https://24hbook.com/%7C">https://24hbook.com/|</a> 书籍</p>
+<p><a href="https://www.pikaso.top/">https://www.pikaso.top/</a> | 综合</p>
+<p><a href="https://www.8bei8.com/">https://www.8bei8.com/</a> | 古籍</p>
+<p><a href="http://sqlmother.yupi.icu/#/learn">http://sqlmother.yupi.icu/#/learn</a> | 学习-sql</p>
+<p><a href="https://z-library.se/?ts=2332">https://z-library.se/?ts=2332</a> | 书籍</p>
+<p><a href="https://www.pdfdrive.com/">https://www.pdfdrive.com/</a> | 书籍</p>
+<p><a href="https://www.ypppt.com/">https://www.ypppt.com/</a> | PPT</p>
+<p><a href="https://www.pptsupermarket.com/">https://www.pptsupermarket.com/</a> | PPT</p>
+<p><a href="https://www.loecsen.com/">https://www.loecsen.com/</a> | 学习-英文</p>
+<p><a href="https://elllo.org/index.htm">https://elllo.org/index.htm</a> | 学习-英文</p>
+<p><a href="https://english-number.com/index">https://english-number.com/index</a> | 学习-英文-数字</p>
+<p><a href="https://corrector.justsong.cn/">https://corrector.justsong.cn/</a> | 学习-英文-单词发音</p>
+<p><a href="https://www.ahhhhfs.com/24012/">https://www.ahhhhfs.com/24012/</a> | 学习-英文-弹幕单词</p>
+<p><a href="https://www.mydyjs.com/shu.html">https://www.mydyjs.com/shu.html</a> | 综合</p>
+<p><a href="https://ss-wiki.htmltomd.com/">https://ss-wiki.htmltomd.com/</a> | 科学</p>
+<p><a href="https://wantwords.net/">https://wantwords.net/</a> | 写作</p>
+<p><a href="https://www.shenyandayi.com/">https://www.shenyandayi.com/</a> |写作</p>
+<p><a href="https://chinafactcheck.com/">https://chinafactcheck.com/</a> | 新闻</p>
+<p><a href="https://www.babelabc.com/">https://www.babelabc.com/</a> | 英文</p>
 ]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/11/16/%E8%A7%A3%E9%99%A4%E6%8E%A8%E9%80%81%E9%99%90%E5%88%B6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: 解除推送限制</span><br><span class="line">categories: 博客折腾</span><br><span class="line">date: 2024-11-06 23:52:33</span><br></pre></td></tr></table></figure>
+<p>错误信息</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> ! [remote rejected] HEAD -&gt; master (push declined due to </span><br><span class="line">repository rule violations)</span><br></pre></td></tr></table></figure>
+<p><strong>解除 GitHub 的推送保护</strong>：</p>
+<p>如果你确定已删除所有敏感信息，可以访问 GitHub 提供的链接，解除对你推送的阻止：</p>
+]]></content>
   </entry>
   <entry>
     <title>Hello World Again</title>
@@ -806,20 +827,6 @@ sk-dsdsdd(编一个)</li>
 <img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241115201430003.png" alt="image-20241115201430003" style="zoom:33%;" />
 <p>并修改根目录 deploy 设置</p>
 <p><code>运行 hexo d</code></p>
-]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>多hexo部署</title>
-    <url>/2024/11/02/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E5%A4%9A%E4%B8%AAhexo%E9%83%A8%E7%BD%B2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>检测ssh</p>
-<p><code>ls ~/.ssh/</code></p>
-<p><a href="https://blog.csdn.net/qq_36759224/article/details/86546729">参考</a></p>
 ]]></content>
       <categories>
         <category>博客折腾</category>
@@ -905,7 +912,7 @@ sk-dsdsdd(编一个)</li>
 <h2 id="歌单">歌单</h2>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;</span><br><span class="line">&#123;</span><br><span class="line">    &quot;narrow&quot;: false,</span><br><span class="line">    &quot;autoplay&quot;: false,</span><br><span class="line">    &quot;mode&quot;: &quot;random&quot;,//（可选）&#x27;random&#x27;, &#x27;single&#x27; (单曲播放), &#x27;circulation&#x27; (循环播放), &#x27;order&#x27; (列表播放)， 默认：&#x27;circulation&#x27; </span><br><span class="line">    &quot;showlrc&quot;: 3,</span><br><span class="line">    &quot;mutex&quot;: true,</span><br><span class="line">    &quot;theme&quot;: &quot;#e6d0b2&quot;,</span><br><span class="line">    &quot;preload&quot;: &quot;metadata&quot;,</span><br><span class="line">    &quot;listmaxheight&quot;: &quot;513px&quot;,</span><br><span class="line">    &quot;music&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;作者1&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;歌曲链接&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;图片链接&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;歌词.lrc&quot;</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;Goose house&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.mp3&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.jpg&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.lrc&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line">&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="图库里-找不到路径-只能把歌词打出来">图库里 找不到路径 只能把歌词打出来</h2>
-<div id="aplayer-snkJKIlJ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+<div id="aplayer-fExRBAGt" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
 				<pre class="aplayer-lrc-content">[00:00.00]带我去找夜生活 - 告五人
 [00:01.00]作词：潘云安
 [00:02.00]作曲：潘云安
@@ -947,7 +954,7 @@ sk-dsdsdd(编一个)</li>
 			</div>
 			<script>
 				var ap = new APlayer({
-					element: document.getElementById("aplayer-snkJKIlJ"),
+					element: document.getElementById("aplayer-fExRBAGt"),
 					narrow: false,
 					autoplay: false,
 					showlrc: 2,
@@ -1167,18 +1174,77 @@ sk-dsdsdd(编一个)</li>
       </tags>
   </entry>
   <entry>
+    <title>hexo标签外挂学习</title>
+    <url>/2024/02/09/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/hexo%20%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. Tabs</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs test1 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1>2. Note</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="2-1-icon">2.1 icon</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- &#123;% note green &#x27;fas fa-fan&#x27; simple%&#125;</span><br><span class="line">  green &#x27;fas-&#x27;</span><br><span class="line">  &#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">- &#123;% note danger no-icon %&#125;</span><br><span class="line">  no-icon</span><br><span class="line">  &#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">- &gt; 引用</span><br></pre></td></tr></table></figure>
+<h1>3. Button</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn &#x27;https://butterfly.js.org/&#x27;,Butterfly %&#125;</span><br></pre></td></tr></table></figure>
+<h1>参考</h1>
+<ul>
+<li>小嘉 <a href="https://blog.imzjw.cn/posts/bfdocs/#%E5%85%A8%E8%BE%B9%E6%A1%86%E5%8F%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A2%9C%E8%89%B2">https://blog.imzjw.cn/posts/bfdocs/#全边框及自定义颜色</a></li>
+<li></li>
+</ul>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>多hexo部署</title>
+    <url>/2024/11/02/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E5%A4%9A%E4%B8%AAhexo%E9%83%A8%E7%BD%B2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>检测ssh</p>
+<p><code>ls ~/.ssh/</code></p>
+<p><a href="https://blog.csdn.net/qq_36759224/article/details/86546729">参考</a></p>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>禁止让hexo渲染某个页面</title>
+    <url>/2024/03/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E7%A6%81%E6%AD%A2%E8%AE%A9hexo%E6%B8%B2%E6%9F%93html/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>单个页面处理</h1>
+<p>文件开头加入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">layout: false</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&lt;html&gt;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<h1>多个文件</h1>
+<p><code>_config.yml</code>配置文件中使用<code>skip_render</code>参数</p>
+<p>单个文件夹的所有文件的跳过渲染</p>
+<p><code>skip_render: localpage/**</code></p>
+<p>多个文件夹的所有文件的跳过渲染</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">skip_render: [localpage/**, .../**, .../**]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>localpage默认在source文件夹里</p>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>音视频插入</title>
     <url>/2024/04/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E9%9F%B3%E8%A7%86%E9%A2%91%20%E6%8F%92%E5%85%A5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>url</h1>
 <h1>远程url</h1>
 <p><code>&#123;% aplayer "歌名" "艺术家名" "https：;../.mp3" "封面图.jpg" %&#125;</code></p>
 
-        <div id="aplayer-PfSlIIUB" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-jtTOFwfq" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-PfSlIIUB"),
+            element: document.getElementById("aplayer-jtTOFwfq"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -1241,72 +1307,6 @@ sk-dsdsdd(编一个)</li>
 <ul>
 <li><a href="https://www.cnblogs.com/yuqiliu/p/12551258.html">https://www.cnblogs.com/yuqiliu/p/12551258.html</a></li>
 </ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>资源搜索(待整理)</title>
-    <url>/2024/02/19/%E8%B5%84%E6%BA%90%E6%90%9C%E7%B4%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><em>资源聚合</em></h1>
-<p><a href="https://pan.mediy.cn/">https://pan.mediy.cn/</a> | 综合</p>
-<p><a href="https://pan.ecve.cn/">https://pan.ecve.cn/</a> | 综合</p>
-<p><a href="https://al.chirmyram.com/">https://al.chirmyram.com/</a> | 综合-盘</p>
-<p><a href="https://alist.shenzjd.com/">https://alist.shenzjd.com/</a> | 综合-盘</p>
-<p><a href="https://zi0.cc/">https://zi0.cc/</a>   |游戏</p>
-<p><a href="https://alist.toc.icu/">https://alist.toc.icu/</a> | 动漫</p>
-<p><a href="https://cnxiaobai.com/">https://cnxiaobai.com/</a>   <a href="https://file.cnxiaobai.com/">https://file.cnxiaobai.com/</a>  | 综合 PC 手机资源</p>
-<p><a href="https://pluginschat.com/">https://pluginschat.com/</a> | 综合  （<a href="https://docs.qq.com/sheet/DVXp5Q2dRTVRXb2VS?tab=oz0lgd%EF%BC%89">https://docs.qq.com/sheet/DVXp5Q2dRTVRXb2VS?tab=oz0lgd）</a></p>
-<p><a href="https://www.cuppaso.com/">https://www.cuppaso.com/</a> | 综合</p>
-<p><a href="https://atym.app/">https://atym.app/</a> | 影视</p>
-<p><a href="https://24hbook.com/%7C">https://24hbook.com/|</a> 书籍</p>
-<p><a href="https://www.pikaso.top/">https://www.pikaso.top/</a> | 综合</p>
-<p><a href="https://www.8bei8.com/">https://www.8bei8.com/</a> | 古籍</p>
-<p><a href="http://sqlmother.yupi.icu/#/learn">http://sqlmother.yupi.icu/#/learn</a> | 学习-sql</p>
-<p><a href="https://z-library.se/?ts=2332">https://z-library.se/?ts=2332</a> | 书籍</p>
-<p><a href="https://www.pdfdrive.com/">https://www.pdfdrive.com/</a> | 书籍</p>
-<p><a href="https://www.ypppt.com/">https://www.ypppt.com/</a> | PPT</p>
-<p><a href="https://www.pptsupermarket.com/">https://www.pptsupermarket.com/</a> | PPT</p>
-<p><a href="https://www.loecsen.com/">https://www.loecsen.com/</a> | 学习-英文</p>
-<p><a href="https://elllo.org/index.htm">https://elllo.org/index.htm</a> | 学习-英文</p>
-<p><a href="https://english-number.com/index">https://english-number.com/index</a> | 学习-英文-数字</p>
-<p><a href="https://corrector.justsong.cn/">https://corrector.justsong.cn/</a> | 学习-英文-单词发音</p>
-<p><a href="https://www.ahhhhfs.com/24012/">https://www.ahhhhfs.com/24012/</a> | 学习-英文-弹幕单词</p>
-<p><a href="https://www.mydyjs.com/shu.html">https://www.mydyjs.com/shu.html</a> | 综合</p>
-<p><a href="https://ss-wiki.htmltomd.com/">https://ss-wiki.htmltomd.com/</a> | 科学</p>
-<p><a href="https://wantwords.net/">https://wantwords.net/</a> | 写作</p>
-<p><a href="https://www.shenyandayi.com/">https://www.shenyandayi.com/</a> |写作</p>
-<p><a href="https://chinafactcheck.com/">https://chinafactcheck.com/</a> | 新闻</p>
-<p><a href="https://www.babelabc.com/">https://www.babelabc.com/</a> | 英文</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>禁止让hexo渲染某个页面</title>
-    <url>/2024/03/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E7%A6%81%E6%AD%A2%E8%AE%A9hexo%E6%B8%B2%E6%9F%93html/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>单个页面处理</h1>
-<p>文件开头加入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">layout: false</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&lt;html&gt;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<h1>多个文件</h1>
-<p><code>_config.yml</code>配置文件中使用<code>skip_render</code>参数</p>
-<p>单个文件夹的所有文件的跳过渲染</p>
-<p><code>skip_render: localpage/**</code></p>
-<p>多个文件夹的所有文件的跳过渲染</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">skip_render: [localpage/**, .../**, .../**]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>localpage默认在source文件夹里</p>
-]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2024/11/16/%E8%A7%A3%E9%99%A4%E6%8E%A8%E9%80%81%E9%99%90%E5%88%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: 解除推送限制</span><br><span class="line">categories: 博客折腾</span><br><span class="line">date: 2024-11-06 23:52:33</span><br></pre></td></tr></table></figure>
-<p>错误信息</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> ! [remote rejected] HEAD -&gt; master (push declined due to </span><br><span class="line">repository rule violations)</span><br></pre></td></tr></table></figure>
-<p><strong>解除 GitHub 的推送保护</strong>：</p>
-<p>如果你确定已删除所有敏感信息，可以访问 GitHub 提供的链接，解除对你推送的阻止：</p>
 ]]></content>
   </entry>
 </search>
