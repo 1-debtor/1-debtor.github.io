@@ -1179,6 +1179,9 @@ sk-dsdsdd(编一个)</li>
 <img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241115201430003.png" alt="image-20241115201430003" style="zoom:33%;" />
 <p>并修改根目录 deploy 设置</p>
 <p><code>运行 hexo d</code></p>
+<h1>域名绑定</h1>
+<p>/source目录下, 新建一个文件CNAME , 内容域名,<br>
+跟域名绑定（a和 cname）</p>
 ]]></content>
       <categories>
         <category>博客折腾</category>
