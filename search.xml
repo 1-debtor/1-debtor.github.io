@@ -1346,4 +1346,29 @@ F4 切换方案<br>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">print(getwd())</span><br><span class="line">library(tidyr)</span><br><span class="line">library(dplyr)</span><br><span class="line">library(tools)</span><br><span class="line"></span><br><span class="line">input_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_csv&quot;</span><br><span class="line">output_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_chang&quot;</span><br><span class="line"></span><br><span class="line">files &lt;- list.files(input_dir, pattern = &quot;\\.csv$&quot;, full.names = TRUE)</span><br><span class="line"></span><br><span class="line">if (!dir.exists(output_dir)) &#123;</span><br><span class="line">  dir.create(output_dir)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">for (file in files) &#123;</span><br><span class="line">  base_filename &lt;- file_path_sans_ext(basename(file))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Processing file:&quot;, base_filename))  # Debug: Print filename being processed</span><br><span class="line">  </span><br><span class="line">  data &lt;- read.csv(file, header = TRUE)</span><br><span class="line">  </span><br><span class="line">  long_data &lt;- data %&gt;%</span><br><span class="line">    pivot_longer(</span><br><span class="line">      cols = starts_with(&quot;X&quot;),</span><br><span class="line">      names_to = &quot;year&quot;,</span><br><span class="line">      names_prefix = &quot;X&quot;,</span><br><span class="line">      values_to = base_filename</span><br><span class="line">    )</span><br><span class="line">  </span><br><span class="line">  output_file &lt;- file.path(output_dir, paste0(base_filename, &quot;_out.csv&quot;))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Writing output to:&quot;, output_file))  # Debug: Print output file path</span><br><span class="line">  </span><br><span class="line">  write.csv(long_data, output_file, row.names = FALSE)</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Finished processing:&quot;, base_filename))  # Debug: Print completion message</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
+  <entry>
+    <title>vlookup使用</title>
+    <url>/2024/11/16/vlookup%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>搜索特定的值（查找值），找到匹配的行后，返回该行中指定<strong>列</strong>的值。</p>
+<p><code>VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></p>
+<ul>
+<li>
+<p><strong>lookup_value (必需):</strong> 你要查找的值。它可以是数字、文本、逻辑值或对单元格的引用 通常为A1</p>
+<p>⚠️ 可以将多列合并 例如：A为country B为year 可以将C=A&amp;&amp;B 进行查找</p>
+</li>
+<li>
+<p><strong>table_array (必需):</strong> 你要在其中查找数据的表格或区域。 比如 B:C</p>
+</li>
+<li>
+<p><code>2</code> 表示将要返回 B:C 中第二列的值</p>
+</li>
+<li>
+<p><code>FALSE</code> 表示执行精确匹配。</p>
+</li>
+</ul>
+<h3 id=""></h3>
+<p>多个文件中的 VLOOKUP 使用</p>
+<p><code>VLOOKUP(A1, '[工作簿名称.xlsx]工作表名称'!A1:C10, 2, FALSE)</code></p>
+]]></content>
+  </entry>
 </search>
