@@ -1354,7 +1354,7 @@ F4 切换方案<br>
 <ul>
 <li>
 <p><strong>lookup_value (必需):</strong> 你要查找的值。它可以是数字、文本、逻辑值或对单元格的引用 通常为A1</p>
-<p>⚠️ 可以将多列合并 例如：A为country B为year 可以将C=A&amp;&amp;B 进行查找</p>
+<p>⚠️ 可以将多列合并 例如：A为country B为year 可以将C=A&amp;B 进行查找</p>
 </li>
 <li>
 <p><strong>table_array (必需):</strong> 你要在其中查找数据的表格或区域。 比如 B:C</p>
