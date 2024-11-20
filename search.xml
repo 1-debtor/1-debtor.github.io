@@ -1371,4 +1371,40 @@ F4 切换方案<br>
 <p><code>VLOOKUP(A1, '[工作簿名称.xlsx]工作表名称'!A1:C10, 2, FALSE)</code></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>插件收藏（一）</title>
+    <url>/2024/11/20/%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SciHub-Addon">SciHub Addon</h2>
+<p><a href="https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh">https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh</a></p>
+<ul>
+<li>期刊等级显示</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001856116.png" alt="image-20241121001856116" style="zoom:50%;" />
+<ul>
+<li>期刊等级查询</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001950997.png" alt="image-20241121001950997" style="zoom: 33%;" />
+<h2 id="Scouter-Language-Learning">Scouter - Language Learning</h2>
+<p><a href="https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb">https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb</a></p>
+<ul>
+<li>划词详细介绍</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002140438.png" alt="image-20241121002140438" style="zoom:33%;" />
+<h2 id="Bilibili-Evolved"><strong><a href="https://github.com/the1812/Bilibili-Evolved">Bilibili-Evolved</a></strong></h2>
+<p><a href="https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#%E5%AE%89%E8%A3%85">https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#安装</a></p>
+<ul>
+<li>多功能定义哔站</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002411146.png" alt="image-20241121002411146" style="zoom:50%;" />
+<hr>
+<blockquote>
+<p>信息来源：</p>
+</blockquote>
+<ul>
+<li><a href="https://linux.do/t/topic/218841">https://linux.do/t/topic/218841</a></li>
+<li><a href="https://linux.do/t/topic/166825">https://linux.do/t/topic/166825</a></li>
+<li><a href="https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297">https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297</a></li>
+</ul>
+]]></content>
+  </entry>
 </search>
