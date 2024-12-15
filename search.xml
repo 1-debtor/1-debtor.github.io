@@ -891,7 +891,7 @@ sk-dsdsdd(编一个)</li>
 <h2 id="歌单">歌单</h2>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;</span><br><span class="line">&#123;</span><br><span class="line">    &quot;narrow&quot;: false,</span><br><span class="line">    &quot;autoplay&quot;: false,</span><br><span class="line">    &quot;mode&quot;: &quot;random&quot;,//（可选）&#x27;random&#x27;, &#x27;single&#x27; (单曲播放), &#x27;circulation&#x27; (循环播放), &#x27;order&#x27; (列表播放)， 默认：&#x27;circulation&#x27; </span><br><span class="line">    &quot;showlrc&quot;: 3,</span><br><span class="line">    &quot;mutex&quot;: true,</span><br><span class="line">    &quot;theme&quot;: &quot;#e6d0b2&quot;,</span><br><span class="line">    &quot;preload&quot;: &quot;metadata&quot;,</span><br><span class="line">    &quot;listmaxheight&quot;: &quot;513px&quot;,</span><br><span class="line">    &quot;music&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;作者1&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;歌曲链接&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;图片链接&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;歌词.lrc&quot;</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;Goose house&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.mp3&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.jpg&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.lrc&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line">&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="图库里-找不到路径-只能把歌词打出来">图库里 找不到路径 只能把歌词打出来</h2>
-<div id="aplayer-kwpkdemi" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+<div id="aplayer-lvdgAgYf" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
 				<pre class="aplayer-lrc-content">[00:00.00]带我去找夜生活 - 告五人
 [00:01.00]作词：潘云安
 [00:02.00]作曲：潘云安
@@ -933,7 +933,7 @@ sk-dsdsdd(编一个)</li>
 			</div>
 			<script>
 				var ap = new APlayer({
-					element: document.getElementById("aplayer-kwpkdemi"),
+					element: document.getElementById("aplayer-lvdgAgYf"),
 					narrow: false,
 					autoplay: false,
 					showlrc: 2,
@@ -958,6 +958,7 @@ sk-dsdsdd(编一个)</li>
 </ul>
 <p>继续 参考： <a href="https://xiguapengpeng.github.io/posts/9f278a1d/">https://xiguapengpeng.github.io/posts/9f278a1d/</a></p>
 <h1>域名解析</h1>
+<p>域名的CNAME要在.deploy_git目录下</p>
 <p>参考：</p>
 <p><a href="https://ftzzloo.com/github-pages-and-domain-name-setting/#%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90">freemon</a></p>
 <p><a href="https://zhuanlan.zhihu.com/p/634806678">知乎教程-学生</a></p>
@@ -1410,6 +1411,70 @@ F4 切换方案<br>
 <li><a href="https://linux.do/t/topic/166825">https://linux.do/t/topic/166825</a></li>
 <li><a href="https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297">https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297</a></li>
 </ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>prompt-学习</title>
+    <url>/2024/12/01/prompt%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>李继刚 宝玉 吴恩达</p>
+<p>how-to-write-good-prompt?</p>
+<p>。。。待续</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>rustdesk docker 部署</title>
+    <url>/2024/12/02/rustdesk%20docker/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>参考</h1>
+<blockquote>
+<p><a href="https://iwanlab.com/docker-compose-install-rustdesk/">https://iwanlab.com/docker-compose-install-rustdesk/</a></p>
+<p><a href="https://github.com/rustdesk/rustdesk-server">https://github.com/rustdesk/rustdesk-server</a></p>
+</blockquote>
+<p>也可以使用kejilion脚本一键安装</p>
+<p>设备输入ID key即可</p>
+<p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241216002400241.png" alt="image-20241216002400241"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>stirling-pdf 部署</title>
+    <url>/2024/12/15/stirlingpdf/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>一款使用 Docker 的基于本地托管网络的强大 PDF 操作工具。</p>
+</blockquote>
+<ul>
+<li>项目：</li>
+</ul>
+<p><a href="https://github.com/Stirling-Tools/Stirling-PDF">https://github.com/Stirling-Tools/Stirling-PDF</a></p>
+<ul>
+<li>部署教程：</li>
+</ul>
+<p><a href="https://www.richarvin.com/docker-bu-shu-stirling-pdf-full-ban/">https://www.richarvin.com/docker-bu-shu-stirling-pdf-full-ban/</a></p>
+<ul>
+<li>
+<p>部署网站</p>
+<p><a href="https://cipdf.aiii.eu.org">https://cipdf.aiii.eu.org</a></p>
+</li>
+</ul>
+<blockquote>
+<p>admin</p>
+<p>confucius</p>
+</blockquote>
+<ul>
+<li>官网demo</li>
+</ul>
+<p><a href="https://stirlingpdf.io/">https://stirlingpdf.io/</a></p>
+<h2 id="常用功能使用">常用功能使用</h2>
+<h3 id="合并文件（多文件合成多页）">合并文件（多文件合成多页）</h3>
+<p>将所有文件合并成一个多页文件</p>
+<p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241215235128311.png" alt="image-20241215235128311"></p>
+<h3 id="重新布局-多页合成一页">重新布局(多页合成一页)</h3>
+<p>将新生成的多页文件进行重新布局 自定义一页可以包含页数情况</p>
+<p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241216001208112.png" alt="image-20241216001208112"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241215232345500.png" alt="image-20241215232345500"></p>
+<p>效果：</p>
+<ul>
+<li>多页合并成一页：</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241216001442378.png" alt="image-20241216001442378"></p>
 ]]></content>
   </entry>
 </search>

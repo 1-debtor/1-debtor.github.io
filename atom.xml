@@ -6,7 +6,7 @@
   <link href="https://ccww.me/atom.xml" rel="self"/>
   
   <link href="https://ccww.me/"/>
-  <updated>2024-11-20T22:40:22.563Z</updated>
+  <updated>2024-12-15T22:29:15.605Z</updated>
   <id>https://ccww.me/</id>
   
   <author>
@@ -15,6 +15,69 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>stirling-pdf 部署</title>
+    <link href="https://ccww.me/2024/12/15/stirlingpdf/"/>
+    <id>https://ccww.me/2024/12/15/stirlingpdf/</id>
+    <published>2024-12-15T20:35:53.000Z</published>
+    <updated>2024-12-15T22:29:15.605Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>rustdesk docker 部署</title>
+    <link href="https://ccww.me/2024/12/02/rustdesk%20docker/"/>
+    <id>https://ccww.me/2024/12/02/rustdesk%20docker/</id>
+    <published>2024-12-02T09:12:48.000Z</published>
+    <updated>2024-12-15T22:24:37.209Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>prompt-学习</title>
+    <link href="https://ccww.me/2024/12/01/prompt%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://ccww.me/2024/12/01/prompt%E5%AD%A6%E4%B9%A0/</id>
+    <published>2024-12-01T14:12:48.000Z</published>
+    <updated>2024-12-15T22:22:37.771Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>插件收藏（一）</title>
@@ -378,69 +441,6 @@
     <id>https://ccww.me/2024/02/06/alist%E6%90%AD%E5%BB%BA/</id>
     <published>2024-02-06T21:52:33.000Z</published>
     <updated>2024-11-16T11:26:10.902Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>对联</title>
-    <link href="https://ccww.me/2024/02/06/%E5%AF%B9%E8%81%94/"/>
-    <id>https://ccww.me/2024/02/06/%E5%AF%B9%E8%81%94/</id>
-    <published>2024-02-06T21:52:33.000Z</published>
-    <updated>2024-11-15T22:28:37.306Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>webstack导航建立</title>
-    <link href="https://ccww.me/2024/01/31/%E5%AF%BC%E8%88%AA%E7%BD%91%E7%AB%99/"/>
-    <id>https://ccww.me/2024/01/31/%E5%AF%BC%E8%88%AA%E7%BD%91%E7%AB%99/</id>
-    <published>2024-01-31T14:12:48.000Z</published>
-    <updated>2024-11-16T00:01:47.467Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>laTeX学习</title>
-    <link href="https://ccww.me/2024/01/31/laTeX%E5%AD%A6%E4%B9%A0/"/>
-    <id>https://ccww.me/2024/01/31/laTeX%E5%AD%A6%E4%B9%A0/</id>
-    <published>2024-01-30T23:05:40.000Z</published>
-    <updated>2024-11-15T22:27:50.484Z</updated>
     
     
       
