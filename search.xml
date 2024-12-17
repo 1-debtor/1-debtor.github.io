@@ -891,7 +891,7 @@ sk-dsdsdd(编一个)</li>
 <h2 id="歌单">歌单</h2>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;</span><br><span class="line">&#123;</span><br><span class="line">    &quot;narrow&quot;: false,</span><br><span class="line">    &quot;autoplay&quot;: false,</span><br><span class="line">    &quot;mode&quot;: &quot;random&quot;,//（可选）&#x27;random&#x27;, &#x27;single&#x27; (单曲播放), &#x27;circulation&#x27; (循环播放), &#x27;order&#x27; (列表播放)， 默认：&#x27;circulation&#x27; </span><br><span class="line">    &quot;showlrc&quot;: 3,</span><br><span class="line">    &quot;mutex&quot;: true,</span><br><span class="line">    &quot;theme&quot;: &quot;#e6d0b2&quot;,</span><br><span class="line">    &quot;preload&quot;: &quot;metadata&quot;,</span><br><span class="line">    &quot;listmaxheight&quot;: &quot;513px&quot;,</span><br><span class="line">    &quot;music&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;作者1&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;歌曲链接&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;图片链接&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;歌词.lrc&quot;</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;Goose house&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.mp3&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.jpg&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.lrc&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line">&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="图库里-找不到路径-只能把歌词打出来">图库里 找不到路径 只能把歌词打出来</h2>
-<div id="aplayer-lvdgAgYf" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+<div id="aplayer-XJCaNHaF" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
 				<pre class="aplayer-lrc-content">[00:00.00]带我去找夜生活 - 告五人
 [00:01.00]作词：潘云安
 [00:02.00]作曲：潘云安
@@ -933,7 +933,7 @@ sk-dsdsdd(编一个)</li>
 			</div>
 			<script>
 				var ap = new APlayer({
-					element: document.getElementById("aplayer-lvdgAgYf"),
+					element: document.getElementById("aplayer-XJCaNHaF"),
 					narrow: false,
 					autoplay: false,
 					showlrc: 2,
@@ -1031,6 +1031,11 @@ sk-dsdsdd(编一个)</li>
 </ul>
 <h1>侧边栏 比例</h1>
 <p>参考：<a href="https://yisous.xyz/posts/d1fc759/#ba5281cb529b4f28a34609b01cf4c2a0">https://yisous.xyz/posts/d1fc759/#ba5281cb529b4f28a34609b01cf4c2a0</a></p>
+<h1>2024新参考</h1>
+<ul>
+<li><a href="https://blog.csdn.net/qq_42893625/article/details/102671013">https://blog.csdn.net/qq_42893625/article/details/102671013</a></li>
+<li><a href="https://linlif.github.io/2017/05/27/Hexo%E4%BD%BF%E7%94%A8%E6%94%BB%E7%95%A5-%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/">https://linlif.github.io/2017/05/27/Hexo使用攻略-添加分类及标签/</a></li>
+</ul>
 <h1>参考</h1>
 <p><a href="https://blog.aqcoder.cn/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/page/2/">https://blog.aqcoder.cn/categories/博客搭建/page/2/</a></p>
 <h1></h1>
@@ -1464,7 +1469,7 @@ F4 切换方案<br>
 <h1>常用功能使用</h1>
 <h3 id="合并文件（多文件合成多页）">合并文件（多文件合成多页）</h3>
 <p>将所有文件合并成一个多页文件</p>
-<p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241215235128311.png" alt="image-20241215235128311"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241217104509370.png" alt="image-20241217104509370"></p>
 <h3 id="重新布局-多页合成一页">重新布局(多页合成一页)</h3>
 <p>将新生成的多页文件进行重新布局 自定义一页可以包含页数情况</p>
 <p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241216001208112.png" alt="image-20241216001208112"></p>
