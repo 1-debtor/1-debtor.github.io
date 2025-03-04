@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/2025/01/30/PotPlayer%E6%B7%BB%E5%8A%A0%E5%AD%97%E5%B9%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: PotPlayer字幕使用</span><br><span class="line">date: 2025-01-30 22:35:53</span><br><span class="line">tags:</span><br></pre></td></tr></table></figure>
+<h2 id="字幕设置">字幕设置</h2>
+<p>按<code>F5</code> 调整 字幕大小 字字幕位置 等</p>
+<p><code>alt</code> + ⬆️ / ⬇️  移动字幕</p>
+<h2 id="字幕添加">字幕添加</h2>
+<p>右键➡️选择字幕➡️添加字幕 /次字幕</p>
+<p>可添加多个字幕</p>
+<h2 id="翻译">翻译</h2>
+<p>可以使用deep/ 沉浸式翻译 <code>srt</code> 文件  下载 译文</p>
+]]></content>
+  </entry>
+  <entry>
     <title>CSC文件</title>
     <url>/2024/02/24/CSC/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -15,29 +29,6 @@
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>R语言长数据转换</title>
-    <url>/2024/11/17/R%E8%AF%AD%E8%A8%80%E9%95%BF%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>xls转换成csv</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 加载必要的库</span><br><span class="line">library(readxl)</span><br><span class="line">library(tools)</span><br><span class="line"></span><br><span class="line"># 设置输入和输出文件夹路径</span><br><span class="line">input_folder &lt;- &quot;C:/Users/Administrator/Desktop/raw/raw&quot;</span><br><span class="line">output_folder &lt;- &quot;C:/Users/Administrator/Desktop/raw/out_csv&quot;</span><br><span class="line"></span><br><span class="line"># 创建输出文件夹（如果不存在）</span><br><span class="line">if (!dir.exists(output_folder)) &#123;</span><br><span class="line">  dir.create(output_folder)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"># 获取输入文件夹中的所有文件</span><br><span class="line">files &lt;- list.files(input_folder, full.names = TRUE)</span><br><span class="line"></span><br><span class="line"># 遍历每个文件</span><br><span class="line">for (file in files) &#123;</span><br><span class="line">  file_name &lt;- basename(file)</span><br><span class="line">  file_ext &lt;- tools::file_ext(file_name)</span><br><span class="line">  </span><br><span class="line">  base_name &lt;- file_path_sans_ext(file_name)</span><br><span class="line">  output_file &lt;- file.path(output_folder, paste0(base_name, &quot;_out_csv.csv&quot;))</span><br><span class="line">  </span><br><span class="line">  if (file_ext == &quot;xlsx&quot;) &#123;</span><br><span class="line">    # 读取Excel文件</span><br><span class="line">    df &lt;- read_excel(file)</span><br><span class="line">    </span><br><span class="line">    # 写入CSV文件</span><br><span class="line">    write.csv(df, output_file, row.names = FALSE, na = &quot;&quot;)</span><br><span class="line">    </span><br><span class="line">  &#125; else if (file_ext == &quot;csv&quot;) &#123;</span><br><span class="line">    # 复制CSV文件并重命名</span><br><span class="line">    file.copy(file, output_file, overwrite = TRUE)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">print(&quot;转换和复制完成！&quot;)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h1>转换</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">print(getwd())</span><br><span class="line">library(tidyr)</span><br><span class="line">library(dplyr)</span><br><span class="line">library(tools)</span><br><span class="line"></span><br><span class="line">input_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_csv&quot;</span><br><span class="line">output_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_chang&quot;</span><br><span class="line"></span><br><span class="line">files &lt;- list.files(input_dir, pattern = &quot;\\.csv$&quot;, full.names = TRUE)</span><br><span class="line"></span><br><span class="line">if (!dir.exists(output_dir)) &#123;</span><br><span class="line">  dir.create(output_dir)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">for (file in files) &#123;</span><br><span class="line">  base_filename &lt;- file_path_sans_ext(basename(file))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Processing file:&quot;, base_filename))  # Debug: Print filename being processed</span><br><span class="line">  </span><br><span class="line">  data &lt;- read.csv(file, header = TRUE)</span><br><span class="line">  </span><br><span class="line">  long_data &lt;- data %&gt;%</span><br><span class="line">    pivot_longer(</span><br><span class="line">      # 因为csv的数字是以X开头 所以用starts_with</span><br><span class="line">      cols = starts_with(&quot;X&quot;),</span><br><span class="line">      names_to = &quot;year&quot;,</span><br><span class="line">      names_prefix = &quot;X&quot;,</span><br><span class="line">      values_to = base_filename</span><br><span class="line">    )</span><br><span class="line">  </span><br><span class="line">  output_file &lt;- file.path(output_dir, paste0(base_filename, &quot;_out.csv&quot;))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Writing output to:&quot;, output_file))  # Debug: Print output file path</span><br><span class="line">  </span><br><span class="line">  write.csv(long_data, output_file, row.names = FALSE)</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Finished processing:&quot;, base_filename))  # Debug: Print completion message</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2025/01/30/PotPlayer%E6%B7%BB%E5%8A%A0%E5%AD%97%E5%B9%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: PotPlayer字幕使用</span><br><span class="line">date: 2025-01-30 22:35:53</span><br><span class="line">tags:</span><br></pre></td></tr></table></figure>
-<h2 id="字幕设置">字幕设置</h2>
-<p>按<code>F5</code> 调整 字幕大小 字字幕位置 等</p>
-<p><code>alt</code> + ⬆️ / ⬇️  移动字幕</p>
-<h2 id="字幕添加">字幕添加</h2>
-<p>右键➡️选择字幕➡️添加字幕 /次字幕</p>
-<p>可添加多个字幕</p>
-<h2 id="翻译">翻译</h2>
-<p>可以使用deep/ 沉浸式翻译 <code>srt</code> 文件  下载 译文</p>
-]]></content>
   </entry>
   <entry>
     <title>免费gpt4-资源-搜集</title>
@@ -183,80 +174,12 @@ a_{22}&amp; =b_{22}+c_{22}
 ]]></content>
   </entry>
   <entry>
-    <title>alist搭建</title>
-    <url>/2024/02/06/alist%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>突然浏览到 别人的博客 加载了个人网盘 了解到alist 感觉有点用</p>
-</blockquote>
-<h1>1. 本地安装</h1>
-<ol>
-<li>
-<p>下载win-zip包</p>
-</li>
-<li>
-<p>解压后在路径 中输入CMD</p>
-</li>
-<li>
-<p>终端中输入alist server</p>
-</li>
-<li>
-<p>界面中有登录密码(password)</p>
-</li>
-<li>
-<p>浏览器中输入<strong>127.0.0.1:5244</strong></p>
-</li>
-<li>
-<p>登录admin, 输入原始密码，之后可更改</p>
-</li>
-</ol>
-<h1>2. 挂载网盘</h1>
-<ul>
-<li>参考官网文档</li>
-</ul>
-<h1>3. 挂载本地</h1>
-<ol>
-<li>下载安装 RaiDrive 软件</li>
-<li>添加:arrow_right:添加 NAS:arrow_right: webDAV :arrow_right:去掉地址√  :arrow_right:地址输入: 127.0.0.1:arrow_right: 端口输入5244:arrow_right: 路径输入：/dav:arrow_right:  输入alist账号密码 :arrow_right:点击<strong>链接</strong></li>
-</ol>
-<p>​	打开我的电脑即可看到</p>
-<h1>4. 开机自启</h1>
-<ol>
-<li>
-<p>新建 VBS文件 ,输入代码：</p>
-<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Set</span> ws = <span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;C:\alist-windows-amd64\alist.exe server&quot;</span>,vbhide</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>放入alist文件夹，添加快捷方式</p>
-</li>
-<li>
-<p>双击即运行</p>
-</li>
-<li>
-<p>开启自启</p>
-<p>win r →shell:startup</p>
-<p>将快捷方式拖入</p>
-</li>
-</ol>
-<h1>5 公网访问</h1>
-<ul>
-<li>教程:<br>
-<a href="https://www.youtube.com/watch?v=1YRq0846yWs">没有软路由、NAS，外网访问家中电脑里的alist? 只需一个域名</a></li>
-</ul>
-<h1>参考</h1>
-<ul>
-<li>
-<p>github: <a href="https://github.com/alist-org/alist">https://github.com/alist-org/alist</a></p>
-</li>
-<li>
-<p>zhihu: <a href="https://zhuanlan.zhihu.com/p/668599673">https://zhuanlan.zhihu.com/p/668599673</a></p>
-</li>
-<li>
-<p>官方文档：<a href="https://alist.nn.ci/zh/guide/">https://alist.nn.ci/zh/guide/</a></p>
-</li>
-<li>
-<p>B站教程：<a href="https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click">https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click</a></p>
-</li>
-</ul>
+    <title>R语言长数据转换</title>
+    <url>/2024/11/17/R%E8%AF%AD%E8%A8%80%E9%95%BF%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>xls转换成csv</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 加载必要的库</span><br><span class="line">library(readxl)</span><br><span class="line">library(tools)</span><br><span class="line"></span><br><span class="line"># 设置输入和输出文件夹路径</span><br><span class="line">input_folder &lt;- &quot;C:/Users/Administrator/Desktop/raw/raw&quot;</span><br><span class="line">output_folder &lt;- &quot;C:/Users/Administrator/Desktop/raw/out_csv&quot;</span><br><span class="line"></span><br><span class="line"># 创建输出文件夹（如果不存在）</span><br><span class="line">if (!dir.exists(output_folder)) &#123;</span><br><span class="line">  dir.create(output_folder)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"># 获取输入文件夹中的所有文件</span><br><span class="line">files &lt;- list.files(input_folder, full.names = TRUE)</span><br><span class="line"></span><br><span class="line"># 遍历每个文件</span><br><span class="line">for (file in files) &#123;</span><br><span class="line">  file_name &lt;- basename(file)</span><br><span class="line">  file_ext &lt;- tools::file_ext(file_name)</span><br><span class="line">  </span><br><span class="line">  base_name &lt;- file_path_sans_ext(file_name)</span><br><span class="line">  output_file &lt;- file.path(output_folder, paste0(base_name, &quot;_out_csv.csv&quot;))</span><br><span class="line">  </span><br><span class="line">  if (file_ext == &quot;xlsx&quot;) &#123;</span><br><span class="line">    # 读取Excel文件</span><br><span class="line">    df &lt;- read_excel(file)</span><br><span class="line">    </span><br><span class="line">    # 写入CSV文件</span><br><span class="line">    write.csv(df, output_file, row.names = FALSE, na = &quot;&quot;)</span><br><span class="line">    </span><br><span class="line">  &#125; else if (file_ext == &quot;csv&quot;) &#123;</span><br><span class="line">    # 复制CSV文件并重命名</span><br><span class="line">    file.copy(file, output_file, overwrite = TRUE)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">print(&quot;转换和复制完成！&quot;)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1>转换</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">print(getwd())</span><br><span class="line">library(tidyr)</span><br><span class="line">library(dplyr)</span><br><span class="line">library(tools)</span><br><span class="line"></span><br><span class="line">input_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_csv&quot;</span><br><span class="line">output_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_chang&quot;</span><br><span class="line"></span><br><span class="line">files &lt;- list.files(input_dir, pattern = &quot;\\.csv$&quot;, full.names = TRUE)</span><br><span class="line"></span><br><span class="line">if (!dir.exists(output_dir)) &#123;</span><br><span class="line">  dir.create(output_dir)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">for (file in files) &#123;</span><br><span class="line">  base_filename &lt;- file_path_sans_ext(basename(file))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Processing file:&quot;, base_filename))  # Debug: Print filename being processed</span><br><span class="line">  </span><br><span class="line">  data &lt;- read.csv(file, header = TRUE)</span><br><span class="line">  </span><br><span class="line">  long_data &lt;- data %&gt;%</span><br><span class="line">    pivot_longer(</span><br><span class="line">      # 因为csv的数字是以X开头 所以用starts_with</span><br><span class="line">      cols = starts_with(&quot;X&quot;),</span><br><span class="line">      names_to = &quot;year&quot;,</span><br><span class="line">      names_prefix = &quot;X&quot;,</span><br><span class="line">      values_to = base_filename</span><br><span class="line">    )</span><br><span class="line">  </span><br><span class="line">  output_file &lt;- file.path(output_dir, paste0(base_filename, &quot;_out.csv&quot;))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Writing output to:&quot;, output_file))  # Debug: Print output file path</span><br><span class="line">  </span><br><span class="line">  write.csv(long_data, output_file, row.names = FALSE)</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Finished processing:&quot;, base_filename))  # Debug: Print completion message</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
   <entry>
@@ -402,12 +325,12 @@ a_{22}&amp; =b_{22}+c_{22}
 <h1>音频插入</h1>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer title author https://freetyst.nf.migu.cn/public/product9th/product45/2022/02/1715/2022%E5%B9%B402%E6%9C%8816%E6%97%A513%E7%82%B946%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%9B%B8%E4%BF%A1%E9%9F%B3%E4%B9%905014%E9%A6%96336965/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3<span class="emphasis">_40_</span>16<span class="emphasis">_Stero/64049302802154634.mp3?Key=d36ca4d36ac4d634&amp;Tim=1705596711348&amp;channelid=00&amp;msisdn=6b21654dae894e7181885e6c3b56b439&amp;CI=640493028022600919000006004798&amp;F=000009 %&#125;</span></span><br></pre></td></tr></table></figure>
 
-        <div id="aplayer-wAhOaeno" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-JGtXSduh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-wAhOaeno"),
+            element: document.getElementById("aplayer-JGtXSduh"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -432,6 +355,83 @@ a_{22}&amp; =b_{22}+c_{22}
 <h1>Tips</h1>
 <ul>
 <li>ctrl + .  切换标点的全角和半角</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>alist搭建</title>
+    <url>/2024/02/06/alist%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>突然浏览到 别人的博客 加载了个人网盘 了解到alist 感觉有点用</p>
+</blockquote>
+<h1>1. 本地安装</h1>
+<ol>
+<li>
+<p>下载win-zip包</p>
+</li>
+<li>
+<p>解压后在路径 中输入CMD</p>
+</li>
+<li>
+<p>终端中输入alist server</p>
+</li>
+<li>
+<p>界面中有登录密码(password)</p>
+</li>
+<li>
+<p>浏览器中输入<strong>127.0.0.1:5244</strong></p>
+</li>
+<li>
+<p>登录admin, 输入原始密码，之后可更改</p>
+</li>
+</ol>
+<h1>2. 挂载网盘</h1>
+<ul>
+<li>参考官网文档</li>
+</ul>
+<h1>3. 挂载本地</h1>
+<ol>
+<li>下载安装 RaiDrive 软件</li>
+<li>添加:arrow_right:添加 NAS:arrow_right: webDAV :arrow_right:去掉地址√  :arrow_right:地址输入: 127.0.0.1:arrow_right: 端口输入5244:arrow_right: 路径输入：/dav:arrow_right:  输入alist账号密码 :arrow_right:点击<strong>链接</strong></li>
+</ol>
+<p>​	打开我的电脑即可看到</p>
+<h1>4. 开机自启</h1>
+<ol>
+<li>
+<p>新建 VBS文件 ,输入代码：</p>
+<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Set</span> ws = <span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;C:\alist-windows-amd64\alist.exe server&quot;</span>,vbhide</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>放入alist文件夹，添加快捷方式</p>
+</li>
+<li>
+<p>双击即运行</p>
+</li>
+<li>
+<p>开启自启</p>
+<p>win r →shell:startup</p>
+<p>将快捷方式拖入</p>
+</li>
+</ol>
+<h1>5 公网访问</h1>
+<ul>
+<li>教程:<br>
+<a href="https://www.youtube.com/watch?v=1YRq0846yWs">没有软路由、NAS，外网访问家中电脑里的alist? 只需一个域名</a></li>
+</ul>
+<h1>参考</h1>
+<ul>
+<li>
+<p>github: <a href="https://github.com/alist-org/alist">https://github.com/alist-org/alist</a></p>
+</li>
+<li>
+<p>zhihu: <a href="https://zhuanlan.zhihu.com/p/668599673">https://zhuanlan.zhihu.com/p/668599673</a></p>
+</li>
+<li>
+<p>官方文档：<a href="https://alist.nn.ci/zh/guide/">https://alist.nn.ci/zh/guide/</a></p>
+</li>
+<li>
+<p>B站教程：<a href="https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click">https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click</a></p>
+</li>
 </ul>
 ]]></content>
   </entry>
@@ -537,6 +537,26 @@ sk-dsdsdd(编一个)</li>
 ]]></content>
   </entry>
   <entry>
+    <title>rime输入法</title>
+    <url>/2024/11/16/rime%E8%BE%93%E5%85%A5%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>rime<br>
+<a href="https://rime.im/download/">下载</a></p>
+<p><a href="https://github.com/gaboolic/rime-frost">白霜词库</a></p>
+<p>常用快捷键<br>
+F4 切换方案<br>
+<code>[ 或者 ]</code><br>
+选择靠左还是靠右的字<br>
+<code>sj</code> 13:49:28<br>
+<code>ts</code> 时间戳 1731757786<br>
+<code>nl</code> 甲辰年（龙）十月十六<br>
+<code>R数字</code> 贰仟叁佰肆拾叁<br>
+<code>uU字</code> 拆字 羴、<br>
+<code>V</code> 计算器 调出emoji</p>
+<h1>双拼</h1>
+<p>小鹤双拼</p>
+]]></content>
+  </entry>
+  <entry>
     <title>rustdesk docker 部署</title>
     <url>/2024/12/02/rustdesk%20docker/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>参考</h1>
@@ -592,23 +612,31 @@ sk-dsdsdd(编一个)</li>
 ]]></content>
   </entry>
   <entry>
-    <title>rime输入法</title>
-    <url>/2024/11/16/rime%E8%BE%93%E5%85%A5%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>rime<br>
-<a href="https://rime.im/download/">下载</a></p>
-<p><a href="https://github.com/gaboolic/rime-frost">白霜词库</a></p>
-<p>常用快捷键<br>
-F4 切换方案<br>
-<code>[ 或者 ]</code><br>
-选择靠左还是靠右的字<br>
-<code>sj</code> 13:49:28<br>
-<code>ts</code> 时间戳 1731757786<br>
-<code>nl</code> 甲辰年（龙）十月十六<br>
-<code>R数字</code> 贰仟叁佰肆拾叁<br>
-<code>uU字</code> 拆字 羴、<br>
-<code>V</code> 计算器 调出emoji</p>
-<h1>双拼</h1>
-<p>小鹤双拼</p>
+    <title>对联</title>
+    <url>/2024/02/06/%E5%AF%B9%E8%81%94/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
+<li>2024对联:  卯足干劲事事旺 大展宏兔步步高 钱兔似锦</li>
+</ul>
+<p>​	要发论文顺利，发大财，健康的美好祝福</p>
+<p>学富五车</p>
+<p>龙摆尾，论文全接收</p>
+<p>，学术界速收留。</p>
+<p>财滚滚，健康跟着走，幸福生活向我招手。</p>
+<p>sci快接收</p>
+<p>财多体健心不愁</p>
+<p>学富五车</p>
+<p>龙摆尾，</p>
+<p>新</p>
+<p>一</p>
+<p>学术文章年年有</p>
+<p>如意财源日日来</p>
+<p>年年顺景财源广</p>
+<p>岁岁平安文章多</p>
+<p>学财两旺</p>
+<p>富贵双全幸福家</p>
+<p>笔走神龙文章妙</p>
+<p>平安喜乐财自旺</p>
+<p>迎喜迎春迎富贵 接财接福接平安</p>
 ]]></content>
   </entry>
   <entry>
@@ -636,34 +664,6 @@ F4 切换方案<br>
 <p><code>VLOOKUP(A1, '[工作簿名称.xlsx]工作表名称'!A1:C10, 2, FALSE)</code></p>
 <p><code>=VLOOKUP(A2,'[Data-V3.xlsx]Sheet2'!$A$2:$C$517,3,FALSE)</code><br>
 一般是A<strong>2</strong>，选中的是数据不要包括第一行的<strong>名称</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>对联</title>
-    <url>/2024/02/06/%E5%AF%B9%E8%81%94/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
-<li>2024对联:  卯足干劲事事旺 大展宏兔步步高 钱兔似锦</li>
-</ul>
-<p>​	要发论文顺利，发大财，健康的美好祝福</p>
-<p>学富五车</p>
-<p>龙摆尾，论文全接收</p>
-<p>，学术界速收留。</p>
-<p>财滚滚，健康跟着走，幸福生活向我招手。</p>
-<p>sci快接收</p>
-<p>财多体健心不愁</p>
-<p>学富五车</p>
-<p>龙摆尾，</p>
-<p>新</p>
-<p>一</p>
-<p>学术文章年年有</p>
-<p>如意财源日日来</p>
-<p>年年顺景财源广</p>
-<p>岁岁平安文章多</p>
-<p>学财两旺</p>
-<p>富贵双全幸福家</p>
-<p>笔走神龙文章妙</p>
-<p>平安喜乐财自旺</p>
-<p>迎喜迎春迎富贵 接财接福接平安</p>
 ]]></content>
   </entry>
   <entry>
@@ -698,120 +698,6 @@ F4 切换方案<br>
 <ul>
 <li><a href="https://www.cnblogs.com/yuqiliu/p/12551258.html">https://www.cnblogs.com/yuqiliu/p/12551258.html</a></li>
 </ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>插件收藏（一）</title>
-    <url>/2024/11/20/%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SciHub-Addon">SciHub Addon</h2>
-<p><a href="https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh">https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh</a></p>
-<ul>
-<li>期刊等级显示</li>
-</ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001856116.png" alt="image-20241121001856116" style="zoom:50%;" />
-<ul>
-<li>期刊等级查询</li>
-</ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001950997.png" alt="image-20241121001950997" style="zoom: 33%;" />
-<h2 id="Scouter-Language-Learning">Scouter - Language Learning</h2>
-<p><a href="https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb">https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb</a></p>
-<ul>
-<li>划词详细介绍</li>
-</ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002140438.png" alt="image-20241121002140438" style="zoom:33%;" />
-<h2 id="Bilibili-Evolved"><strong><a href="https://github.com/the1812/Bilibili-Evolved">Bilibili-Evolved</a></strong></h2>
-<p><a href="https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#%E5%AE%89%E8%A3%85">https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#安装</a></p>
-<ul>
-<li>多功能定义哔站</li>
-</ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002411146.png" alt="image-20241121002411146" style="zoom:50%;" />
-<h2 id="HCOS-Hide-Chrome-Omnibox-Suggestions">HCOS - Hide Chrome Omnibox Suggestions</h2>
-<ul>
-<li>隐藏Chrome地址栏/首页搜索框记录</li>
-</ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121003849290.png" alt="image-20241121003849290" style="zoom:33%;" />
-<hr>
-<blockquote>
-<p>信息来源：</p>
-</blockquote>
-<ul>
-<li><a href="https://linux.do/t/topic/218841">https://linux.do/t/topic/218841</a></li>
-<li><a href="https://linux.do/t/topic/166825">https://linux.do/t/topic/166825</a></li>
-<li><a href="https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297">https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297</a></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World Again</title>
-    <url>/2024/11/01/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/hello-world-again/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>hexo (首次安装或更新)</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">安装更新：</span><br><span class="line"># 确认当前版本</span><br><span class="line">hexo version</span><br><span class="line"># 升级 hexo</span><br><span class="line">npm i hexo-cli -g</span><br><span class="line"># 重新安装依赖</span><br><span class="line">npm install -g npm-check</span><br><span class="line"># 检查依赖</span><br><span class="line">npm-check</span><br><span class="line"># 更新依赖</span><br><span class="line">npm install -g npm-upgrade</span><br><span class="line">npm-upgrade</span><br><span class="line"># 重新安装依赖</span><br><span class="line">npm update -g</span><br><span class="line">npm update --save</span><br></pre></td></tr></table></figure>
-<h1>主题安装（butterfly）</h1>
-<p>参考<a href="https://butterfly.js.org/posts/21cfbf15/">文档</a></p>
-<p>⚠️</p>
-<ul>
-<li>
-<p>通过 npm 安装并不会在 themes 里生成主题文件夹，而是在 node_modules 里生成</p>
-</li>
-<li>
-<p>升级方法：在 Hexo 根目录下，运行 npm update hexo-theme-butterfly</p>
-</li>
-<li>
-<p>使用vscode比对新老 config :</p>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241115201043095.png" alt="image-20241115201043095" style="zoom:33%;" />
-</li>
-</ul>
-<p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></p>
-<h1>部署github</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">$ git config --global user.name &quot;...&quot;</span><br><span class="line">$ git config --global user.email &quot;...&quot;</span><br><span class="line">#生成sshkey</span><br><span class="line">$ ssh-keygen -t rsa -C &#x27;邮箱&#x27;</span><br><span class="line"># 查看sshkey</span><br><span class="line">$ cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
-<p>将ssh上传到github</p>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241115201430003.png" alt="image-20241115201430003" style="zoom:33%;" />
-<p>并修改根目录 deploy 设置</p>
-<p><code>运行 hexo d</code></p>
-<h1>域名绑定</h1>
-<p>/source目录下, 新建一个文件CNAME , 内容域名,<br>
-跟域名绑定（a和 cname）</p>
-]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资源搜索(待整理)</title>
-    <url>/2024/02/19/%E8%B5%84%E6%BA%90%E6%90%9C%E7%B4%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><em>资源聚合</em></h1>
-<p><a href="https://pan.mediy.cn/">https://pan.mediy.cn/</a> | 综合</p>
-<p><a href="https://pan.ecve.cn/">https://pan.ecve.cn/</a> | 综合</p>
-<p><a href="https://al.chirmyram.com/">https://al.chirmyram.com/</a> | 综合-盘</p>
-<p><a href="https://alist.shenzjd.com/">https://alist.shenzjd.com/</a> | 综合-盘</p>
-<p><a href="https://zi0.cc/">https://zi0.cc/</a>   |游戏</p>
-<p><a href="https://alist.toc.icu/">https://alist.toc.icu/</a> | 动漫</p>
-<p><a href="https://cnxiaobai.com/">https://cnxiaobai.com/</a>   <a href="https://file.cnxiaobai.com/">https://file.cnxiaobai.com/</a>  | 综合 PC 手机资源</p>
-<p><a href="https://pluginschat.com/">https://pluginschat.com/</a> | 综合  （<a href="https://docs.qq.com/sheet/DVXp5Q2dRTVRXb2VS?tab=oz0lgd%EF%BC%89">https://docs.qq.com/sheet/DVXp5Q2dRTVRXb2VS?tab=oz0lgd）</a></p>
-<p><a href="https://www.cuppaso.com/">https://www.cuppaso.com/</a> | 综合</p>
-<p><a href="https://atym.app/">https://atym.app/</a> | 影视</p>
-<p><a href="https://24hbook.com/%7C">https://24hbook.com/|</a> 书籍</p>
-<p><a href="https://www.pikaso.top/">https://www.pikaso.top/</a> | 综合</p>
-<p><a href="https://www.8bei8.com/">https://www.8bei8.com/</a> | 古籍</p>
-<p><a href="http://sqlmother.yupi.icu/#/learn">http://sqlmother.yupi.icu/#/learn</a> | 学习-sql</p>
-<p><a href="https://z-library.se/?ts=2332">https://z-library.se/?ts=2332</a> | 书籍</p>
-<p><a href="https://www.pdfdrive.com/">https://www.pdfdrive.com/</a> | 书籍</p>
-<p><a href="https://www.ypppt.com/">https://www.ypppt.com/</a> | PPT</p>
-<p><a href="https://www.pptsupermarket.com/">https://www.pptsupermarket.com/</a> | PPT</p>
-<p><a href="https://www.loecsen.com/">https://www.loecsen.com/</a> | 学习-英文</p>
-<p><a href="https://elllo.org/index.htm">https://elllo.org/index.htm</a> | 学习-英文</p>
-<p><a href="https://english-number.com/index">https://english-number.com/index</a> | 学习-英文-数字</p>
-<p><a href="https://corrector.justsong.cn/">https://corrector.justsong.cn/</a> | 学习-英文-单词发音</p>
-<p><a href="https://www.ahhhhfs.com/24012/">https://www.ahhhhfs.com/24012/</a> | 学习-英文-弹幕单词</p>
-<p><a href="https://www.mydyjs.com/shu.html">https://www.mydyjs.com/shu.html</a> | 综合</p>
-<p><a href="https://ss-wiki.htmltomd.com/">https://ss-wiki.htmltomd.com/</a> | 科学</p>
-<p><a href="https://wantwords.net/">https://wantwords.net/</a> | 写作</p>
-<p><a href="https://www.shenyandayi.com/">https://www.shenyandayi.com/</a> |写作</p>
-<p><a href="https://chinafactcheck.com/">https://chinafactcheck.com/</a> | 新闻</p>
-<p><a href="https://www.babelabc.com/">https://www.babelabc.com/</a> | 英文</p>
 ]]></content>
   </entry>
   <entry>
@@ -872,6 +758,44 @@ F4 切换方案<br>
 ]]></content>
   </entry>
   <entry>
+    <title>Hello World Again</title>
+    <url>/2024/11/01/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/hello-world-again/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>hexo (首次安装或更新)</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">安装更新：</span><br><span class="line"># 确认当前版本</span><br><span class="line">hexo version</span><br><span class="line"># 升级 hexo</span><br><span class="line">npm i hexo-cli -g</span><br><span class="line"># 重新安装依赖</span><br><span class="line">npm install -g npm-check</span><br><span class="line"># 检查依赖</span><br><span class="line">npm-check</span><br><span class="line"># 更新依赖</span><br><span class="line">npm install -g npm-upgrade</span><br><span class="line">npm-upgrade</span><br><span class="line"># 重新安装依赖</span><br><span class="line">npm update -g</span><br><span class="line">npm update --save</span><br></pre></td></tr></table></figure>
+<h1>主题安装（butterfly）</h1>
+<p>参考<a href="https://butterfly.js.org/posts/21cfbf15/">文档</a></p>
+<p>⚠️</p>
+<ul>
+<li>
+<p>通过 npm 安装并不会在 themes 里生成主题文件夹，而是在 node_modules 里生成</p>
+</li>
+<li>
+<p>升级方法：在 Hexo 根目录下，运行 npm update hexo-theme-butterfly</p>
+</li>
+<li>
+<p>使用vscode比对新老 config :</p>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241115201043095.png" alt="image-20241115201043095" style="zoom:33%;" />
+</li>
+</ul>
+<p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code></p>
+<h1>部署github</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">$ git config --global user.name &quot;...&quot;</span><br><span class="line">$ git config --global user.email &quot;...&quot;</span><br><span class="line">#生成sshkey</span><br><span class="line">$ ssh-keygen -t rsa -C &#x27;邮箱&#x27;</span><br><span class="line"># 查看sshkey</span><br><span class="line">$ cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+<p>将ssh上传到github</p>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241115201430003.png" alt="image-20241115201430003" style="zoom:33%;" />
+<p>并修改根目录 deploy 设置</p>
+<p><code>运行 hexo d</code></p>
+<h1>域名绑定</h1>
+<p>/source目录下, 新建一个文件CNAME , 内容域名,<br>
+跟域名绑定（a和 cname）</p>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo标签外挂学习</title>
     <url>/2024/02/09/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/hexo%20%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. Tabs</h1>
@@ -894,137 +818,6 @@ F4 切换方案<br>
       <tags>
         <tag>hexo</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>每日英语</title>
-    <url>/2024/02/17/%E6%AF%8F%E6%97%A5%E8%8B%B1%E8%AF%AD/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>2024-2-1</h1>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/74adnB6-WFw?si=uIsv9GOqLKWn98X9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<hr>
-<p><strong>Michael:</strong> Hey Emma, good morning.</p>
-<p><strong>Emma:</strong> Good morning Michael, how are you?</p>
-<p><strong>Michael:</strong> Good, how about you?</p>
-<p><strong>Emma:</strong> Not so good actually.</p>
-<p><strong>Michael:</strong> Can you tell me more about what’s going on?</p>
-<p><strong>Emma:</strong> Yes, I’m stressed about work.</p>
-<p><strong>Michael:</strong> You look tired. How did you sleep last night?</p>
-<p><strong>Emma:</strong> Not very well. I had trouble sleeping.</p>
-<p><strong>Michael:</strong> I’m sorry to hear that. You should get more rest today.</p>
-<p><strong>Emma:</strong> I will, thanks for the reminder.</p>
-<p><strong>Michael:</strong> What did you do last weekend?</p>
-<p><strong>Emma:</strong> I worked overtime last weekend.</p>
-<p><strong>Michael:</strong> That’s too bad.</p>
-<p><strong>Emma:</strong> Why did you work overtime?</p>
-<p><strong>Michael:</strong> I have a big presentation this week and I needed to prepare for it.</p>
-<p><strong>Emma:</strong> Anyway, did you have a good weekend?</p>
-<p><strong>Michael:</strong> Yes, I did. I went hiking with some friends.</p>
-<p><strong>Emma:</strong> That sounds like a lot of fun. Do you have any plans for today?</p>
-<p><strong>Michael:</strong> Yes, I need to do laundry and grocery shopping.</p>
-<p><strong>Emma:</strong> Sounds like a busy day. Don’t forget to take breaks.</p>
-<p><strong>Michael:</strong> Okay, I’ll keep that in mind. What are you up to today?</p>
-<p><strong>Emma:</strong> I’m going to the gym this afternoon.</p>
-<p><strong>Michael:</strong> How often do you work out?</p>
-<p><strong>Emma:</strong> I work out four days a week.</p>
-<p><strong>Michael:</strong> What kind of workout do you do at the gym?</p>
-<p><strong>Emma:</strong> I usually do some cardio and weight training.</p>
-<p><strong>Michael:</strong> How long do you spend working out?</p>
-<p><strong>Emma:</strong> I usually spend 90 minutes at the gym.</p>
-<p><strong>Michael:</strong> Do you follow a specific workout plan?</p>
-<p><strong>Emma:</strong> Yes, I follow a plan given by my personal trainer.</p>
-<p><strong>Michael:</strong> Do you find it effective?</p>
-<p><strong>Emma:</strong> Of course, I’ve seen great results. I am getting stronger and healthier.</p>
-<p><strong>Michael:</strong> That’s impressive. I should start exercising too.</p>
-<p><strong>Emma:</strong> I’ll go to the gym again tomorrow. Would you like to join me?</p>
-<p><strong>Michael:</strong> Sure, that’s cool. What exercises would you recommend for me?</p>
-<p><strong>Emma:</strong> I would recommend doing cardio and yoga.</p>
-<p><strong>Michael:</strong> Thanks for the recommendation. What time are you planning to go?</p>
-<p><strong>Emma:</strong> At five o’clock tomorrow afternoon. Is that fine for you?</p>
-<p><strong>Michael:</strong> Yes, that’s fine.</p>
-<p><strong>Emma:</strong> Great, see you tomorrow.</p>
-<p><strong>Michael:</strong> Yep, see you then.</p>
-<hr>
-<h1>2024-2-2</h1>
-<p><a href="https://www.youtube.com/@LearnEnglishwithJessica/playlistshttps://www.youtube.com/@LearnEnglishwithJessica/playlists">Learn English with Jessica</a></p>
-<p>20 Minutes Practice Routine</p>
-<p>:one: <a href="https://www.youtube.com/watch?v=gS7GFj0KrNk&amp;list=PLtBFFyhEIC7nWgv1UdTKhMYMst8QVx75z">personality </a></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gS7GFj0KrNk?si=8xRCHH2vGL55CSJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="pick-生词-词组">:pick:生词 词组</h2>
-<p><em>laid-back</em>: 悠闲的</p>
-<p><em>organized</em>: some one are organized</p>
-<p><em>meticulous</em>: 细心的</p>
-<p><em>He is always <strong>up for</strong> doing:</em> 准备好做…</p>
-<p><em>competitive</em>: 竞争的；一心求胜的</p>
-<p><em>be <strong>determined</strong> to succeed</em>: 决心</p>
-<p><em>empathetic</em>: 善解人意；同情心</p>
-<p>she is the one everyone <em><strong>goes to for</strong></em> advice: 向她寻求</p>
-<p><em>introverted</em>: 内向的</p>
-<p><em>trait</em>: 特征，特点</p>
-<p><em>instruction</em>: 说明，指南</p>
-<p>I <em><strong>used to be</strong></em> shy 过去很…</p>
-<p><em>plan things ahead</em></p>
-<p>It’s cool how we <em><strong>inherit</strong></em>（继承） <em><strong>certain</strong></em> （某种）traits from our parents.</p>
-<p>approach life and interact with others. 对待生活，与他人互动</p>
-<p>Let’s keep <em><strong>embracing</strong></em> （拥抱，接收）the uniqueness</p>
-<h2 id="ear-听不清的">:ear:听不清的</h2>
-<p>definitely.</p>
-<p>them</p>
-<p>calm</p>
-<p>pays</p>
-<p>even the</p>
-<p>exploring</p>
-<p>variety</p>
-<h2 id="grapes-句式-语法">:grapes:句式 语法</h2>
-<p>Well,I think it’s a <strong>combination</strong> of things.</p>
-<p>That makes sense. 有道理</p>
-<p>make sure to</p>
-<h2 id="icecream-扩展">:icecream:扩展</h2>
-<blockquote>
-<p><strong>原文对话：</strong></p>
-<ul>
-<li>Have you ever thought about how people can be so different from each other?</li>
-<li>Yeah, definitely. It’s interesting how everyone has their own unique way of thinking and acting.</li>
-<li>I agree. It’s like each person has their own special personality that makes them who they are.</li>
-<li>Exactly. Some people prefer spending time alone, while some are really outgoing and love being around others.</li>
-<li>I was thinking about Jane. She’s always cheerful and positive, no matter what’s happening.</li>
-<li>Oh, absolutely. Jane’s definitely an optimistic person.</li>
-<li>And remember David? He’s really calm and patient, even in stressful situations.</li>
-<li>Yes, he’s so laid-back. It’s like nothing can bother him.</li>
-<li>Yeah, and then some people are super organized and always have a plan, like Lisa.</li>
-<li>Right. Lisa is quite meticulous. She pays attention to even the smallest things.</li>
-<li>And how about Mike? He’s so adventurous and always up for trying new things.</li>
-<li>That’s true. Mike’s definitely an adventurous spirit. He loves exploring new places and activities.</li>
-<li>Don’t forget about Tom. He’s really competitive and always wants to be the best at everything.</li>
-<li>Yes, Tom’s quite competitive. He’s driven and determined to succeed.</li>
-<li>I am thinking about my mom. She’s so caring and empathetic. She’s the one everyone goes to for advice.</li>
-<li>I know, your mom has a really kind heart. She’s a great listener and always understands people’s feelings.</li>
-<li>How about me? What do you think about me, Alex?</li>
-<li>You’re an introvert, so I always make sure to give you space in social situations.</li>
-<li>You know, that’s so thoughtful of you. Understanding personalities can help us communicate better with others.</li>
-<li>I know. When we know someone’s traits, we can adapt our approach to connect effectively.</li>
-<li>You’re right. And when we understand and respect each other’s personalities, we can work together better.</li>
-<li>Definitely. It’s like we’re all a mix of different characters.</li>
-<li>I wonder where these personalities come from.</li>
-<li>Well, I think it’s a combination of things. Our genes, which are like instructions in our body, and our experiences as we grow up.</li>
-<li>That makes sense. And you know, our personalities can change a little bit over time, too.</li>
-<li>Really? How so?</li>
-<li>Well, as we go through different experiences and learn new things.</li>
-<li>Oh, I see. We might become more confident or develop new interests. Like how I used to be really shy, but now I feel more comfortable talking to people.</li>
-<li>Exactly. And sometimes, we might notice similarities between family members in terms of their personality.</li>
-<li>That’s true. My mom and I are both pretty organized and like planning things ahead.</li>
-<li>It’s cool how we inherit certain traits from our parents, but we also have our own unique qualities.</li>
-<li>It’s amazing how we all have unique qualities that make us who we are.</li>
-<li>Absolutely. Our personalities shape how we approach life and interact with others.</li>
-<li>Yeah, they bring variety to our lives. And I think it’s interesting how we can learn from each other’s personalities.</li>
-<li>Yeah, observing how others handle situations can give us new perspectives and strategies.</li>
-<li>It’s like a puzzle, and each piece is important to make the whole picture complete.</li>
-<li>You’re right. Well, thanks for sharing your thoughts on personalities.</li>
-<li>No problem. It’s been great discussing it with you. Our personalities make us who we are, and it’s awesome to explore that.</li>
-<li>Agreed. Let’s keep embracing the uniqueness in ourselves and others.</li>
-<li>Absolutely. Let’s keep learning and growing together.</li>
-<li>You’re right.</li>
-</ul>
-</blockquote>
-]]></content>
   </entry>
   <entry>
     <title>博客搭建记录</title>
@@ -1103,7 +896,7 @@ F4 切换方案<br>
 <h2 id="歌单">歌单</h2>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;</span><br><span class="line">&#123;</span><br><span class="line">    &quot;narrow&quot;: false,</span><br><span class="line">    &quot;autoplay&quot;: false,</span><br><span class="line">    &quot;mode&quot;: &quot;random&quot;,//（可选）&#x27;random&#x27;, &#x27;single&#x27; (单曲播放), &#x27;circulation&#x27; (循环播放), &#x27;order&#x27; (列表播放)， 默认：&#x27;circulation&#x27; </span><br><span class="line">    &quot;showlrc&quot;: 3,</span><br><span class="line">    &quot;mutex&quot;: true,</span><br><span class="line">    &quot;theme&quot;: &quot;#e6d0b2&quot;,</span><br><span class="line">    &quot;preload&quot;: &quot;metadata&quot;,</span><br><span class="line">    &quot;listmaxheight&quot;: &quot;513px&quot;,</span><br><span class="line">    &quot;music&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;作者1&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;歌曲链接&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;图片链接&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;歌词.lrc&quot;</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;Goose house&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.mp3&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.jpg&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.lrc&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line">&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="图库里-找不到路径-只能把歌词打出来">图库里 找不到路径 只能把歌词打出来</h2>
-<div id="aplayer-WzIcUlMg" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+<div id="aplayer-UbovxRRC" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
 				<pre class="aplayer-lrc-content">[00:00.00]带我去找夜生活 - 告五人
 [00:01.00]作词：潘云安
 [00:02.00]作曲：潘云安
@@ -1145,7 +938,7 @@ F4 切换方案<br>
 			</div>
 			<script>
 				var ap = new APlayer({
-					element: document.getElementById("aplayer-WzIcUlMg"),
+					element: document.getElementById("aplayer-UbovxRRC"),
 					narrow: false,
 					autoplay: false,
 					showlrc: 2,
@@ -1371,6 +1164,227 @@ F4 切换方案<br>
       </tags>
   </entry>
   <entry>
+    <title>每日英语</title>
+    <url>/2024/02/17/%E6%AF%8F%E6%97%A5%E8%8B%B1%E8%AF%AD/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>2024-2-1</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/74adnB6-WFw?si=uIsv9GOqLKWn98X9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<hr>
+<p><strong>Michael:</strong> Hey Emma, good morning.</p>
+<p><strong>Emma:</strong> Good morning Michael, how are you?</p>
+<p><strong>Michael:</strong> Good, how about you?</p>
+<p><strong>Emma:</strong> Not so good actually.</p>
+<p><strong>Michael:</strong> Can you tell me more about what’s going on?</p>
+<p><strong>Emma:</strong> Yes, I’m stressed about work.</p>
+<p><strong>Michael:</strong> You look tired. How did you sleep last night?</p>
+<p><strong>Emma:</strong> Not very well. I had trouble sleeping.</p>
+<p><strong>Michael:</strong> I’m sorry to hear that. You should get more rest today.</p>
+<p><strong>Emma:</strong> I will, thanks for the reminder.</p>
+<p><strong>Michael:</strong> What did you do last weekend?</p>
+<p><strong>Emma:</strong> I worked overtime last weekend.</p>
+<p><strong>Michael:</strong> That’s too bad.</p>
+<p><strong>Emma:</strong> Why did you work overtime?</p>
+<p><strong>Michael:</strong> I have a big presentation this week and I needed to prepare for it.</p>
+<p><strong>Emma:</strong> Anyway, did you have a good weekend?</p>
+<p><strong>Michael:</strong> Yes, I did. I went hiking with some friends.</p>
+<p><strong>Emma:</strong> That sounds like a lot of fun. Do you have any plans for today?</p>
+<p><strong>Michael:</strong> Yes, I need to do laundry and grocery shopping.</p>
+<p><strong>Emma:</strong> Sounds like a busy day. Don’t forget to take breaks.</p>
+<p><strong>Michael:</strong> Okay, I’ll keep that in mind. What are you up to today?</p>
+<p><strong>Emma:</strong> I’m going to the gym this afternoon.</p>
+<p><strong>Michael:</strong> How often do you work out?</p>
+<p><strong>Emma:</strong> I work out four days a week.</p>
+<p><strong>Michael:</strong> What kind of workout do you do at the gym?</p>
+<p><strong>Emma:</strong> I usually do some cardio and weight training.</p>
+<p><strong>Michael:</strong> How long do you spend working out?</p>
+<p><strong>Emma:</strong> I usually spend 90 minutes at the gym.</p>
+<p><strong>Michael:</strong> Do you follow a specific workout plan?</p>
+<p><strong>Emma:</strong> Yes, I follow a plan given by my personal trainer.</p>
+<p><strong>Michael:</strong> Do you find it effective?</p>
+<p><strong>Emma:</strong> Of course, I’ve seen great results. I am getting stronger and healthier.</p>
+<p><strong>Michael:</strong> That’s impressive. I should start exercising too.</p>
+<p><strong>Emma:</strong> I’ll go to the gym again tomorrow. Would you like to join me?</p>
+<p><strong>Michael:</strong> Sure, that’s cool. What exercises would you recommend for me?</p>
+<p><strong>Emma:</strong> I would recommend doing cardio and yoga.</p>
+<p><strong>Michael:</strong> Thanks for the recommendation. What time are you planning to go?</p>
+<p><strong>Emma:</strong> At five o’clock tomorrow afternoon. Is that fine for you?</p>
+<p><strong>Michael:</strong> Yes, that’s fine.</p>
+<p><strong>Emma:</strong> Great, see you tomorrow.</p>
+<p><strong>Michael:</strong> Yep, see you then.</p>
+<hr>
+<h1>2024-2-2</h1>
+<p><a href="https://www.youtube.com/@LearnEnglishwithJessica/playlistshttps://www.youtube.com/@LearnEnglishwithJessica/playlists">Learn English with Jessica</a></p>
+<p>20 Minutes Practice Routine</p>
+<p>:one: <a href="https://www.youtube.com/watch?v=gS7GFj0KrNk&amp;list=PLtBFFyhEIC7nWgv1UdTKhMYMst8QVx75z">personality </a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gS7GFj0KrNk?si=8xRCHH2vGL55CSJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h2 id="pick-生词-词组">:pick:生词 词组</h2>
+<p><em>laid-back</em>: 悠闲的</p>
+<p><em>organized</em>: some one are organized</p>
+<p><em>meticulous</em>: 细心的</p>
+<p><em>He is always <strong>up for</strong> doing:</em> 准备好做…</p>
+<p><em>competitive</em>: 竞争的；一心求胜的</p>
+<p><em>be <strong>determined</strong> to succeed</em>: 决心</p>
+<p><em>empathetic</em>: 善解人意；同情心</p>
+<p>she is the one everyone <em><strong>goes to for</strong></em> advice: 向她寻求</p>
+<p><em>introverted</em>: 内向的</p>
+<p><em>trait</em>: 特征，特点</p>
+<p><em>instruction</em>: 说明，指南</p>
+<p>I <em><strong>used to be</strong></em> shy 过去很…</p>
+<p><em>plan things ahead</em></p>
+<p>It’s cool how we <em><strong>inherit</strong></em>（继承） <em><strong>certain</strong></em> （某种）traits from our parents.</p>
+<p>approach life and interact with others. 对待生活，与他人互动</p>
+<p>Let’s keep <em><strong>embracing</strong></em> （拥抱，接收）the uniqueness</p>
+<h2 id="ear-听不清的">:ear:听不清的</h2>
+<p>definitely.</p>
+<p>them</p>
+<p>calm</p>
+<p>pays</p>
+<p>even the</p>
+<p>exploring</p>
+<p>variety</p>
+<h2 id="grapes-句式-语法">:grapes:句式 语法</h2>
+<p>Well,I think it’s a <strong>combination</strong> of things.</p>
+<p>That makes sense. 有道理</p>
+<p>make sure to</p>
+<h2 id="icecream-扩展">:icecream:扩展</h2>
+<blockquote>
+<p><strong>原文对话：</strong></p>
+<ul>
+<li>Have you ever thought about how people can be so different from each other?</li>
+<li>Yeah, definitely. It’s interesting how everyone has their own unique way of thinking and acting.</li>
+<li>I agree. It’s like each person has their own special personality that makes them who they are.</li>
+<li>Exactly. Some people prefer spending time alone, while some are really outgoing and love being around others.</li>
+<li>I was thinking about Jane. She’s always cheerful and positive, no matter what’s happening.</li>
+<li>Oh, absolutely. Jane’s definitely an optimistic person.</li>
+<li>And remember David? He’s really calm and patient, even in stressful situations.</li>
+<li>Yes, he’s so laid-back. It’s like nothing can bother him.</li>
+<li>Yeah, and then some people are super organized and always have a plan, like Lisa.</li>
+<li>Right. Lisa is quite meticulous. She pays attention to even the smallest things.</li>
+<li>And how about Mike? He’s so adventurous and always up for trying new things.</li>
+<li>That’s true. Mike’s definitely an adventurous spirit. He loves exploring new places and activities.</li>
+<li>Don’t forget about Tom. He’s really competitive and always wants to be the best at everything.</li>
+<li>Yes, Tom’s quite competitive. He’s driven and determined to succeed.</li>
+<li>I am thinking about my mom. She’s so caring and empathetic. She’s the one everyone goes to for advice.</li>
+<li>I know, your mom has a really kind heart. She’s a great listener and always understands people’s feelings.</li>
+<li>How about me? What do you think about me, Alex?</li>
+<li>You’re an introvert, so I always make sure to give you space in social situations.</li>
+<li>You know, that’s so thoughtful of you. Understanding personalities can help us communicate better with others.</li>
+<li>I know. When we know someone’s traits, we can adapt our approach to connect effectively.</li>
+<li>You’re right. And when we understand and respect each other’s personalities, we can work together better.</li>
+<li>Definitely. It’s like we’re all a mix of different characters.</li>
+<li>I wonder where these personalities come from.</li>
+<li>Well, I think it’s a combination of things. Our genes, which are like instructions in our body, and our experiences as we grow up.</li>
+<li>That makes sense. And you know, our personalities can change a little bit over time, too.</li>
+<li>Really? How so?</li>
+<li>Well, as we go through different experiences and learn new things.</li>
+<li>Oh, I see. We might become more confident or develop new interests. Like how I used to be really shy, but now I feel more comfortable talking to people.</li>
+<li>Exactly. And sometimes, we might notice similarities between family members in terms of their personality.</li>
+<li>That’s true. My mom and I are both pretty organized and like planning things ahead.</li>
+<li>It’s cool how we inherit certain traits from our parents, but we also have our own unique qualities.</li>
+<li>It’s amazing how we all have unique qualities that make us who we are.</li>
+<li>Absolutely. Our personalities shape how we approach life and interact with others.</li>
+<li>Yeah, they bring variety to our lives. And I think it’s interesting how we can learn from each other’s personalities.</li>
+<li>Yeah, observing how others handle situations can give us new perspectives and strategies.</li>
+<li>It’s like a puzzle, and each piece is important to make the whole picture complete.</li>
+<li>You’re right. Well, thanks for sharing your thoughts on personalities.</li>
+<li>No problem. It’s been great discussing it with you. Our personalities make us who we are, and it’s awesome to explore that.</li>
+<li>Agreed. Let’s keep embracing the uniqueness in ourselves and others.</li>
+<li>Absolutely. Let’s keep learning and growing together.</li>
+<li>You’re right.</li>
+</ul>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>多hexo部署</title>
+    <url>/2024/11/02/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E5%A4%9A%E4%B8%AAhexo%E9%83%A8%E7%BD%B2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>检测ssh</p>
+<p><code>ls ~/.ssh/</code></p>
+<p><a href="https://blog.csdn.net/qq_36759224/article/details/86546729">参考</a></p>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资源搜索(待整理)</title>
+    <url>/2024/02/19/%E8%B5%84%E6%BA%90%E6%90%9C%E7%B4%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><em>资源聚合</em></h1>
+<p><a href="https://pan.mediy.cn/">https://pan.mediy.cn/</a> | 综合</p>
+<p><a href="https://pan.ecve.cn/">https://pan.ecve.cn/</a> | 综合</p>
+<p><a href="https://al.chirmyram.com/">https://al.chirmyram.com/</a> | 综合-盘</p>
+<p><a href="https://alist.shenzjd.com/">https://alist.shenzjd.com/</a> | 综合-盘</p>
+<p><a href="https://zi0.cc/">https://zi0.cc/</a>   |游戏</p>
+<p><a href="https://alist.toc.icu/">https://alist.toc.icu/</a> | 动漫</p>
+<p><a href="https://cnxiaobai.com/">https://cnxiaobai.com/</a>   <a href="https://file.cnxiaobai.com/">https://file.cnxiaobai.com/</a>  | 综合 PC 手机资源</p>
+<p><a href="https://pluginschat.com/">https://pluginschat.com/</a> | 综合  （<a href="https://docs.qq.com/sheet/DVXp5Q2dRTVRXb2VS?tab=oz0lgd%EF%BC%89">https://docs.qq.com/sheet/DVXp5Q2dRTVRXb2VS?tab=oz0lgd）</a></p>
+<p><a href="https://www.cuppaso.com/">https://www.cuppaso.com/</a> | 综合</p>
+<p><a href="https://atym.app/">https://atym.app/</a> | 影视</p>
+<p><a href="https://24hbook.com/%7C">https://24hbook.com/|</a> 书籍</p>
+<p><a href="https://www.pikaso.top/">https://www.pikaso.top/</a> | 综合</p>
+<p><a href="https://www.8bei8.com/">https://www.8bei8.com/</a> | 古籍</p>
+<p><a href="http://sqlmother.yupi.icu/#/learn">http://sqlmother.yupi.icu/#/learn</a> | 学习-sql</p>
+<p><a href="https://z-library.se/?ts=2332">https://z-library.se/?ts=2332</a> | 书籍</p>
+<p><a href="https://www.pdfdrive.com/">https://www.pdfdrive.com/</a> | 书籍</p>
+<p><a href="https://www.ypppt.com/">https://www.ypppt.com/</a> | PPT</p>
+<p><a href="https://www.pptsupermarket.com/">https://www.pptsupermarket.com/</a> | PPT</p>
+<p><a href="https://www.loecsen.com/">https://www.loecsen.com/</a> | 学习-英文</p>
+<p><a href="https://elllo.org/index.htm">https://elllo.org/index.htm</a> | 学习-英文</p>
+<p><a href="https://english-number.com/index">https://english-number.com/index</a> | 学习-英文-数字</p>
+<p><a href="https://corrector.justsong.cn/">https://corrector.justsong.cn/</a> | 学习-英文-单词发音</p>
+<p><a href="https://www.ahhhhfs.com/24012/">https://www.ahhhhfs.com/24012/</a> | 学习-英文-弹幕单词</p>
+<p><a href="https://www.mydyjs.com/shu.html">https://www.mydyjs.com/shu.html</a> | 综合</p>
+<p><a href="https://ss-wiki.htmltomd.com/">https://ss-wiki.htmltomd.com/</a> | 科学</p>
+<p><a href="https://wantwords.net/">https://wantwords.net/</a> | 写作</p>
+<p><a href="https://www.shenyandayi.com/">https://www.shenyandayi.com/</a> |写作</p>
+<p><a href="https://chinafactcheck.com/">https://chinafactcheck.com/</a> | 新闻</p>
+<p><a href="https://www.babelabc.com/">https://www.babelabc.com/</a> | 英文</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>插件收藏（一）</title>
+    <url>/2024/11/20/%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SciHub-Addon">SciHub Addon</h2>
+<p><a href="https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh">https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh</a></p>
+<ul>
+<li>期刊等级显示</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001856116.png" alt="image-20241121001856116" style="zoom:50%;" />
+<ul>
+<li>期刊等级查询</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001950997.png" alt="image-20241121001950997" style="zoom: 33%;" />
+<h2 id="Scouter-Language-Learning">Scouter - Language Learning</h2>
+<p><a href="https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb">https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb</a></p>
+<ul>
+<li>划词详细介绍</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002140438.png" alt="image-20241121002140438" style="zoom:33%;" />
+<h2 id="Bilibili-Evolved"><strong><a href="https://github.com/the1812/Bilibili-Evolved">Bilibili-Evolved</a></strong></h2>
+<p><a href="https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#%E5%AE%89%E8%A3%85">https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#安装</a></p>
+<ul>
+<li>多功能定义哔站</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002411146.png" alt="image-20241121002411146" style="zoom:50%;" />
+<h2 id="HCOS-Hide-Chrome-Omnibox-Suggestions">HCOS - Hide Chrome Omnibox Suggestions</h2>
+<ul>
+<li>隐藏Chrome地址栏/首页搜索框记录</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121003849290.png" alt="image-20241121003849290" style="zoom:33%;" />
+<hr>
+<blockquote>
+<p>信息来源：</p>
+</blockquote>
+<ul>
+<li><a href="https://linux.do/t/topic/218841">https://linux.do/t/topic/218841</a></li>
+<li><a href="https://linux.do/t/topic/166825">https://linux.do/t/topic/166825</a></li>
+<li><a href="https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297">https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>webstack导航建立</title>
     <url>/2024/02/24/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E5%AF%BC%E8%88%AA%E7%BD%91%E7%AB%99/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. hexo 三连</h1>
@@ -1405,56 +1419,6 @@ F4 切换方案<br>
 ]]></content>
   </entry>
   <entry>
-    <title>禁止让hexo渲染某个页面</title>
-    <url>/2024/03/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E7%A6%81%E6%AD%A2%E8%AE%A9hexo%E6%B8%B2%E6%9F%93html/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>单个页面处理</h1>
-<p>文件开头加入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">layout: false</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&lt;html&gt;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<h1>多个文件</h1>
-<p><code>_config.yml</code>配置文件中使用<code>skip_render</code>参数</p>
-<p>单个文件夹的所有文件的跳过渲染</p>
-<p><code>skip_render: localpage/**</code></p>
-<p>多个文件夹的所有文件的跳过渲染</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">skip_render: [localpage/**, .../**, .../**]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>localpage默认在source文件夹里</p>
-]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>多hexo部署</title>
-    <url>/2024/11/02/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E5%A4%9A%E4%B8%AAhexo%E9%83%A8%E7%BD%B2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>检测ssh</p>
-<p><code>ls ~/.ssh/</code></p>
-<p><a href="https://blog.csdn.net/qq_36759224/article/details/86546729">参考</a></p>
-]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解除推送限制</title>
-    <url>/2024/03/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E8%A7%A3%E9%99%A4%E6%8E%A8%E9%80%81%E9%99%90%E5%88%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>错误信息</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> ! [remote rejected] HEAD -&gt; master (push declined due to </span><br><span class="line">repository rule violations)</span><br></pre></td></tr></table></figure>
-<p><strong>解除 GitHub 的推送保护</strong>：</p>
-<p>如果你确定已删除所有敏感信息，可以访问 GitHub 提供的链接，解除对你推送的阻止：</p>
-]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>换系统/电脑 迁移hexo</title>
     <url>/2025/03/03/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E6%9B%B4%E6%8D%A2%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%9A%84%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
@@ -1484,18 +1448,54 @@ F4 切换方案<br>
       </tags>
   </entry>
   <entry>
+    <title>禁止让hexo渲染某个页面</title>
+    <url>/2024/03/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E7%A6%81%E6%AD%A2%E8%AE%A9hexo%E6%B8%B2%E6%9F%93html/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>单个页面处理</h1>
+<p>文件开头加入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">layout: false</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&lt;html&gt;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<h1>多个文件</h1>
+<p><code>_config.yml</code>配置文件中使用<code>skip_render</code>参数</p>
+<p>单个文件夹的所有文件的跳过渲染</p>
+<p><code>skip_render: localpage/**</code></p>
+<p>多个文件夹的所有文件的跳过渲染</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">skip_render: [localpage/**, .../**, .../**]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>localpage默认在source文件夹里</p>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解除推送限制</title>
+    <url>/2024/03/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E8%A7%A3%E9%99%A4%E6%8E%A8%E9%80%81%E9%99%90%E5%88%B6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>错误信息</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> ! [remote rejected] HEAD -&gt; master (push declined due to </span><br><span class="line">repository rule violations)</span><br></pre></td></tr></table></figure>
+<p><strong>解除 GitHub 的推送保护</strong>：</p>
+<p>如果你确定已删除所有敏感信息，可以访问 GitHub 提供的链接，解除对你推送的阻止：</p>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>音视频插入</title>
     <url>/2024/04/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E9%9F%B3%E8%A7%86%E9%A2%91%20%E6%8F%92%E5%85%A5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>url</h1>
 <h1>远程url</h1>
 <p><code>&#123;% aplayer "歌名" "艺术家名" "https：;../.mp3" "封面图.jpg" %&#125;</code></p>
 
-        <div id="aplayer-BcoxAQJn" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-avXpRHuM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-BcoxAQJn"),
+            element: document.getElementById("aplayer-avXpRHuM"),
             narrow: false,
             autoplay: false,
             showlrc: false,

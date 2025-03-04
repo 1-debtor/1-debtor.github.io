@@ -3,89 +3,798 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>time</title>
+<title>时光记录</title>
 <style>
+  :root {
+    --primary-color: #4a90e2;
+    --primary-light: #64a5f5;
+    --primary-dark: #357abd;
+    --white: #ffffff;
+    --gray-light: #f8f9fa;
+    --gray: #e9ecef;
+  }
+
   body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Blackadder ITC', '楷体', serif;
-    background-image: url('https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402140027746.jpg');
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    font-family: '楷体', serif;
+    color: white;
+    overflow: hidden;
   }
+  
   .background-overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.2);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0;
   }
-  .title, .new-timer-title {
-    color: white;
-    font-size: 64px; /* Adjusted font size for consistency */
-    margin-bottom: 20px; /* Ensure spacing */
+  
+  /* 轮播容器样式 */
+  .carousel-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    max-width: none;
+    max-height: none;
   }
-  .timer, .extended-timer, .new-timer {
-  color: black; /* 修改文字颜色为黑色 */
-  font-size: 32px;
-  background-color: white; /* 修改背景颜色为白色 */
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-  border: 1px solid #ccc; /* 添加边框 */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 添加阴影，增加质感 */
-}
+  
+  .carousel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    perspective: 1200px;
+  }
+  
+  /* 每个倒计时部分的基础样式 */
+  .section {
+    min-width: 100%;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    visibility: hidden;
+  }
+
+  .section.active {
+    visibility: visible;
+  }
+
+  /* 各个倒计时部分的背景设置 */
+  /* 1. 在一起的时间 */
+  #together-section {
+    background-image: url('https://pan.19971999.xyz/d/R2-x-10G/debtor/IMG_20220725_215417-01.jpeg');
+  }
+
+  /* 2. 海外漂泊时间 */
+  #overseas-section {
+    background-image: url('https://pan.19971999.xyz/d/R2-x-10G/debtor/IMG_20231202_233402.jpg');
+  }
+
+  /* 3. 回国倒计时 */
+  #return-section {
+    background-image: url('https://images.pexels.com/photos/2763394/pexels-photo-2763394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  }
+
+  /* 4. 未来预留位置 */
+  #future-section {
+    background-image: url('https://images.pexels.com/photos/745365/pexels-photo-745365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  }
+
+  /* 背景遮罩，确保文字清晰可见 */
+  .section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+
+  /* 确保内容在遮罩层之上 */
+  .section > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .title {
+    color: var(--white);
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: inline-block;
+  }
+  
+  .timer-container {
+    color: var(--white);
+    font-size: 1.8rem;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timer-label {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: var(--white);
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .timer {
+    padding: 15px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: center;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 100%;
+  }
+  
+  .time-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--white);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 15px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    min-width: 50px;
+    display: inline-block;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .time-label {
+    font-size: 1.2rem;
+    color: var(--white);
+    margin: 0 8px 0 2px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .heart {
+    color: var(--white);
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    z-index: 10;
+  }
+  
+  .dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+  }
+  
+  .dot.active {
+    background-color: var(--white);
+    transform: scale(1.2);
+  }
+  
+  .nav-arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 10;
+    padding: 0 20px;
+    box-sizing: border-box;
+    pointer-events: none;
+  }
+  
+  .arrow {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--white);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    user-select: none;
+    pointer-events: auto;
+    position: relative;
+  }
+  
+  .arrow::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-top: 4px solid var(--white);
+    border-right: 4px solid var(--white);
+    position: absolute;
+  }
+  
+  #prevBtn::before {
+    transform: rotate(-135deg);
+    margin-left: 6px;
+  }
+  
+  #nextBtn::before {
+    transform: rotate(45deg);
+    margin-right: 6px;
+  }
+  
+  .arrow:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .arrow:active {
+    transform: scale(0.95);
+  }
+  
+  /* 为未来添加的时间预留的样式 */
+  .future-section {
+    position: relative;
+  }
+  
+  .future-section::after {
+    content: "未来将添加更多时间...";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-style: italic;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 80%;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* 添加翻页动画效果 */
+  @keyframes flipInNext {
+    from { 
+      transform: rotateY(-90deg);
+      opacity: 0.3;
+    }
+    to { 
+      transform: rotateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes flipOutNext {
+    from { 
+      transform: rotateY(0);
+      opacity: 1;
+    }
+    to { 
+      transform: rotateY(90deg);
+      opacity: 0.3;
+    }
+  }
+
+  @keyframes flipInPrev {
+    from { 
+      transform: rotateY(90deg);
+      opacity: 0.3;
+    }
+    to { 
+      transform: rotateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes flipOutPrev {
+    from { 
+      transform: rotateY(0);
+      opacity: 1;
+    }
+    to { 
+      transform: rotateY(-90deg);
+      opacity: 0.3;
+    }
+  }
+
+  .flip-in-next {
+    animation: flipInNext 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    transform-origin: center right;
+  }
+
+  .flip-out-next {
+    animation: flipOutNext 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    transform-origin: center left;
+  }
+
+  .flip-in-prev {
+    animation: flipInPrev 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    transform-origin: center left;
+  }
+
+  .flip-out-prev {
+    animation: flipOutPrev 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    transform-origin: center right;
+  }
+
+  /* 响应式设计 */
+  @media (max-width: 1024px) {
+    .carousel-container {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-container {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .content-container {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content-container {
+      padding: 10px;
+    }
+  }
+
+  /* 内容容器 */
+  .content-container {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .time-unit {
+    display: inline-flex;
+    margin: 0 4px;
+    text-align: center;
+  }
+
+  /* 修复响应式样式 */
+  @media (max-width: 768px) {
+    .content-container {
+      padding: 15px;
+    }
+    
+    .title {
+      font-size: 2.5rem;
+    }
+    
+    .timer-container {
+      font-size: 1.5rem;
+    }
+    
+    .time-value {
+      font-size: 1.8rem;
+      padding: 8px 10px;
+      min-width: 35px;
+    }
+    
+    .time-label {
+      font-size: 0.9rem;
+      margin: 0 3px 0 1px;
+    }
+    
+    .arrow {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .arrow::before {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .content-container {
+      padding: 10px;
+    }
+    
+    .title {
+      font-size: 2rem;
+    }
+    
+    .timer-container {
+      font-size: 1.2rem;
+    }
+    
+    .timer-label {
+      font-size: 1.2rem;
+    }
+    
+    .time-value {
+      font-size: 1.3rem;
+      padding: 5px 8px;
+      min-width: 25px;
+      border-radius: 8px;
+    }
+    
+    .time-label {
+      font-size: 0.8rem;
+      margin: 0 2px 0 1px;
+    }
+    
+    .arrow {
+      width: 40px;
+      height: 40px;
+    }
+    
+    .arrow::before {
+      width: 12px;
+      height: 12px;
+      border-width: 3px;
+    }
+  }
 </style>
 </head>
 <body>
 
 <div class="background-overlay">
-  <div class="title">❤️JWJ&XYC❤️</div>
-  <div class="timer" id="timer"></div>
-  <div class="extended-timer" id="extendedTimer" style="display: none;"></div>
-  <div class="new-timer-title">🌎海外漂泊🌎：</div>
-  <div class="new-timer" id="newTimer"></div>
+  <div class="carousel-container">
+    <div class="carousel" id="carousel">
+      <!-- 1. 在一起的时间计时器 -->
+      <div class="section" id="together-section">
+        <div class="content-container">
+          <div class="title"><span class="heart">❤️</span>JWJ&XYC<span class="heart">❤️</span></div>
+          <div class="timer-container">
+            <div class="timer-label"></div>
+            <div class="timer" id="timer"></div>
+          </div>
+          <div class="timer-container">
+            <div class="timer-label"></div>
+            <div class="timer" id="extendedTimer"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 2. 海外漂泊时间计时器 -->
+      <div class="section" id="overseas-section">
+        <div class="content-container">
+          <div class="title"><span class="heart"></span>海外漂泊<span class="heart"></span></div>
+          <div class="timer-container">
+            <div class="timer-label">已经过去：</div>
+            <div class="timer" id="newTimer"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 3. 回国倒计时计时器 -->
+      <div class="section" id="return-section">
+        <div class="content-container">
+          <div class="title"><span class="heart"></span>回国倒计时<span class="heart"></span></div>
+          <div class="timer-container">
+            <div class="timer-label">距离2025年7月10日还有：</div>
+            <div class="timer" id="countdownTimer"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 4. 未来时刻预留位置 -->
+      <div class="section future-section" id="future-section">
+        <div class="content-container">
+          <div class="title">... ...</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="nav-dots" id="navDots">
+      <div class="dot active" data-index="0"></div>
+      <div class="dot" data-index="1"></div>
+      <div class="dot" data-index="2"></div>
+      <div class="dot" data-index="3"></div>
+    </div>
+    
+    <div class="nav-arrows">
+      <div class="arrow" id="prevBtn"></div>
+      <div class="arrow" id="nextBtn"></div>
+    </div>
+  </div>
 </div>
 
 <script>
-  function updateTime() {
-    const startDate = new Date('2022-08-20T00:00:00');
-    const newStartDate = new Date('2023-11-02T00:00:00');
-    const now = new Date();
-    const elapsed = now - startDate;
-    const newElapsed = now - newStartDate;
-    const elapsedDate = new Date(elapsed);
-    const newElapsedDate = new Date(newElapsed);
-    const days = Math.floor(elapsed / (1000 * 60 * 60 * 24));
-    const newDays = Math.floor(newElapsed / (1000 * 60 * 60 * 24));
-    const hours = elapsedDate.getUTCHours();
-    const newHours = newElapsedDate.getUTCHours();
-    const minutes = elapsedDate.getUTCMinutes();
-    const newMinutes = newElapsedDate.getUTCMinutes();
-    const seconds = elapsedDate.getUTCSeconds();
-    const newSeconds = newElapsedDate.getUTCSeconds();
-    document.getElementById('timer').textContent = `${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
-    document.getElementById('newTimer').textContent = `${newDays}天 ${newHours}小时 ${newMinutes}分钟 ${newSeconds}秒`;
+  // 时间配置
+  const TIME_CONFIG = {
+    TOGETHER: {
+      date: '2022-08-20T00:00:00',
+      id: 'timer',
+      extendedId: 'extendedTimer'
+    },
+    OVERSEAS: {
+      date: '2023-11-02T00:00:00',
+      id: 'newTimer'
+    },
+    RETURN: {
+      date: '2025-07-10T00:00:00',
+      id: 'countdownTimer'
+    }
+  };
+
+  // 轮播功能
+  let currentIndex = 0;
+  const carousel = document.getElementById('carousel');
+  const dots = document.querySelectorAll('.dot');
+  const sections = document.querySelectorAll('.section');
+  const totalSlides = sections.length;
+  let isAnimating = false;
+  
+  function updateCarousel(direction = null) {
+    if (isAnimating) return;
+    isAnimating = true;
     
-    // Check if elapsed time is more than a year
-    const years = elapsedDate.getUTCFullYear() - 1970; // Since epoch is 1970
-    if (years > 0) {
-      document.getElementById('extendedTimer').style.display = 'block';
-      document.getElementById('extendedTimer').textContent = `${years}年 ${elapsedDate.getUTCMonth()}月 ${elapsedDate.getUTCDate() - 1}日 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
+    const currentSection = sections[currentIndex];
+    let nextIndex;
+    
+    if (direction === 'next') {
+      nextIndex = (currentIndex + 1) % totalSlides;
+      const nextSection = sections[nextIndex];
+      
+      // 移除所有可能的动画类
+      sections.forEach(section => {
+        section.classList.remove('active', 'flip-in-next', 'flip-out-next', 'flip-in-prev', 'flip-out-prev');
+        section.style.visibility = 'hidden';
+      });
+      
+      // 设置当前和下一个部分可见
+      currentSection.style.visibility = 'visible';
+      nextSection.style.visibility = 'visible';
+      
+      // 添加翻页动画
+      currentSection.classList.add('flip-out-next');
+      nextSection.classList.add('flip-in-next');
+      
+      // 动画结束后更新状态
+      setTimeout(() => {
+        currentSection.classList.remove('active');
+        nextSection.classList.add('active');
+        currentIndex = nextIndex;
+        isAnimating = false;
+      }, 600);
+      
+    } else if (direction === 'prev') {
+      nextIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      const nextSection = sections[nextIndex];
+      
+      // 移除所有可能的动画类
+      sections.forEach(section => {
+        section.classList.remove('active', 'flip-in-next', 'flip-out-next', 'flip-in-prev', 'flip-out-prev');
+        section.style.visibility = 'hidden';
+      });
+      
+      // 设置当前和下一个部分可见
+      currentSection.style.visibility = 'visible';
+      nextSection.style.visibility = 'visible';
+      
+      // 添加翻页动画
+      currentSection.classList.add('flip-out-prev');
+      nextSection.classList.add('flip-in-prev');
+      
+      // 动画结束后更新状态
+      setTimeout(() => {
+        currentSection.classList.remove('active');
+        nextSection.classList.add('active');
+        currentIndex = nextIndex;
+        isAnimating = false;
+      }, 600);
+      
     } else {
-      document.getElementById('extendedTimer').style.display = 'none';
-}
-}
-setInterval(updateTime, 1000);
+      // 直接切换（点击导航点时）
+      sections.forEach((section, index) => {
+        section.classList.remove('active', 'flip-in-next', 'flip-out-next', 'flip-in-prev', 'flip-out-prev');
+        section.style.visibility = 'hidden';
+        
+        if (index === currentIndex) {
+          section.classList.add('active');
+          section.style.visibility = 'visible';
+        }
+      });
+      
+      isAnimating = false;
+    }
+    
+    // 更新导航点
+    dots.forEach((dot, index) => {
+      if (index === currentIndex) {
+        dot.classList.add('active');
+      } else {
+        dot.classList.remove('active');
+      }
+    });
+  }
+  
+  // 点击导航点切换
+  dots.forEach(dot => {
+    dot.addEventListener('click', function() {
+      if (isAnimating) return;
+      currentIndex = parseInt(this.getAttribute('data-index'));
+      updateCarousel();
+    });
+  });
+  
+  // 点击箭头切换
+  document.getElementById('prevBtn').addEventListener('click', function() {
+    if (isAnimating) return;
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    updateCarousel('prev');
+  });
+  
+  document.getElementById('nextBtn').addEventListener('click', function() {
+    if (isAnimating) return;
+    currentIndex = (currentIndex + 1) % totalSlides;
+    updateCarousel('next');
+  });
+  
+  // 触摸滑动功能
+  let touchStartX = 0;
+  let touchEndX = 0;
+  
+  carousel.addEventListener('touchstart', function(e) {
+    if (isAnimating) return;
+    touchStartX = e.changedTouches[0].screenX;
+  });
+  
+  carousel.addEventListener('touchend', function(e) {
+    if (isAnimating) return;
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  });
+  
+  function handleSwipe() {
+    const threshold = 50; // 最小滑动距离
+    if (touchEndX < touchStartX - threshold) {
+      // 向左滑动
+      currentIndex = (currentIndex + 1) % totalSlides;
+      updateCarousel('next');
+    } else if (touchEndX > touchStartX + threshold) {
+      // 向右滑动
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      updateCarousel('prev');
+    }
+  }
+  
+  // 添加键盘左右键控制
+  document.addEventListener('keydown', function(e) {
+    if (isAnimating) return;
+    if (e.key === 'ArrowLeft') {
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      updateCarousel('prev');
+    } else if (e.key === 'ArrowRight') {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      updateCarousel('next');
+    }
+  });
+  
+  function formatTimeUnit(value) {
+    return `<div class="time-unit"><div class="time-value">${String(value).padStart(2, '0')}</div></div>`;
+  }
+  
+  function formatTime(days, hours, minutes, seconds) {
+    return `${formatTimeUnit(days)}<span class="time-label">天</span>${formatTimeUnit(hours)}<span class="time-label">时</span>${formatTimeUnit(minutes)}<span class="time-label">分</span>${formatTimeUnit(seconds)}<span class="time-label">秒</span>`;
+  }
+  
+  function formatExtendedTime(years, months, days, hours, minutes, seconds) {
+    return `${formatTimeUnit(years)}<span class="time-label">年</span>${formatTimeUnit(months)}<span class="time-label">月</span>${formatTimeUnit(days)}<span class="time-label">日</span>${formatTimeUnit(hours)}<span class="time-label">时</span>${formatTimeUnit(minutes)}<span class="time-label">分</span>${formatTimeUnit(seconds)}<span class="time-label">秒</span>`;
+  }
+  
+  function updateTime() {
+    // 在一起的时间 - 2022-08-20
+    const startDate = new Date('2022-08-20T00:00:00');
+    // 海外漂泊时间 - 2023-11-02
+    const newStartDate = new Date('2023-11-02T00:00:00');
+    // 回国日期 - 2025-07-10
+    const returnDate = new Date('2025-07-10T00:00:00');
+    
+    const now = new Date();
+    
+    // 计算在一起的时间
+    const elapsed = now - startDate;
+    const elapsedDate = new Date(elapsed);
+    const days = Math.floor(elapsed / (1000 * 60 * 60 * 24));
+    const hours = elapsedDate.getUTCHours();
+    const minutes = elapsedDate.getUTCMinutes();
+    const seconds = elapsedDate.getUTCSeconds();
+    
+    // 计算精确的年月日
+    const years = Math.floor(days / 365);
+    const months = Math.floor((days % 365) / 30);
+    const remainingDays = Math.floor((days % 365) % 30);
+    
+    // 计算海外漂泊时间
+    const newElapsed = now - newStartDate;
+    const newElapsedDate = new Date(newElapsed);
+    const newDays = Math.floor(newElapsed / (1000 * 60 * 60 * 24));
+    const newHours = newElapsedDate.getUTCHours();
+    const newMinutes = newElapsedDate.getUTCMinutes();
+    const newSeconds = newElapsedDate.getUTCSeconds();
+    
+    // 计算回国倒计时
+    const timeToReturn = returnDate - now;
+    if (timeToReturn > 0) {
+      const returnDays = Math.floor(timeToReturn / (1000 * 60 * 60 * 24));
+      const returnHours = Math.floor((timeToReturn % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const returnMinutes = Math.floor((timeToReturn % (1000 * 60 * 60)) / (1000 * 60));
+      const returnSeconds = Math.floor((timeToReturn % (1000 * 60)) / 1000);
+      
+      document.getElementById('countdownTimer').innerHTML = formatTime(returnDays, returnHours, returnMinutes, returnSeconds);
+    } else {
+      document.getElementById('countdownTimer').innerHTML = "已回国！";
+    }
+    
+    // 更新显示
+    document.getElementById('timer').innerHTML = formatTime(days, hours, minutes, seconds);
+    document.getElementById('extendedTimer').innerHTML = formatExtendedTime(years, months, remainingDays, hours, minutes, seconds);
+    document.getElementById('newTimer').innerHTML = formatTime(newDays, newHours, newMinutes, newSeconds);
+  }
+  
+  // 初始化时设置第一个部分为活动状态
+  document.addEventListener('DOMContentLoaded', function() {
+    sections.forEach((section, index) => {
+      if (index === 0) {
+        section.classList.add('active');
+        section.style.visibility = 'visible';
+      } else {
+        section.style.visibility = 'hidden';
+      }
+    });
+  });
+  
+  // 初始更新
+  updateTime();
+  updateCarousel();
+  
+  // 设置定时器，每秒更新一次
+  setInterval(updateTime, 1000);
 </script>
 
 </body>
 </html>
+
