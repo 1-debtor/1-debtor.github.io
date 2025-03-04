@@ -49,7 +49,6 @@
     display: flex;
     width: 100%;
     height: 100%;
-    perspective: 1200px;
   }
   
   /* 每个倒计时部分的基础样式 */
@@ -293,68 +292,34 @@
   }
   
   /* 添加翻页动画效果 */
-  @keyframes flipInNext {
+  @keyframes fadeIn {
     from { 
-      transform: rotateY(-90deg);
-      opacity: 0.3;
+      opacity: 0;
+      transform: scale(0.98);
     }
     to { 
-      transform: rotateY(0);
       opacity: 1;
+      transform: scale(1);
     }
   }
 
-  @keyframes flipOutNext {
+  @keyframes fadeOut {
     from { 
-      transform: rotateY(0);
       opacity: 1;
+      transform: scale(1);
     }
     to { 
-      transform: rotateY(90deg);
-      opacity: 0.3;
+      opacity: 0;
+      transform: scale(1.02);
     }
   }
 
-  @keyframes flipInPrev {
-    from { 
-      transform: rotateY(90deg);
-      opacity: 0.3;
-    }
-    to { 
-      transform: rotateY(0);
-      opacity: 1;
-    }
+  .fade-in {
+    animation: fadeIn 0.8s cubic-bezier(0.33, 0.1, 0.67, 1) forwards;
   }
 
-  @keyframes flipOutPrev {
-    from { 
-      transform: rotateY(0);
-      opacity: 1;
-    }
-    to { 
-      transform: rotateY(-90deg);
-      opacity: 0.3;
-    }
-  }
-
-  .flip-in-next {
-    animation: flipInNext 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-    transform-origin: center right;
-  }
-
-  .flip-out-next {
-    animation: flipOutNext 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-    transform-origin: center left;
-  }
-
-  .flip-in-prev {
-    animation: flipInPrev 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-    transform-origin: center left;
-  }
-
-  .flip-out-prev {
-    animation: flipOutPrev 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-    transform-origin: center right;
+  .fade-out {
+    animation: fadeOut 0.8s cubic-bezier(0.33, 0.1, 0.67, 1) forwards;
   }
 
   /* 响应式设计 */
@@ -574,74 +539,77 @@
     const currentSection = sections[currentIndex];
     let nextIndex;
     
-    if (direction === 'next') {
-      nextIndex = (currentIndex + 1) % totalSlides;
+    if (direction === 'next' || direction === 'prev') {
+      // 计算下一个索引，确保循环
+      if (direction === 'next') {
+        nextIndex = (currentIndex + 1) % totalSlides;
+      } else if (direction === 'prev') {
+        nextIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      }
+      
       const nextSection = sections[nextIndex];
       
-      // 移除所有可能的动画类
-      sections.forEach(section => {
-        section.classList.remove('active', 'flip-in-next', 'flip-out-next', 'flip-in-prev', 'flip-out-prev');
-        section.style.visibility = 'hidden';
+      // 先隐藏所有不相关的部分
+      sections.forEach((section, index) => {
+        if (index !== currentIndex && index !== nextIndex) {
+          section.style.visibility = 'hidden';
+          section.classList.remove('active', 'fade-in', 'fade-out');
+        }
       });
       
-      // 设置当前和下一个部分可见
-      currentSection.style.visibility = 'visible';
-      nextSection.style.visibility = 'visible';
+      // 准备下一个部分但保持隐藏
+      nextSection.style.visibility = 'hidden';
+      nextSection.classList.remove('fade-out');
       
-      // 添加翻页动画
-      currentSection.classList.add('flip-out-next');
-      nextSection.classList.add('flip-in-next');
+      // 设置当前部分淡出
+      currentSection.classList.remove('fade-in');
+      currentSection.classList.add('fade-out');
       
-      // 动画结束后更新状态
+      // 在当前部分开始淡出后，让下一个部分淡入
       setTimeout(() => {
-        currentSection.classList.remove('active');
-        nextSection.classList.add('active');
+        // 显示下一个部分
+        nextSection.style.visibility = 'visible';
+        nextSection.classList.add('active', 'fade-in');
+        
+        // 更新当前索引
         currentIndex = nextIndex;
-        isAnimating = false;
-      }, 600);
-      
-    } else if (direction === 'prev') {
-      nextIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-      const nextSection = sections[nextIndex];
-      
-      // 移除所有可能的动画类
-      sections.forEach(section => {
-        section.classList.remove('active', 'flip-in-next', 'flip-out-next', 'flip-in-prev', 'flip-out-prev');
-        section.style.visibility = 'hidden';
-      });
-      
-      // 设置当前和下一个部分可见
-      currentSection.style.visibility = 'visible';
-      nextSection.style.visibility = 'visible';
-      
-      // 添加翻页动画
-      currentSection.classList.add('flip-out-prev');
-      nextSection.classList.add('flip-in-prev');
-      
-      // 动画结束后更新状态
-      setTimeout(() => {
-        currentSection.classList.remove('active');
-        nextSection.classList.add('active');
-        currentIndex = nextIndex;
-        isAnimating = false;
-      }, 600);
+        
+        // 更新导航点
+        updateDots();
+        
+        // 动画完成后清理
+        setTimeout(() => {
+          // 隐藏之前的部分
+          currentSection.style.visibility = 'hidden';
+          currentSection.classList.remove('active', 'fade-out');
+          isAnimating = false;
+        }, 800);
+      }, 400);
       
     } else {
       // 直接切换（点击导航点时）
+      // 注意：此时currentIndex已经在点击事件中被设置为目标索引
       sections.forEach((section, index) => {
-        section.classList.remove('active', 'flip-in-next', 'flip-out-next', 'flip-in-prev', 'flip-out-prev');
+        section.classList.remove('active', 'fade-in', 'fade-out');
         section.style.visibility = 'hidden';
         
         if (index === currentIndex) {
-          section.classList.add('active');
+          section.classList.add('active', 'fade-in');
           section.style.visibility = 'visible';
         }
       });
       
-      isAnimating = false;
+      // 更新导航点
+      updateDots();
+      
+      // 短暂延迟后完成动画
+      setTimeout(() => {
+        isAnimating = false;
+      }, 800);
     }
-    
-    // 更新导航点
+  }
+  
+  function updateDots() {
     dots.forEach((dot, index) => {
       if (index === currentIndex) {
         dot.classList.add('active');
@@ -655,21 +623,51 @@
   dots.forEach(dot => {
     dot.addEventListener('click', function() {
       if (isAnimating) return;
-      currentIndex = parseInt(this.getAttribute('data-index'));
-      updateCarousel();
+      const newIndex = parseInt(this.getAttribute('data-index'));
+      if (newIndex === currentIndex) return; // 如果点击当前活动的点，不做任何操作
+      
+      // 确定方向
+      const direction = newIndex > currentIndex ? 'next' : 'prev';
+      
+      // 重要：不要在这里设置currentIndex，而是让updateCarousel函数处理
+      // 创建一个临时变量来存储目标索引
+      const targetIndex = newIndex;
+      
+      // 如果目标索引与当前索引相差超过1，需要逐步过渡
+      if (Math.abs(targetIndex - currentIndex) === 1) {
+        // 相邻页面，直接使用方向切换
+        updateCarousel(direction);
+      } else {
+        // 非相邻页面，使用自定义方法处理
+        handleNonAdjacentTransition(targetIndex);
+      }
     });
   });
+  
+  // 处理非相邻页面的过渡
+  function handleNonAdjacentTransition(targetIndex) {
+    if (isAnimating) return;
+    
+    // 计算方向
+    const direction = targetIndex > currentIndex ? 'next' : 'prev';
+    
+    // 直接设置目标索引
+    currentIndex = targetIndex;
+    
+    // 使用普通切换方式
+    updateCarousel();
+  }
   
   // 点击箭头切换
   document.getElementById('prevBtn').addEventListener('click', function() {
     if (isAnimating) return;
-    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    // 不要在这里更新currentIndex，让updateCarousel函数处理
     updateCarousel('prev');
   });
   
   document.getElementById('nextBtn').addEventListener('click', function() {
     if (isAnimating) return;
-    currentIndex = (currentIndex + 1) % totalSlides;
+    // 不要在这里更新currentIndex，让updateCarousel函数处理
     updateCarousel('next');
   });
   
@@ -691,12 +689,10 @@
   function handleSwipe() {
     const threshold = 50; // 最小滑动距离
     if (touchEndX < touchStartX - threshold) {
-      // 向左滑动
-      currentIndex = (currentIndex + 1) % totalSlides;
+      // 向左滑动 - 下一个
       updateCarousel('next');
     } else if (touchEndX > touchStartX + threshold) {
-      // 向右滑动
-      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      // 向右滑动 - 上一个
       updateCarousel('prev');
     }
   }
@@ -705,10 +701,10 @@
   document.addEventListener('keydown', function(e) {
     if (isAnimating) return;
     if (e.key === 'ArrowLeft') {
-      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      // 不要在这里更新currentIndex，让updateCarousel函数处理
       updateCarousel('prev');
     } else if (e.key === 'ArrowRight') {
-      currentIndex = (currentIndex + 1) % totalSlides;
+      // 不要在这里更新currentIndex，让updateCarousel函数处理
       updateCarousel('next');
     }
   });
@@ -797,4 +793,5 @@
 
 </body>
 </html>
+
 
