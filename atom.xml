@@ -6,7 +6,7 @@
   <link href="https://ccww.me/atom.xml" rel="self"/>
   
   <link href="https://ccww.me/"/>
-  <updated>2025-01-30T22:31:03.399Z</updated>
+  <updated>2025-03-04T20:31:21.981Z</updated>
   <id>https://ccww.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>换系统/电脑 迁移hexo</title>
+    <link href="https://ccww.me/2025/03/03/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E6%9B%B4%E6%8D%A2%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%9A%84%E6%93%8D%E4%BD%9C/"/>
+    <id>https://ccww.me/2025/03/03/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E6%9B%B4%E6%8D%A2%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%9A%84%E6%93%8D%E4%BD%9C/</id>
+    <published>2025-03-03T10:12:48.000Z</published>
+    <updated>2025-03-04T20:31:21.981Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="博客折腾" scheme="https://ccww.me/categories/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="hexo" scheme="https://ccww.me/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -42,7 +67,7 @@
     <link href="https://ccww.me/2024/12/15/stirlingpdf/"/>
     <id>https://ccww.me/2024/12/15/stirlingpdf/</id>
     <published>2024-12-15T20:35:53.000Z</published>
-    <updated>2024-12-17T08:45:35.256Z</updated>
+    <updated>2024-12-17T23:29:01.875Z</updated>
     
     
       
@@ -105,7 +130,7 @@
     <link href="https://ccww.me/2024/11/20/%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F/"/>
     <id>https://ccww.me/2024/11/20/%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F/</id>
     <published>2024-11-20T14:12:48.000Z</published>
-    <updated>2024-11-20T22:40:22.563Z</updated>
+    <updated>2024-11-20T22:40:39.586Z</updated>
     
     
       
@@ -168,7 +193,7 @@
     <link href="https://ccww.me/2024/11/16/rime%E8%BE%93%E5%85%A5%E6%B3%95/"/>
     <id>https://ccww.me/2024/11/16/rime%E8%BE%93%E5%85%A5%E6%B3%95/</id>
     <published>2024-11-16T11:21:25.000Z</published>
-    <updated>2024-11-17T19:54:27.633Z</updated>
+    <updated>2024-11-22T21:43:42.091Z</updated>
     
     
       
@@ -214,7 +239,7 @@
     <link href="https://ccww.me/2024/11/01/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/hello-world-again/"/>
     <id>https://ccww.me/2024/11/01/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/hello-world-again/</id>
     <published>2024-11-01T01:00:14.000Z</published>
-    <updated>2024-11-16T12:54:18.319Z</updated>
+    <updated>2024-11-16T12:54:36.874Z</updated>
     
     
       
@@ -430,29 +455,6 @@
     
     
     <category term="hexo" scheme="https://ccww.me/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>免费gpt4-资源-搜集</title>
-    <link href="https://ccww.me/2024/02/07/GPT/"/>
-    <id>https://ccww.me/2024/02/07/GPT/</id>
-    <published>2024-02-07T21:20:33.000Z</published>
-    <updated>2024-11-15T22:27:58.546Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="ai" scheme="https://ccww.me/tags/ai/"/>
     
   </entry>
   
