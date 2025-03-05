@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/2025/01/30/PotPlayer%E6%B7%BB%E5%8A%A0%E5%AD%97%E5%B9%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: PotPlayer字幕使用</span><br><span class="line">date: 2025-01-30 22:35:53</span><br><span class="line">tags:</span><br></pre></td></tr></table></figure>
+<h2 id="字幕设置">字幕设置</h2>
+<p>按<code>F5</code> 调整 字幕大小 字字幕位置 等</p>
+<p><code>alt</code> + ⬆️ / ⬇️  移动字幕</p>
+<h2 id="字幕添加">字幕添加</h2>
+<p>右键➡️选择字幕➡️添加字幕 /次字幕</p>
+<p>可添加多个字幕</p>
+<h2 id="翻译">翻译</h2>
+<p>可以使用deep/ 沉浸式翻译 <code>srt</code> 文件  下载 译文</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>CSC文件</title>
+    <url>/2024/02/24/CSC/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="219ef7909c957a8ccd6a3bc5bc51e260cadb4b83a621a28dbf6200d3dbb5ed5e">2eef888e0a1f2ebedf66342f12ca3360af1e71cc09840e3b51981f026290090f1e974fd0712e59b5e939db12971b64acf9f2c19fed9cc1f505ac4b2d8822b1c6735590dc150094e991fc9055af40454f2bbfc8d6e103a905fb3c4792b87585bab0d6b9fed299b9d8d473adb1a33bfa65eaee926cfdcc02bf7865d9102495fb54e31def20370e4f80bfbde51ad2a1910718e7503ae37edfb34f28cd7a2d07280487bbccb8ecac39ebe4fb135bc13efe541b5bec12d28b390d58cb8f24f0c0552c3e292666f218182f3caf972c5d3cb00ddae30127e8dba16b1405327a383404d226adb2513a80fba99dc26e122f626c21954daec37fec011d5f2485a1e0c83aeaa566ac045f3a7d10b01287d7701dbea2770f74b05b52e1af2a48d249cf4825e7f7d27497d4908cc48ab22a70eb64b23c36fca108cec9d65d97464292496f1552ce7ebe61b86715a88dec237b02d6a52f1a446b4b2dd2e78704405a760ace80192cad5a38cfb23993facc29f46a642cd8f5b2a58a54b73736519b44cf744973ef3a79a34dffbcf18b708ee54e4ee69b6a7e9c92fef26f66a0db6e7f84c9101de3a2fc172bee7809f0be3eee26c2fa625fae5ae5812310651470cda7e0c476b7bebdf1b793efe8f94c24259ae4dc3e730e47715bcca6805287cc99f5c59ace317949b5303ff75575b4d5c8e8c22fa0ae9d8f78e08cbea23aade6205424c3ee2519d97d7c1705c03582ce955f5c2b1d231222250d03b6497983e89b9040a6f826bd91e00da45dc1faa466896f9a3494f1b3975a6bf9da6ab7805cd0f8248fb46dfb51535764a5d1fa2e1e0298224d004709787d65a9b9dadb5535553ba5b02849e306b0646ab4e4f55576d49ee367b7cd8b6044815f8ddcfc11b26083a77b236da3f24c22053a38505e530a1e54a29fff227e717859cf510a8be353179bbf2b55bfca6b23211f84298db30038733b5bac182c5e2099db25053d328a43cc4558453e2029bdf634884cc4061bde7ec56fe30dd90dd30ff8634e373d0a1a3505b3fef0da9f2cc09cbabb504b21e85fefd7c0da06a6d8d940e5b9e895b50c66a389b48383aa527cb071c99b07d9abf2ef055c1ed450212b717067049f04924dd7289860ea14deb5c14e4992f5ca88dabe668e8dbbf94ba40fde2b79a03fd04eea25a916a12e6a2c2946af665138b05f14d4a92f436200aad83ca94830fb003fc3594c7a71a0528f8a3f059a976a89c0d3f5d7e59e95728248ce9435fd5e0a04a9a1b62c863b9dc8463fc92231c6404fb22933dec050b69f2376f99ee5f04af48046f9c1bf818182f16865375224de80e7b2c1d5e08ffce878dfcc11227448f7d979c8531a37598b96f742adc9827d9cdeb92dc858feae36152eab111052badc5261b5d30ce7f91eb2bdb5fcbb3b2f46f98a3a98453164f3e3ae5a7adcae43178dc20c9fae38bd057d6d43bed3fe3582904096d60cb28a77d3faa30fdf9e24e5fac0c29a3ffbd6aef1a6462a6600214a35fbaf229346a7fbadfcaaf996925d79b23eb47b9e76c8a13e22caf90051469560e1085ecccaa9ae9d06eb7f001f560608b3e1cc0425afae08bce8ed087ce99843db00ad781d9c45ea4fd2b8d76636632da62fa6978754d5767ad25dba1ad25aee5b6743cb37e7faa7f23211e3130bd149373a181e8a984c2e1d047bd1c62a61a6213e76b5a905cd93b4c64f67df7470c9cf1cf2e26cc6e69f14463ef1fc74a67858e4fecfa0d6285dd755e81148ff06e4cc71b1866838a655818e2ca16356d89ff25705640970e0f4064c8c7bfb4ff3faa01ae16ebedfbf1a400f94fa1de71073596993edc8cc8edf984648b7785e295432dc50a8d063e28da713644c8c30fb258a5d7b39cdca76707b6f7aa28db2e48f02fe9c09ebeca1c700e082dc7e9ecf7924deefb4d137c386b770c6dc5c6631c2f958463ed7a22eccd83dbf9382e3ec4941e422a57c169aa11bc5d64e471dff46d1214ddd1af8ba2e90b8141817c96683329e37ce17627232db1531fe8de4b623b2a5f9bd9b55f753f88ac93df0e5d286d3143140a11b1c025492d05bbd18a10804583026d0655f815771d401cc33bb624220b2bd625d7e71a707b0313c41eef4cf981b295fbf17d57fc22a0a68d1ef929104a9ecf39163de5fc2d987664271fe60e010daaa41ed762b7216b26bb75973f9bae10fca0ad17e2d62bed582a38e8a064c039d5f2d3bc1f529ec59412309a7d53dc8c0e7324e2ac3a9d551763ce1c40125e4262fbfc589d2f997920fb060488c6d6175676388d82efcafdbec987aefa67104ae27ed70bd7f9c310241fe6f05f4ad349a0ebbed84ae66d6d71e83e5dbbdfdaa20003f2df896009649a51df3b09d23d8ed785ae6559959b168ca12ea0ec378910162c17b10e13291dbc8ef73fe0f58b0fe0f95871a51d996014e8179316b5d76ae146a240786a4f6a387f8998407e52ceaa30ac903818ad288acfa89e087d25cd991a0d6850c93185e9ca56c8de2c9d1788fe66c42e1e76bcf9b17ddad06c52ceb8cc4b771e4d945a465ab161f82525223f2c00053084fb8cbab44e27a64130f2a3d9fe86d429f70f8cb7f3ead251ed76fc3b17d0ad6429d398898402b6370d218f40b6f07926f052cc7b153352a9079b3ca13d060abebb191ba3e6f3ed3d75d11e23f30da64db5669e3f83843347994c23ca5e32853311cfeea7d25ae2b471ed2283cf52cb1aa44de80a001713a65fb789111d2121b283a9ad679c116fe53641ee60972660cae92f424c0f03c50fed2a1d6512de5a4938ec5237ed1cb48eadc36b30030e0ec92f55a45dffac8c4ddb86f80c52797b79af386b2d703d30484ffe8a29970f8970d606c445f8f93099df8485c32b27514b4032fde61cd3324caa2862d12c289126395ba15375813be25dcb46c6916ae402e02e0d6956f00256d187e7e07a4856c2fb13ea8e22284b163fba81145b856e9983614b029eb6d52223a5c6897d42c187f578de4d18a56ad3e496529e0b0abe0006e2ac9d93f32760793d3c3adc79e58a9478714ec2b38af9d5134f42e48c0425f6f162ef0135ea3b01652568cd4e7ebca49edf2eedfb5356211f3c957c1fbc519034b0b0a68c526bd92f1032db96b5802c7f4f7916a247f3a3f41b3efb8891c4f90a4dcc1e2228c3b0744b50af53f79f2fde1d5924ad0b68d9db0d158ab338bccfa3318a909aaab93c61dc740f6de40df7f5b3edd7e19af5893e2050dad42cfdbe8ac752ea43dce17f7ddd56bffbecd1f893f18879997af03bf4cb57792ee81f6dea086aa3a48c34129ad2179065877103111f37a707c62883293551b0cdc9beb4f714d0e37e06e8f889957f052a865051d0b593e097a5f1a738c64f001f38198d52eb6de1999824868ebb2b0d17964c11b3f1a323da9633ff0ff3dc2b1f5ed7e474a6c1ef84f0bd881ed7fe054a037868cd214be7a81c4746844869c36500b548956b9c63789a3c51fdf88f1684fbbfdf680d8360c47f548759ec909d5029680a96ef9a88a36536b915e034cd6866a93daa25580661273fc38052a74179beb605a3bec699362650b080a38ebfff231ebf8713309ac29d9a7671e2ea9e4d18ca9c7646b086630fde39ba0ff4bbb0478f4b7612ac300bf8a71ae87c9ef38038a3631787aa33c8706e9e419faa594e1a824c4504dd36638cadeaeee1d59f6876583cb271ebde53977e6bdfaa5de93844184ff4230feff0e4e5e6a42cc08436015f3ff464632a330d03d0dd36d20b9d65e5a0790a2fa3d9678a96ca0167bedc69527be68a9ad297be3db4b61e4ff98a9fb13d58e740a1c9de1029117eee9b7f7fe688d240fd9e73425cd85d24e1cf67abc7b39187218bba6cf2061492f1f65f09b0e110e7f6ee14c150f8d9bb43a30ab40705c9ab821662752a8b8f0436378226a2eca9d353877598f87309c586feff5849421d0332360563f827c2a4af3eb77b74a9cc4f61f229564d68f0a5f453c9ca283d46c603f6ca78d8ca4faad3db716288baeb46b181efbb426a0eb7614d11dd672af1195acc7c4e3c6b8df6ad48475f698f1242cf257eabe8ad06ee683e75ab6ac6b403c0a30865ad43350f3a981e6cb6ea2a4f172e7065aa5c5a7dfa9317765ec525fcdafad1836184691fff8dcf40c5badc4dcfd9de4f33943946042c70761b140d9292d51f92f3ec0049cdf44cde881d5f3b6bd5001bef43c5f62de0fb57d0a1a3550289a6d352b0f05206ed85d18b339b0e5385eacf37f9333fa00d7c563fe1199a89c99ce8c240a801bbf95d3a592d31080439daa15b6d0f142aa0bf07b610bda3092ab27dee4e8c9dca883bc72cfe7a6b67b5706e728f6b38d0b3c68973d75db5354a1b723bd2479643e2c2d7872a86ee17eda6c44253754f155bbb03eaa05a555e85b06b4c78d30dde1ba4fca94cbeb3503a5d7f8c1f99c11ec8bc7d3b90a10958496a0de8551fd43a0275bd1faecc3b0e50c7fb709fddfe0062ecbe5677a1ab5987ec4ee1caa6e51ca809b83afb88c1ccb996b49829e6aa7443d53f0958a460d799f5002256bf10c9bbbc25094d5b9f5ddc52a4232c3316eedd28d8e0320d37893cb066331f06129a31a714ed9a19437a4641f9379df9e6a50ac2ab26c40a58cf2de5000c0a5404008b223d284114bc8249d2f13689cfd37f5a1647f51d6b7a2970aac75ac89d2c376f895635bd7dcfc75c5bc168c0b4b88c78a02624b8b072981786536eb69f20a96a96533bd3367cf804f14afeebb2a524c7b7d3ed25fccb6d9e0091cbf6f001f38c6fb34e5c9269a92648b9431db00b9a812b21e14406d2da44a009dc4dc91cdc6fd86ee59bd21c0b8a35f8a6b773285006e36ec36e4541fd6097ca3a0ac0eeb78033a7c07f69fc3552f7f5ffc5d0027ef90ba30ac22e306720522f7b20255ee12b5cdedf05cc358289bd0785b86c19a343149eda6d28680a8d36e5c249f33bdb44214b17c6631b62418ffb7728d52e790eaa77f2ea8738cdcab30bd22495307b96fe2c8ec52ad0754bfc808948ee40f2352549eddcde9285d176e5356b1baa7f58b2658850e51be14705ad17012e2ac390c5bb27b7deed992bf48c116cf7c892817f49580cbd5948045aabecbdecb14d10d0c1f33deaeb1b07f58ffe3b7d4bffacd31bd4ddfd98820ed7bc0595d34c50b0e80f3645c99b2985715809c13432f0e122fdd9ab3d6179c03810d4b08d9de1b47dd69dccf50060dcb6b7c9938e0912a8f38389797cbc29dbed3a199fa98c318b8c21c2282e9c5dc785e67baac9f747eb1c5b5655e20896d0f7c11c8aec6e56f1807fdabd655b196af25dd84e15bba14b74b4b1fe5914b618e7664b1fd97760ad9ccb2084fc4090d16db8d05d467d574d2d9f24e3582f9485e3c44c19030d39d100152b4866bc33910bef8e6a4052f6d18c6ee79427141c79530e9be5d525439156aa08fcfd05a39b25d94e1f1e41a42b67615ced0071db07d57cae0673f9be57bce5be17fa146109fe563fbcb5343080fd6ed5f06a4735c710e7ce256e17f058bc8b0a310410860748e53bcd28cfe88885796c4ffeeb1a61158062b70fcea701ffa39f6ba3db7f01a3f87a90d41e9810d3a69d54bb96ffd73b770c38d771e5f046fa8498f4cf6835d6975768eeb3b41eb4fa7b07fb1f1afaf846706dcf67aad0225a74f06ff03cece9db5daad359710ec999c66d15e28fa2f24f0edd30e9a06031470cd5f97338b76a87a02bd66091b957fc7e9e88644458e2a10908d5ef9c7469e060aee79e774e7e2cc711abe51295c354dfa997e12160415c3fa6b468a7c433eb0ac8fb835b0cc9d89aeb0b80b87bac06f1434bffeac60451d60d871a6642aa65b398294cbc7864cf4f294976a4f59f74bc7b5046b6b2a546530dfeba18998710e3a4d504980924d035fb53da63634f261e4c7f73836401ebea031254512f68c2c1861e24f5e94e342422a7817d832a9a247b7e916e4135871fb902ecac199a62fccd4cfb72d038199565b863c4b8eb789b3a8cda6439e0a2afac32da810d816ae44b1ff0156b34d237f9035c88efb09cc98acbff9356e3a194dd0b89d217b75a4ec30139e55f84b40cdcd99091c5bb3ccbf64c5b8125802148da2ae496b6244efaf1d6b0c7ceaaf9337548a5e03a0874034763ad154958dbcb06a6ac2aee9c3685597a2bc8c3430054dd4e069f4f82ba6f6e0ff9e2573491922fdb9d12d79f2b20bae11f35b3836cc716ab62d1389325374d568db0e88ebe2716f206b6f4dd51ccd03dc85d6671da2f235e9badeb247a45f9dc5df55c9cc03306eb1d11e88f8778ca436e0679f06614910d9a2ccf3e69655726007c4abdd5fbd39b5c1400bd286afd0dd36009934d397f029fbdfbace6fb2ff407965c3142aac84aa7a5cc2457f3214d61d30093ecef9e73d283dbae705f0a0107881e1736bc20a9acde58e1a162640159150244ea8d88cf3bab7ef87253554ad8646415db2113e2427f34440ef5f50d4149208ce149da4adf5b6bcefef0d4207fdbf8a7c35d6100fe1f63d3bb5c6e9c1a7d4fce35ba40b08f9eeb7161e895db037004bfea8733b07b652bdc830cbc9b75bc6ad965919822bbd58375b87fdef326815ef1cd43d23bb8c7622b8dbdbbc534bae6c0ba84db84e9965cb994ff1d038d5bb36eca54281d67b62144a083ebf8751b193bd0924c215d5c1b400d8e430835d31c5db34242e23daaa4e400844d0914ea7dfe27dabe9f28f29aa848cb1bdbe9a40d3ee836f5bfdb10eb84a65cede6a840cefd96f49119c8aeef810c79fff1d367aedd3dae11a8a9d7ed09248ce101a243d61420a9cb2fc14c791696bbc1615a378e1e317f6609d9a9247872b5d4e6039b6eaf66c018e086755d7dc4d62268349d4d3b4987e7294cc33898d0c1a628a68f1100f114e4f537676140a48feb96e293bec17ce96432519b6417f5106fdaf8d35f05f1e790dd0be371928632f0c66aa2776581364940df15370d978bb4e9109338d76f009b5125578a6eb12153fa05e773b85e2e499436e26bac68a30036289cc3bfbfa3e713636f5a54466d60c287aac9cb8c0a8b528544f9a5efc3da2e805eced89399a2db24609f0eb1b6fbd3d4d22d7b5e8026ec79c361aaf2809a52e54ff0ab0e2ab8cd8245588dfc20db4a23c02218e4ec8d469e8216270449fc4943c8760dea94f86496f58f20924e998fa0f100a1fd49ae48e65f69934646908cbcb181d9f0b6a67b64cd0d8dca0e692e541b5c5b1ac892216507803f242a039a12c136b7adc35aaac6429f56f501bf6cafcd7b301792705ea055773268a5c209ca9d5ba11ee1d57aad5e8a55888f293d7b0bea806ca7bada1af0fa39121acce0deb89268b8347adfba162f835cfc7d890548e5b59a27fb8fc6e54bf3ec90da773ab41b0af8e0009deb928fc4b6905125c7bc6ef8c10d98ce95b45a2436d2db7fc94179ed1ebec89fce440a99a12e7046ef1303a87be789063f5a714147936a3972d80bcc5e0abaf55c71be38df026b9e53322460018e60b1873f50cc2e817bbc8cf56a28e1327bb77146d9e1a691366a8e7ed40b208ed34cf411dee975bf23720859d595cd3068ed22ef90773cc535eeda1c3151321acb15e5ac7ae2278a72b076c96683c12faf5f81375d138f41fc3fe4c7b84e181fb5f99fe86e7dc1bc910d897d428ad6e8fee7303c348bdddee004147fd3b3ef3ad6d3920a27865adfdb040d142fd137dadcd9c6dd6e241dd02621e532a1ebd06cee8a3233af32066f345ed4cc369e4b17593df7358388ea14286b7e05b679a13cea18293e0b4872f235a4f8f269094ff798726dbd2a6b3f5adaa9d0d40c7a1f5f02bfd088955b6042f1e48906a540f9c9f47f4d29664569b84d2563c35eb43e209898fa7d8688380e8aa9b3e9c83a0800e2620cda093be961fa614473c19087e5398253b06a85ff554b48c89d3073f1adb627b7055742338a61dff954b204162a7c276a4474099467b373cc054a8bce9a5c61143c7c7fa3304461a4505c61490ed5905d8c875d3fac8664741b1387d85ddb70b59455d3effeb2879082fc8538be3f66bd399b4500962bb31a043b1bbb501a33124dd8bb8e28f78d517d7c040d359d32dd3840dbe662037fbf3b3f62029cd59</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>R语言长数据转换</title>
+    <url>/2024/11/17/R%E8%AF%AD%E8%A8%80%E9%95%BF%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>xls转换成csv</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 加载必要的库</span><br><span class="line">library(readxl)</span><br><span class="line">library(tools)</span><br><span class="line"></span><br><span class="line"># 设置输入和输出文件夹路径</span><br><span class="line">input_folder &lt;- &quot;C:/Users/Administrator/Desktop/raw/raw&quot;</span><br><span class="line">output_folder &lt;- &quot;C:/Users/Administrator/Desktop/raw/out_csv&quot;</span><br><span class="line"></span><br><span class="line"># 创建输出文件夹（如果不存在）</span><br><span class="line">if (!dir.exists(output_folder)) &#123;</span><br><span class="line">  dir.create(output_folder)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"># 获取输入文件夹中的所有文件</span><br><span class="line">files &lt;- list.files(input_folder, full.names = TRUE)</span><br><span class="line"></span><br><span class="line"># 遍历每个文件</span><br><span class="line">for (file in files) &#123;</span><br><span class="line">  file_name &lt;- basename(file)</span><br><span class="line">  file_ext &lt;- tools::file_ext(file_name)</span><br><span class="line">  </span><br><span class="line">  base_name &lt;- file_path_sans_ext(file_name)</span><br><span class="line">  output_file &lt;- file.path(output_folder, paste0(base_name, &quot;_out_csv.csv&quot;))</span><br><span class="line">  </span><br><span class="line">  if (file_ext == &quot;xlsx&quot;) &#123;</span><br><span class="line">    # 读取Excel文件</span><br><span class="line">    df &lt;- read_excel(file)</span><br><span class="line">    </span><br><span class="line">    # 写入CSV文件</span><br><span class="line">    write.csv(df, output_file, row.names = FALSE, na = &quot;&quot;)</span><br><span class="line">    </span><br><span class="line">  &#125; else if (file_ext == &quot;csv&quot;) &#123;</span><br><span class="line">    # 复制CSV文件并重命名</span><br><span class="line">    file.copy(file, output_file, overwrite = TRUE)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">print(&quot;转换和复制完成！&quot;)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1>转换</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">print(getwd())</span><br><span class="line">library(tidyr)</span><br><span class="line">library(dplyr)</span><br><span class="line">library(tools)</span><br><span class="line"></span><br><span class="line">input_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_csv&quot;</span><br><span class="line">output_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_chang&quot;</span><br><span class="line"></span><br><span class="line">files &lt;- list.files(input_dir, pattern = &quot;\\.csv$&quot;, full.names = TRUE)</span><br><span class="line"></span><br><span class="line">if (!dir.exists(output_dir)) &#123;</span><br><span class="line">  dir.create(output_dir)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">for (file in files) &#123;</span><br><span class="line">  base_filename &lt;- file_path_sans_ext(basename(file))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Processing file:&quot;, base_filename))  # Debug: Print filename being processed</span><br><span class="line">  </span><br><span class="line">  data &lt;- read.csv(file, header = TRUE)</span><br><span class="line">  </span><br><span class="line">  long_data &lt;- data %&gt;%</span><br><span class="line">    pivot_longer(</span><br><span class="line">      # 因为csv的数字是以X开头 所以用starts_with</span><br><span class="line">      cols = starts_with(&quot;X&quot;),</span><br><span class="line">      names_to = &quot;year&quot;,</span><br><span class="line">      names_prefix = &quot;X&quot;,</span><br><span class="line">      values_to = base_filename</span><br><span class="line">    )</span><br><span class="line">  </span><br><span class="line">  output_file &lt;- file.path(output_dir, paste0(base_filename, &quot;_out.csv&quot;))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Writing output to:&quot;, output_file))  # Debug: Print output file path</span><br><span class="line">  </span><br><span class="line">  write.csv(long_data, output_file, row.names = FALSE)</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Finished processing:&quot;, base_filename))  # Debug: Print completion message</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>laTeX学习</title>
+    <url>/2024/01/31/laTeX%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
+<h1>hexo 中显示 latex :</h1>
+<h2 id="安装">安装</h2>
+<ol>
+<li>
+<p>npm un hexo-renderer-marked  # 先将原有的渲染器卸载<br>
+npm i hexo-renderer-pandoc# 安装pandoc</p>
+</li>
+<li>
+<p>在主题配置文件_config.yml 中找到math关键词，将mathjax的false改为true。</p>
+</li>
+<li>
+<p>本地安装pandoc 后重启</p>
+</li>
+</ol>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mi>f</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mn>2</mn><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mn>3</mn><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mi>n</mi><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mi>n</mi></msup><mo>+</mo><mo>⋯</mo></mrow><annotation encoding="application/x-tex">f(x) = f(a) + f&#x27;(a)(x-a) + \frac{f&#x27;&#x27;(a)}{2!}(x-a)^2 + \frac{f&#x27;&#x27;&#x27;(a)}{3!}(x-a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n + \cdots</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0019em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.4095em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0645em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278em;"><span style="top:-2.931em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′′</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.4095em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0645em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278em;"><span style="top:-2.931em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′′′</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.5067em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1617em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9667em;"><span style="top:-2.9667em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5357em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mathnormal mtight">n</span><span class="mclose mtight">)</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.313em;"></span><span class="minner">⋯</span></span></span></span></p>
+<h2 id="换行">换行</h2>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">\begin&#123;align&#125;</span><br><span class="line">a_&#123;11&#125;&amp; =b_&#123;11&#125;\\\\</span><br><span class="line">a_&#123;22&#125;&amp; =b_&#123;22&#125;+c_&#123;22&#125;</span><br><span class="line">\end&#123;align&#125;</span><br></pre></td></tr></table></figure>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd class ="mtr-glue"></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>a</mi><mn>11</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msub><mi>b</mi><mn>11</mn></msub></mrow></mstyle></mtd><mtd class ="mtr-glue"></mtd><mtd class ="mml-eqn-num"></mtd></mtr><mtr><mtd class ="mtr-glue"></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>a</mi><mn>22</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msub><mi>b</mi><mn>22</mn></msub><mo>+</mo><msub><mi>c</mi><mn>22</mn></msub></mrow></mstyle></mtd><mtd class ="mtr-glue"></mtd><mtd class ="mml-eqn-num"></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{align}
+a_{11}&amp; =b_{11}\\
+a_{22}&amp; =b_{22}+c_{22}
+\end{align}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3em;vertical-align:-1.25em;"></span><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span></span></span><span class="tag"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.75em;"><span class="pstrut" style="height:2.84em;"></span><span class="eqn-num"></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:2.84em;"></span><span class="eqn-num"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span></span></span></span></p>
+<ul>
+<li>
+<p>开头结尾加入</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\begin</span>&#123;align&#125;  <span class="keyword">\end</span>&#123;align&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>\begin{align}f(x)\\& = f(a) + f'(a)(x-a) + \\&\frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots + \\&\frac{f^{(n)}(a)}{n!}(x-a)^n + \\&\cdots\end{align}</p>
+]]></content>
+  </entry>
+  <entry>
     <title>免费gpt4-资源-搜集</title>
     <url>/2024/02/07/GPT/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"># 前言</span><br><span class="line"></span><br><span class="line">偶然在哔站看见一张全是 gpt 账号的图，但是up主并未公开网址，以图搜图，了解到一位大佬的网站https://zhile.io/ ，这位大佬开发了一个项目和一个共享界面，里面有很多免费的gpt账号，开启了白嫖生涯，第一次尝试了gpt4和插件功能。不过，由于种种原因，服务器关停，感恩。由于目前没有长时间使用、依赖gpt4, 只是需要一些资源了解gpt功能，所以搜集以下资源。（:cry:主要没钱... ...</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">~~**网上搜集自用，侵删**~~</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&gt; ⭐️: 常用  </span><br><span class="line">&gt;</span><br><span class="line">&gt; 🚩: 有插件功能</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 1. 🚩RawChat</span><br><span class="line"></span><br><span class="line">- 网站：https://sharedchat.cn/shared.html   &#x27;https://sharedchat.cn/shared.html</span><br><span class="line">- 项目地址：https://github.com/RawChat/RawChat</span><br><span class="line"></span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402132201192.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 2. ChatGPT-Next-Web</span><br><span class="line"></span><br><span class="line">- 网站：https://chat.caifree.com/  &#x27;https://chat.caifree.com/&#x27;,GO </span><br><span class="line">- 项目地址：https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web</span><br><span class="line"></span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402132202129.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 3. 🚩⭐️⭐️免费共享车队</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- 网站: https://free.xyhelper.com.cn/list  &#x27;https://free.xyhelper.com.cn/list&#x27;,GO </span><br><span class="line">*目前隔几分钟就会强制推出* 记住车号和密码 以防万一</span><br><span class="line"></span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402132205801.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 4. gpt4free</span><br><span class="line"></span><br><span class="line">- 项目地址：https://github.com/xtekky/gpt4free </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 4.1 python部署</span><br><span class="line"></span><br><span class="line">- 教程：[官方文档](https://github.com/xtekky/gpt4free?tab=readme-ov-file#-getting-started)   、[参考1](https://tecxology.com/howto/gpt-4-free/#%20%20)  、 [参考2](https://www.cnblogs.com/Cl0ud/p/17372957.html)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 5. ⭐️免费 GPT-4 点开即用（暂停刷新）</span><br><span class="line"></span><br><span class="line">- https://c2c.gpt4fr.ee/ btn &#x27;https://c2c.gpt4fr.ee/&#x27;,</span><br><span class="line"></span><br><span class="line">- 发布论坛：https://linux.do/t/topic/8145</span><br><span class="line"></span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402132206071.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- *2.18 新增 负载显示和订阅价格:*</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402182127600.png)</span><br><span class="line"></span><br><span class="line"># 6</span><br><span class="line">- https://chat.gking.me/   btn &#x27;https://chat.gking.me/&#x27;</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402140921296.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 7 api key</span><br><span class="line"></span><br><span class="line">- 网站：https://chat.flssedu1.top/#/chat &#x27;https://chat.flssedu1.top/#/chat&#x27; ,</span><br><span class="line"></span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402151028672.png)</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402182118049.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 8</span><br><span class="line">- 网站：http://free01.xyz/  &#x27;https://c2c.gpt4fr.ee/&#x27;,</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402161551971.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 9🚩</span><br><span class="line">- 网站：</span><br><span class="line">  - [https://mfgpt.iil.im/](https://mfgpt.iil.im/)</span><br><span class="line">  -  https://gpt.iil.im/#/</span><br><span class="line">  - https://freeapi.iil.im/</span><br><span class="line"></span><br><span class="line">- 发布地址：https://linux.do/t/topic/12504</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402160926550.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 10. 🚩⭐️</span><br><span class="line"></span><br><span class="line">- ***https://c0.topai.vip/***</span><br><span class="line">- **https://home.xjai.top/**</span><br><span class="line">- ***[https://home.topai.vip/](https://home.topai.vip/)***</span><br><span class="line">- [http://w9.xjai.cc/](http://w9.xjai.cc/)</span><br><span class="line">- [https://nav.xjai.top/](https://nav.xjai.top/) 动点超级导航(里面有)</span><br><span class="line"></span><br><span class="line">![](https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/202402161553565.png)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 11 Gemini</span><br><span class="line">[https://1e1.fun/chats/](https://1e1.fun/chats/)</span><br><span class="line"></span><br><span class="line">- </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 12 200$美元token</span><br><span class="line"></span><br><span class="line">- **https://one.caifree.com/**</span><br><span class="line"></span><br><span class="line">- https://linux.do/t/topic/10961</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 13. 试用3-19过期</span><br><span class="line"></span><br><span class="line">- https://www.soruxgpt.com/</span><br><span class="line"></span><br><span class="line">- https://linux.do/t/topic/15340/95</span><br><span class="line"></span><br><span class="line">​	xebtor</span><br><span class="line"></span><br><span class="line"># 14.</span><br><span class="line"></span><br><span class="line">- https://share.aischat.xyz/</span><br><span class="line">- https://linux.do/t/topic/16977</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 15.</span><br><span class="line"></span><br><span class="line">- https://yuelink.cn/</span><br><span class="line"></span><br><span class="line">- https://linux.do/t/topic/16065</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 16. </span><br><span class="line"></span><br><span class="line">- https://aitopk.com/list</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 17. deepseek（翻译）</span><br><span class="line"></span><br><span class="line">***一千万token***</span><br><span class="line"></span><br><span class="line">- https://platform.deepseek.com/usage</span><br><span class="line"></span><br><span class="line">- https://linux.do/t/topic/19773</span><br><span class="line">- API：https://api.deepseek.com/v1/chat/completions</span><br><span class="line">- model: deepseek-chat</span><br><span class="line">- sk-4aa7f75c53c34a5aa725dacaffda56df</span><br><span class="line">- sk-b49256a3ef734391bbd5ae3effb9d0a4</span><br><span class="line">- sk-b49256a3ef734391bbd5ae3effb9d0a4</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 18. </span><br><span class="line"></span><br><span class="line">- https://linux.do/t/topic/21709</span><br><span class="line">- https://chat.ghacg.com/#/chat</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 19. </span><br><span class="line"></span><br><span class="line">- https://openai.ehco-relay.cc/</span><br><span class="line">  - debtor 85*</span><br><span class="line">- https://linux.do/t/topic/21794</span><br><span class="line">- https://twitter.com/Ehco1996/status/1763466913328533512</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 20. coze 部署 待解决</span><br><span class="line"></span><br><span class="line">- https://www.dqzboy.com/16532.html</span><br><span class="line">- https://appscross.com/2024/02/save-20-per-month-triple-jump-free-use-of-gpt4turbo/</span><br><span class="line"></span><br><span class="line">两个bot</span><br><span class="line"></span><br><span class="line">1213214292464107560</span><br><span class="line">MTIxMzIxNDI5MjQ2NDEwNzU2MA.GsaS2h.5hJu9V-fo8pchX0xjTdZWYVpw_s7WxIvZ1wuBk</span><br><span class="line">1213215578790039592</span><br><span class="line">MTIxMzIxNTU3ODc5MDAzOTU5Mg.GBvItD.XlSE4iBIJ53rCvBtOWsK9w9yA5wQ7smtP6dqso</span><br><span class="line"></span><br><span class="line"># 21. </span><br><span class="line"></span><br><span class="line">- https://allai.today/</span><br><span class="line">- https://linux.do/t/topic/18438</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 22. 甘佬</span><br><span class="line"></span><br><span class="line">- https://linux.do/t/topic/22040</span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -108,122 +181,6 @@
       <tags>
         <tag>ai</tag>
       </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2025/01/30/PotPlayer%E6%B7%BB%E5%8A%A0%E5%AD%97%E5%B9%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: PotPlayer字幕使用</span><br><span class="line">date: 2025-01-30 22:35:53</span><br><span class="line">tags:</span><br></pre></td></tr></table></figure>
-<h2 id="字幕设置">字幕设置</h2>
-<p>按<code>F5</code> 调整 字幕大小 字字幕位置 等</p>
-<p><code>alt</code> + ⬆️ / ⬇️  移动字幕</p>
-<h2 id="字幕添加">字幕添加</h2>
-<p>右键➡️选择字幕➡️添加字幕 /次字幕</p>
-<p>可添加多个字幕</p>
-<h2 id="翻译">翻译</h2>
-<p>可以使用deep/ 沉浸式翻译 <code>srt</code> 文件  下载 译文</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>R语言长数据转换</title>
-    <url>/2024/11/17/R%E8%AF%AD%E8%A8%80%E9%95%BF%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>xls转换成csv</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 加载必要的库</span><br><span class="line">library(readxl)</span><br><span class="line">library(tools)</span><br><span class="line"></span><br><span class="line"># 设置输入和输出文件夹路径</span><br><span class="line">input_folder &lt;- &quot;C:/Users/Administrator/Desktop/raw/raw&quot;</span><br><span class="line">output_folder &lt;- &quot;C:/Users/Administrator/Desktop/raw/out_csv&quot;</span><br><span class="line"></span><br><span class="line"># 创建输出文件夹（如果不存在）</span><br><span class="line">if (!dir.exists(output_folder)) &#123;</span><br><span class="line">  dir.create(output_folder)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"># 获取输入文件夹中的所有文件</span><br><span class="line">files &lt;- list.files(input_folder, full.names = TRUE)</span><br><span class="line"></span><br><span class="line"># 遍历每个文件</span><br><span class="line">for (file in files) &#123;</span><br><span class="line">  file_name &lt;- basename(file)</span><br><span class="line">  file_ext &lt;- tools::file_ext(file_name)</span><br><span class="line">  </span><br><span class="line">  base_name &lt;- file_path_sans_ext(file_name)</span><br><span class="line">  output_file &lt;- file.path(output_folder, paste0(base_name, &quot;_out_csv.csv&quot;))</span><br><span class="line">  </span><br><span class="line">  if (file_ext == &quot;xlsx&quot;) &#123;</span><br><span class="line">    # 读取Excel文件</span><br><span class="line">    df &lt;- read_excel(file)</span><br><span class="line">    </span><br><span class="line">    # 写入CSV文件</span><br><span class="line">    write.csv(df, output_file, row.names = FALSE, na = &quot;&quot;)</span><br><span class="line">    </span><br><span class="line">  &#125; else if (file_ext == &quot;csv&quot;) &#123;</span><br><span class="line">    # 复制CSV文件并重命名</span><br><span class="line">    file.copy(file, output_file, overwrite = TRUE)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">print(&quot;转换和复制完成！&quot;)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h1>转换</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">print(getwd())</span><br><span class="line">library(tidyr)</span><br><span class="line">library(dplyr)</span><br><span class="line">library(tools)</span><br><span class="line"></span><br><span class="line">input_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_csv&quot;</span><br><span class="line">output_dir &lt;- &quot;C:\\Users\\Administrator\\Desktop\\raw\\out_chang&quot;</span><br><span class="line"></span><br><span class="line">files &lt;- list.files(input_dir, pattern = &quot;\\.csv$&quot;, full.names = TRUE)</span><br><span class="line"></span><br><span class="line">if (!dir.exists(output_dir)) &#123;</span><br><span class="line">  dir.create(output_dir)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">for (file in files) &#123;</span><br><span class="line">  base_filename &lt;- file_path_sans_ext(basename(file))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Processing file:&quot;, base_filename))  # Debug: Print filename being processed</span><br><span class="line">  </span><br><span class="line">  data &lt;- read.csv(file, header = TRUE)</span><br><span class="line">  </span><br><span class="line">  long_data &lt;- data %&gt;%</span><br><span class="line">    pivot_longer(</span><br><span class="line">      # 因为csv的数字是以X开头 所以用starts_with</span><br><span class="line">      cols = starts_with(&quot;X&quot;),</span><br><span class="line">      names_to = &quot;year&quot;,</span><br><span class="line">      names_prefix = &quot;X&quot;,</span><br><span class="line">      values_to = base_filename</span><br><span class="line">    )</span><br><span class="line">  </span><br><span class="line">  output_file &lt;- file.path(output_dir, paste0(base_filename, &quot;_out.csv&quot;))</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Writing output to:&quot;, output_file))  # Debug: Print output file path</span><br><span class="line">  </span><br><span class="line">  write.csv(long_data, output_file, row.names = FALSE)</span><br><span class="line">  </span><br><span class="line">  print(paste(&quot;Finished processing:&quot;, base_filename))  # Debug: Print completion message</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
-    <title>alist搭建</title>
-    <url>/2024/02/06/alist%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
-<p>突然浏览到 别人的博客 加载了个人网盘 了解到alist 感觉有点用</p>
-</blockquote>
-<h1>1. 本地安装</h1>
-<ol>
-<li>
-<p>下载win-zip包</p>
-</li>
-<li>
-<p>解压后在路径 中输入CMD</p>
-</li>
-<li>
-<p>终端中输入alist server</p>
-</li>
-<li>
-<p>界面中有登录密码(password)</p>
-</li>
-<li>
-<p>浏览器中输入<strong>127.0.0.1:5244</strong></p>
-</li>
-<li>
-<p>登录admin, 输入原始密码，之后可更改</p>
-</li>
-</ol>
-<h1>2. 挂载网盘</h1>
-<ul>
-<li>参考官网文档</li>
-</ul>
-<h1>3. 挂载本地</h1>
-<ol>
-<li>下载安装 RaiDrive 软件</li>
-<li>添加:arrow_right:添加 NAS:arrow_right: webDAV :arrow_right:去掉地址√  :arrow_right:地址输入: 127.0.0.1:arrow_right: 端口输入5244:arrow_right: 路径输入：/dav:arrow_right:  输入alist账号密码 :arrow_right:点击<strong>链接</strong></li>
-</ol>
-<p>​	打开我的电脑即可看到</p>
-<h1>4. 开机自启</h1>
-<ol>
-<li>
-<p>新建 VBS文件 ,输入代码：</p>
-<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Set</span> ws = <span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;C:\alist-windows-amd64\alist.exe server&quot;</span>,vbhide</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>放入alist文件夹，添加快捷方式</p>
-</li>
-<li>
-<p>双击即运行</p>
-</li>
-<li>
-<p>开启自启</p>
-<p>win r →shell:startup</p>
-<p>将快捷方式拖入</p>
-</li>
-</ol>
-<h1>5 公网访问</h1>
-<ul>
-<li>教程:<br>
-<a href="https://www.youtube.com/watch?v=1YRq0846yWs">没有软路由、NAS，外网访问家中电脑里的alist? 只需一个域名</a></li>
-</ul>
-<h1>参考</h1>
-<ul>
-<li>
-<p>github: <a href="https://github.com/alist-org/alist">https://github.com/alist-org/alist</a></p>
-</li>
-<li>
-<p>zhihu: <a href="https://zhuanlan.zhihu.com/p/668599673">https://zhuanlan.zhihu.com/p/668599673</a></p>
-</li>
-<li>
-<p>官方文档：<a href="https://alist.nn.ci/zh/guide/">https://alist.nn.ci/zh/guide/</a></p>
-</li>
-<li>
-<p>B站教程：<a href="https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click">https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click</a></p>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>CSC文件</title>
-    <url>/2024/02/24/CSC/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="219ef7909c957a8ccd6a3bc5bc51e260cadb4b83a621a28dbf6200d3dbb5ed5e">2eef888e0a1f2ebedf66342f12ca3360af1e71cc09840e3b51981f026290090f1e974fd0712e59b5e939db12971b64acf9f2c19fed9cc1f505ac4b2d8822b1c6735590dc150094e991fc9055af40454f2bbfc8d6e103a905fb3c4792b87585bab0d6b9fed299b9d8d473adb1a33bfa65eaee926cfdcc02bf7865d9102495fb54e31def20370e4f80bfbde51ad2a1910718e7503ae37edfb34f28cd7a2d07280487bbccb8ecac39ebe4fb135bc13efe541b5bec12d28b390d58cb8f24f0c0552c3e292666f218182f3caf972c5d3cb00ddae30127e8dba16b1405327a383404d226adb2513a80fba99dc26e122f626c21954daec37fec011d5f2485a1e0c83aeaa566ac045f3a7d10b01287d7701dbea2770f74b05b52e1af2a48d249cf4825e7f7d27497d4908cc48ab22a70eb64b23c36fca108cec9d65d97464292496f1552ce7ebe61b86715a88dec237b02d6a52f1a446b4b2dd2e78704405a760ace80192cad5a38cfb23993facc29f46a642cd8f5b2a58a54b73736519b44cf744973ef3a79a34dffbcf18b708ee54e4ee69b6a7e9c92fef26f66a0db6e7f84c9101de3a2fc172bee7809f0be3eee26c2fa625fae5ae5812310651470cda7e0c476b7bebdf1b793efe8f94c24259ae4dc3e730e47715bcca6805287cc99f5c59ace317949b5303ff75575b4d5c8e8c22fa0ae9d8f78e08cbea23aade6205424c3ee2519d97d7c1705c03582ce955f5c2b1d231222250d03b6497983e89b9040a6f826bd91e00da45dc1faa466896f9a3494f1b3975a6bf9da6ab7805cd0f8248fb46dfb51535764a5d1fa2e1e0298224d004709787d65a9b9dadb5535553ba5b02849e306b0646ab4e4f55576d49ee367b7cd8b6044815f8ddcfc11b26083a77b236da3f24c22053a38505e530a1e54a29fff227e717859cf510a8be353179bbf2b55bfca6b23211f84298db30038733b5bac182c5e2099db25053d328a43cc4558453e2029bdf634884cc4061bde7ec56fe30dd90dd30ff8634e373d0a1a3505b3fef0da9f2cc09cbabb504b21e85fefd7c0da06a6d8d940e5b9e895b50c66a389b48383aa527cb071c99b07d9abf2ef055c1ed450212b717067049f04924dd7289860ea14deb5c14e4992f5ca88dabe668e8dbbf94ba40fde2b79a03fd04eea25a916a12e6a2c2946af665138b05f14d4a92f436200aad83ca94830fb003fc3594c7a71a0528f8a3f059a976a89c0d3f5d7e59e95728248ce9435fd5e0a04a9a1b62c863b9dc8463fc92231c6404fb22933dec050b69f2376f99ee5f04af48046f9c1bf818182f16865375224de80e7b2c1d5e08ffce878dfcc11227448f7d979c8531a37598b96f742adc9827d9cdeb92dc858feae36152eab111052badc5261b5d30ce7f91eb2bdb5fcbb3b2f46f98a3a98453164f3e3ae5a7adcae43178dc20c9fae38bd057d6d43bed3fe3582904096d60cb28a77d3faa30fdf9e24e5fac0c29a3ffbd6aef1a6462a6600214a35fbaf229346a7fbadfcaaf996925d79b23eb47b9e76c8a13e22caf90051469560e1085ecccaa9ae9d06eb7f001f560608b3e1cc0425afae08bce8ed087ce99843db00ad781d9c45ea4fd2b8d76636632da62fa6978754d5767ad25dba1ad25aee5b6743cb37e7faa7f23211e3130bd149373a181e8a984c2e1d047bd1c62a61a6213e76b5a905cd93b4c64f67df7470c9cf1cf2e26cc6e69f14463ef1fc74a67858e4fecfa0d6285dd755e81148ff06e4cc71b1866838a655818e2ca16356d89ff25705640970e0f4064c8c7bfb4ff3faa01ae16ebedfbf1a400f94fa1de71073596993edc8cc8edf984648b7785e295432dc50a8d063e28da713644c8c30fb258a5d7b39cdca76707b6f7aa28db2e48f02fe9c09ebeca1c700e082dc7e9ecf7924deefb4d137c386b770c6dc5c6631c2f958463ed7a22eccd83dbf9382e3ec4941e422a57c169aa11bc5d64e471dff46d1214ddd1af8ba2e90b8141817c96683329e37ce17627232db1531fe8de4b623b2a5f9bd9b55f753f88ac93df0e5d286d3143140a11b1c025492d05bbd18a10804583026d0655f815771d401cc33bb624220b2bd625d7e71a707b0313c41eef4cf981b295fbf17d57fc22a0a68d1ef929104a9ecf39163de5fc2d987664271fe60e010daaa41ed762b7216b26bb75973f9bae10fca0ad17e2d62bed582a38e8a064c039d5f2d3bc1f529ec59412309a7d53dc8c0e7324e2ac3a9d551763ce1c40125e4262fbfc589d2f997920fb060488c6d6175676388d82efcafdbec987aefa67104ae27ed70bd7f9c310241fe6f05f4ad349a0ebbed84ae66d6d71e83e5dbbdfdaa20003f2df896009649a51df3b09d23d8ed785ae6559959b168ca12ea0ec378910162c17b10e13291dbc8ef73fe0f58b0fe0f95871a51d996014e8179316b5d76ae146a240786a4f6a387f8998407e52ceaa30ac903818ad288acfa89e087d25cd991a0d6850c93185e9ca56c8de2c9d1788fe66c42e1e76bcf9b17ddad06c52ceb8cc4b771e4d945a465ab161f82525223f2c00053084fb8cbab44e27a64130f2a3d9fe86d429f70f8cb7f3ead251ed76fc3b17d0ad6429d398898402b6370d218f40b6f07926f052cc7b153352a9079b3ca13d060abebb191ba3e6f3ed3d75d11e23f30da64db5669e3f83843347994c23ca5e32853311cfeea7d25ae2b471ed2283cf52cb1aa44de80a001713a65fb789111d2121b283a9ad679c116fe53641ee60972660cae92f424c0f03c50fed2a1d6512de5a4938ec5237ed1cb48eadc36b30030e0ec92f55a45dffac8c4ddb86f80c52797b79af386b2d703d30484ffe8a29970f8970d606c445f8f93099df8485c32b27514b4032fde61cd3324caa2862d12c289126395ba15375813be25dcb46c6916ae402e02e0d6956f00256d187e7e07a4856c2fb13ea8e22284b163fba81145b856e9983614b029eb6d52223a5c6897d42c187f578de4d18a56ad3e496529e0b0abe0006e2ac9d93f32760793d3c3adc79e58a9478714ec2b38af9d5134f42e48c0425f6f162ef0135ea3b01652568cd4e7ebca49edf2eedfb5356211f3c957c1fbc519034b0b0a68c526bd92f1032db96b5802c7f4f7916a247f3a3f41b3efb8891c4f90a4dcc1e2228c3b0744b50af53f79f2fde1d5924ad0b68d9db0d158ab338bccfa3318a909aaab93c61dc740f6de40df7f5b3edd7e19af5893e2050dad42cfdbe8ac752ea43dce17f7ddd56bffbecd1f893f18879997af03bf4cb57792ee81f6dea086aa3a48c34129ad2179065877103111f37a707c62883293551b0cdc9beb4f714d0e37e06e8f889957f052a865051d0b593e097a5f1a738c64f001f38198d52eb6de1999824868ebb2b0d17964c11b3f1a323da9633ff0ff3dc2b1f5ed7e474a6c1ef84f0bd881ed7fe054a037868cd214be7a81c4746844869c36500b548956b9c63789a3c51fdf88f1684fbbfdf680d8360c47f548759ec909d5029680a96ef9a88a36536b915e034cd6866a93daa25580661273fc38052a74179beb605a3bec699362650b080a38ebfff231ebf8713309ac29d9a7671e2ea9e4d18ca9c7646b086630fde39ba0ff4bbb0478f4b7612ac300bf8a71ae87c9ef38038a3631787aa33c8706e9e419faa594e1a824c4504dd36638cadeaeee1d59f6876583cb271ebde53977e6bdfaa5de93844184ff4230feff0e4e5e6a42cc08436015f3ff464632a330d03d0dd36d20b9d65e5a0790a2fa3d9678a96ca0167bedc69527be68a9ad297be3db4b61e4ff98a9fb13d58e740a1c9de1029117eee9b7f7fe688d240fd9e73425cd85d24e1cf67abc7b39187218bba6cf2061492f1f65f09b0e110e7f6ee14c150f8d9bb43a30ab40705c9ab821662752a8b8f0436378226a2eca9d353877598f87309c586feff5849421d0332360563f827c2a4af3eb77b74a9cc4f61f229564d68f0a5f453c9ca283d46c603f6ca78d8ca4faad3db716288baeb46b181efbb426a0eb7614d11dd672af1195acc7c4e3c6b8df6ad48475f698f1242cf257eabe8ad06ee683e75ab6ac6b403c0a30865ad43350f3a981e6cb6ea2a4f172e7065aa5c5a7dfa9317765ec525fcdafad1836184691fff8dcf40c5badc4dcfd9de4f33943946042c70761b140d9292d51f92f3ec0049cdf44cde881d5f3b6bd5001bef43c5f62de0fb57d0a1a3550289a6d352b0f05206ed85d18b339b0e5385eacf37f9333fa00d7c563fe1199a89c99ce8c240a801bbf95d3a592d31080439daa15b6d0f142aa0bf07b610bda3092ab27dee4e8c9dca883bc72cfe7a6b67b5706e728f6b38d0b3c68973d75db5354a1b723bd2479643e2c2d7872a86ee17eda6c44253754f155bbb03eaa05a555e85b06b4c78d30dde1ba4fca94cbeb3503a5d7f8c1f99c11ec8bc7d3b90a10958496a0de8551fd43a0275bd1faecc3b0e50c7fb709fddfe0062ecbe5677a1ab5987ec4ee1caa6e51ca809b83afb88c1ccb996b49829e6aa7443d53f0958a460d799f5002256bf10c9bbbc25094d5b9f5ddc52a4232c3316eedd28d8e0320d37893cb066331f06129a31a714ed9a19437a4641f9379df9e6a50ac2ab26c40a58cf2de5000c0a5404008b223d284114bc8249d2f13689cfd37f5a1647f51d6b7a2970aac75ac89d2c376f895635bd7dcfc75c5bc168c0b4b88c78a02624b8b072981786536eb69f20a96a96533bd3367cf804f14afeebb2a524c7b7d3ed25fccb6d9e0091cbf6f001f38c6fb34e5c9269a92648b9431db00b9a812b21e14406d2da44a009dc4dc91cdc6fd86ee59bd21c0b8a35f8a6b773285006e36ec36e4541fd6097ca3a0ac0eeb78033a7c07f69fc3552f7f5ffc5d0027ef90ba30ac22e306720522f7b20255ee12b5cdedf05cc358289bd0785b86c19a343149eda6d28680a8d36e5c249f33bdb44214b17c6631b62418ffb7728d52e790eaa77f2ea8738cdcab30bd22495307b96fe2c8ec52ad0754bfc808948ee40f2352549eddcde9285d176e5356b1baa7f58b2658850e51be14705ad17012e2ac390c5bb27b7deed992bf48c116cf7c892817f49580cbd5948045aabecbdecb14d10d0c1f33deaeb1b07f58ffe3b7d4bffacd31bd4ddfd98820ed7bc0595d34c50b0e80f3645c99b2985715809c13432f0e122fdd9ab3d6179c03810d4b08d9de1b47dd69dccf50060dcb6b7c9938e0912a8f38389797cbc29dbed3a199fa98c318b8c21c2282e9c5dc785e67baac9f747eb1c5b5655e20896d0f7c11c8aec6e56f1807fdabd655b196af25dd84e15bba14b74b4b1fe5914b618e7664b1fd97760ad9ccb2084fc4090d16db8d05d467d574d2d9f24e3582f9485e3c44c19030d39d100152b4866bc33910bef8e6a4052f6d18c6ee79427141c79530e9be5d525439156aa08fcfd05a39b25d94e1f1e41a42b67615ced0071db07d57cae0673f9be57bce5be17fa146109fe563fbcb5343080fd6ed5f06a4735c710e7ce256e17f058bc8b0a310410860748e53bcd28cfe88885796c4ffeeb1a61158062b70fcea701ffa39f6ba3db7f01a3f87a90d41e9810d3a69d54bb96ffd73b770c38d771e5f046fa8498f4cf6835d6975768eeb3b41eb4fa7b07fb1f1afaf846706dcf67aad0225a74f06ff03cece9db5daad359710ec999c66d15e28fa2f24f0edd30e9a06031470cd5f97338b76a87a02bd66091b957fc7e9e88644458e2a10908d5ef9c7469e060aee79e774e7e2cc711abe51295c354dfa997e12160415c3fa6b468a7c433eb0ac8fb835b0cc9d89aeb0b80b87bac06f1434bffeac60451d60d871a6642aa65b398294cbc7864cf4f294976a4f59f74bc7b5046b6b2a546530dfeba18998710e3a4d504980924d035fb53da63634f261e4c7f73836401ebea031254512f68c2c1861e24f5e94e342422a7817d832a9a247b7e916e4135871fb902ecac199a62fccd4cfb72d038199565b863c4b8eb789b3a8cda6439e0a2afac32da810d816ae44b1ff0156b34d237f9035c88efb09cc98acbff9356e3a194dd0b89d217b75a4ec30139e55f84b40cdcd99091c5bb3ccbf64c5b8125802148da2ae496b6244efaf1d6b0c7ceaaf9337548a5e03a0874034763ad154958dbcb06a6ac2aee9c3685597a2bc8c3430054dd4e069f4f82ba6f6e0ff9e2573491922fdb9d12d79f2b20bae11f35b3836cc716ab62d1389325374d568db0e88ebe2716f206b6f4dd51ccd03dc85d6671da2f235e9badeb247a45f9dc5df55c9cc03306eb1d11e88f8778ca436e0679f06614910d9a2ccf3e69655726007c4abdd5fbd39b5c1400bd286afd0dd36009934d397f029fbdfbace6fb2ff407965c3142aac84aa7a5cc2457f3214d61d30093ecef9e73d283dbae705f0a0107881e1736bc20a9acde58e1a162640159150244ea8d88cf3bab7ef87253554ad8646415db2113e2427f34440ef5f50d4149208ce149da4adf5b6bcefef0d4207fdbf8a7c35d6100fe1f63d3bb5c6e9c1a7d4fce35ba40b08f9eeb7161e895db037004bfea8733b07b652bdc830cbc9b75bc6ad965919822bbd58375b87fdef326815ef1cd43d23bb8c7622b8dbdbbc534bae6c0ba84db84e9965cb994ff1d038d5bb36eca54281d67b62144a083ebf8751b193bd0924c215d5c1b400d8e430835d31c5db34242e23daaa4e400844d0914ea7dfe27dabe9f28f29aa848cb1bdbe9a40d3ee836f5bfdb10eb84a65cede6a840cefd96f49119c8aeef810c79fff1d367aedd3dae11a8a9d7ed09248ce101a243d61420a9cb2fc14c791696bbc1615a378e1e317f6609d9a9247872b5d4e6039b6eaf66c018e086755d7dc4d62268349d4d3b4987e7294cc33898d0c1a628a68f1100f114e4f537676140a48feb96e293bec17ce96432519b6417f5106fdaf8d35f05f1e790dd0be371928632f0c66aa2776581364940df15370d978bb4e9109338d76f009b5125578a6eb12153fa05e773b85e2e499436e26bac68a30036289cc3bfbfa3e713636f5a54466d60c287aac9cb8c0a8b528544f9a5efc3da2e805eced89399a2db24609f0eb1b6fbd3d4d22d7b5e8026ec79c361aaf2809a52e54ff0ab0e2ab8cd8245588dfc20db4a23c02218e4ec8d469e8216270449fc4943c8760dea94f86496f58f20924e998fa0f100a1fd49ae48e65f69934646908cbcb181d9f0b6a67b64cd0d8dca0e692e541b5c5b1ac892216507803f242a039a12c136b7adc35aaac6429f56f501bf6cafcd7b301792705ea055773268a5c209ca9d5ba11ee1d57aad5e8a55888f293d7b0bea806ca7bada1af0fa39121acce0deb89268b8347adfba162f835cfc7d890548e5b59a27fb8fc6e54bf3ec90da773ab41b0af8e0009deb928fc4b6905125c7bc6ef8c10d98ce95b45a2436d2db7fc94179ed1ebec89fce440a99a12e7046ef1303a87be789063f5a714147936a3972d80bcc5e0abaf55c71be38df026b9e53322460018e60b1873f50cc2e817bbc8cf56a28e1327bb77146d9e1a691366a8e7ed40b208ed34cf411dee975bf23720859d595cd3068ed22ef90773cc535eeda1c3151321acb15e5ac7ae2278a72b076c96683c12faf5f81375d138f41fc3fe4c7b84e181fb5f99fe86e7dc1bc910d897d428ad6e8fee7303c348bdddee004147fd3b3ef3ad6d3920a27865adfdb040d142fd137dadcd9c6dd6e241dd02621e532a1ebd06cee8a3233af32066f345ed4cc369e4b17593df7358388ea14286b7e05b679a13cea18293e0b4872f235a4f8f269094ff798726dbd2a6b3f5adaa9d0d40c7a1f5f02bfd088955b6042f1e48906a540f9c9f47f4d29664569b84d2563c35eb43e209898fa7d8688380e8aa9b3e9c83a0800e2620cda093be961fa614473c19087e5398253b06a85ff554b48c89d3073f1adb627b7055742338a61dff954b204162a7c276a4474099467b373cc054a8bce9a5c61143c7c7fa3304461a4505c61490ed5905d8c875d3fac8664741b1387d85ddb70b59455d3effeb2879082fc8538be3f66bd399b4500962bb31a043b1bbb501a33124dd8bb8e28f78d517d7c040d359d32dd3840dbe662037fbf3b3f62029cd59</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>markdown-学习</title>
@@ -368,12 +325,12 @@
 <h1>音频插入</h1>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% aplayer title author https://freetyst.nf.migu.cn/public/product9th/product45/2022/02/1715/2022%E5%B9%B402%E6%9C%8816%E6%97%A513%E7%82%B946%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%9B%B8%E4%BF%A1%E9%9F%B3%E4%B9%905014%E9%A6%96336965/%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD/MP3<span class="emphasis">_40_</span>16<span class="emphasis">_Stero/64049302802154634.mp3?Key=d36ca4d36ac4d634&amp;Tim=1705596711348&amp;channelid=00&amp;msisdn=6b21654dae894e7181885e6c3b56b439&amp;CI=640493028022600919000006004798&amp;F=000009 %&#125;</span></span><br></pre></td></tr></table></figure>
 
-        <div id="aplayer-qXIIkEoF" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-EgmdmNWv" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-qXIIkEoF"),
+            element: document.getElementById("aplayer-EgmdmNWv"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -402,78 +359,80 @@
 ]]></content>
   </entry>
   <entry>
-    <title>rime输入法</title>
-    <url>/2024/11/16/rime%E8%BE%93%E5%85%A5%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>rime<br>
-<a href="https://rime.im/download/">下载</a></p>
-<p><a href="https://github.com/gaboolic/rime-frost">白霜词库</a></p>
-<p>常用快捷键<br>
-F4 切换方案<br>
-<code>[ 或者 ]</code><br>
-选择靠左还是靠右的字<br>
-<code>sj</code> 13:49:28<br>
-<code>ts</code> 时间戳 1731757786<br>
-<code>nl</code> 甲辰年（龙）十月十六<br>
-<code>R数字</code> 贰仟叁佰肆拾叁<br>
-<code>uU字</code> 拆字 羴、<br>
-<code>V</code> 计算器 调出emoji</p>
-<h1>双拼</h1>
-<p>小鹤双拼</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>laTeX学习</title>
-    <url>/2024/01/31/laTeX%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
-<h1>hexo 中显示 latex :</h1>
-<h2 id="安装">安装</h2>
+    <title>alist搭建</title>
+    <url>/2024/02/06/alist%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+<p>突然浏览到 别人的博客 加载了个人网盘 了解到alist 感觉有点用</p>
+</blockquote>
+<h1>1. 本地安装</h1>
 <ol>
 <li>
-<p>npm un hexo-renderer-marked  # 先将原有的渲染器卸载<br>
-npm i hexo-renderer-pandoc# 安装pandoc</p>
+<p>下载win-zip包</p>
 </li>
 <li>
-<p>在主题配置文件_config.yml 中找到math关键词，将mathjax的false改为true。</p>
+<p>解压后在路径 中输入CMD</p>
 </li>
 <li>
-<p>本地安装pandoc 后重启</p>
+<p>终端中输入alist server</p>
+</li>
+<li>
+<p>界面中有登录密码(password)</p>
+</li>
+<li>
+<p>浏览器中输入<strong>127.0.0.1:5244</strong></p>
+</li>
+<li>
+<p>登录admin, 输入原始密码，之后可更改</p>
 </li>
 </ol>
-<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><msup><mi>f</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mn>2</mn><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo><mo mathvariant="normal">′</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mn>3</mn><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><mfrac><mrow><msup><mi>f</mi><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></msup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mrow><mi>n</mi><mo stretchy="false">!</mo></mrow></mfrac><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><msup><mo stretchy="false">)</mo><mi>n</mi></msup><mo>+</mo><mo>⋯</mo></mrow><annotation encoding="application/x-tex">f(x) = f(a) + f&#x27;(a)(x-a) + \frac{f&#x27;&#x27;(a)}{2!}(x-a)^2 + \frac{f&#x27;&#x27;&#x27;(a)}{3!}(x-a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n + \cdots</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0019em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.4095em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0645em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278em;"><span style="top:-2.931em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′′</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.4095em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0645em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278em;"><span style="top:-2.931em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′′′</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.5067em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1617em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span><span class="mclose mtight">!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9667em;"><span style="top:-2.9667em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5357em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mathnormal mtight">n</span><span class="mclose mtight">)</span></span></span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathnormal mtight">a</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">a</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.313em;"></span><span class="minner">⋯</span></span></span></span></p>
-<h2 id="换行">换行</h2>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">\begin&#123;align&#125;</span><br><span class="line">a_&#123;11&#125;&amp; =b_&#123;11&#125;\\\\</span><br><span class="line">a_&#123;22&#125;&amp; =b_&#123;22&#125;+c_&#123;22&#125;</span><br><span class="line">\end&#123;align&#125;</span><br></pre></td></tr></table></figure>
-<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd class ="mtr-glue"></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>a</mi><mn>11</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msub><mi>b</mi><mn>11</mn></msub></mrow></mstyle></mtd><mtd class ="mtr-glue"></mtd><mtd class ="mml-eqn-num"></mtd></mtr><mtr><mtd class ="mtr-glue"></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>a</mi><mn>22</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msub><mi>b</mi><mn>22</mn></msub><mo>+</mo><msub><mi>c</mi><mn>22</mn></msub></mrow></mstyle></mtd><mtd class ="mtr-glue"></mtd><mtd class ="mml-eqn-num"></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{align}
-a_{11}&amp; =b_{11}\\
-a_{22}&amp; =b_{22}+c_{22}
-\end{align}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3em;vertical-align:-1.25em;"></span><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.91em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.41em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">22</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span></span></span><span class="tag"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.75em;"><span style="top:-3.75em;"><span class="pstrut" style="height:2.84em;"></span><span class="eqn-num"></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:2.84em;"></span><span class="eqn-num"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.25em;"><span></span></span></span></span></span></span></span></span></p>
+<h1>2. 挂载网盘</h1>
+<ul>
+<li>参考官网文档</li>
+</ul>
+<h1>3. 挂载本地</h1>
+<ol>
+<li>下载安装 RaiDrive 软件</li>
+<li>添加:arrow_right:添加 NAS:arrow_right: webDAV :arrow_right:去掉地址√  :arrow_right:地址输入: 127.0.0.1:arrow_right: 端口输入5244:arrow_right: 路径输入：/dav:arrow_right:  输入alist账号密码 :arrow_right:点击<strong>链接</strong></li>
+</ol>
+<p>​	打开我的电脑即可看到</p>
+<h1>4. 开机自启</h1>
+<ol>
+<li>
+<p>新建 VBS文件 ,输入代码：</p>
+<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Set</span> ws = <span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;C:\alist-windows-amd64\alist.exe server&quot;</span>,vbhide</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>放入alist文件夹，添加快捷方式</p>
+</li>
+<li>
+<p>双击即运行</p>
+</li>
+<li>
+<p>开启自启</p>
+<p>win r →shell:startup</p>
+<p>将快捷方式拖入</p>
+</li>
+</ol>
+<h1>5 公网访问</h1>
+<ul>
+<li>教程:<br>
+<a href="https://www.youtube.com/watch?v=1YRq0846yWs">没有软路由、NAS，外网访问家中电脑里的alist? 只需一个域名</a></li>
+</ul>
+<h1>参考</h1>
 <ul>
 <li>
-<p>开头结尾加入</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\begin</span>&#123;align&#125;  <span class="keyword">\end</span>&#123;align&#125;</span><br></pre></td></tr></table></figure>
+<p>github: <a href="https://github.com/alist-org/alist">https://github.com/alist-org/alist</a></p>
+</li>
+<li>
+<p>zhihu: <a href="https://zhuanlan.zhihu.com/p/668599673">https://zhuanlan.zhihu.com/p/668599673</a></p>
+</li>
+<li>
+<p>官方文档：<a href="https://alist.nn.ci/zh/guide/">https://alist.nn.ci/zh/guide/</a></p>
+</li>
+<li>
+<p>B站教程：<a href="https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click">https://www.bilibili.com/video/BV1Te4y1G7r1/?spm_id_from=333.1007.top_right_bar_window_history.content.click</a></p>
 </li>
 </ul>
-<p>\begin{align}f(x)\\& = f(a) + f'(a)(x-a) + \\&\frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots + \\&\frac{f^{(n)}(a)}{n!}(x-a)^n + \\&\cdots\end{align}</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>prompt-学习</title>
-    <url>/2024/12/01/prompt%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>李继刚 宝玉 吴恩达</p>
-<p>how-to-write-good-prompt?</p>
-<p>。。。待续</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>rustdesk docker 部署</title>
-    <url>/2024/12/02/rustdesk%20docker/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>参考</h1>
-<blockquote>
-<p><a href="https://iwanlab.com/docker-compose-install-rustdesk/">https://iwanlab.com/docker-compose-install-rustdesk/</a></p>
-<p><a href="https://github.com/rustdesk/rustdesk-server">https://github.com/rustdesk/rustdesk-server</a></p>
-</blockquote>
-<p>也可以使用kejilion脚本一键安装</p>
-<p>设备输入ID key即可</p>
-<p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241216002400241.png" alt="image-20241216002400241"></p>
 ]]></content>
   </entry>
   <entry>
@@ -570,30 +529,31 @@ sk-dsdsdd(编一个)</li>
 ]]></content>
   </entry>
   <entry>
-    <title>vlookup使用</title>
-    <url>/2024/11/16/vlookup%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>搜索特定的值（查找值），找到匹配的行后，返回该行中指定<strong>列</strong>的值。</p>
-<p><code>VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></p>
-<ul>
-<li>
-<p><strong>lookup_value (必需):</strong> 你要查找的值。它可以是数字、文本、逻辑值或对单元格的引用 通常为A1</p>
-<p>⚠️ 可以将多列合并 例如：A为country B为year 可以将C=A&amp;B 进行查找</p>
-</li>
-<li>
-<p><strong>table_array (必需):</strong> 你要在其中查找数据的表格或区域。 比如 B:C</p>
-</li>
-<li>
-<p><code>2</code> 表示将要返回 B:C 中第二列的值</p>
-</li>
-<li>
-<p><code>FALSE</code> 表示执行精确匹配。</p>
-</li>
-</ul>
-<h3 id=""></h3>
-<p>多个文件中的 VLOOKUP 使用</p>
-<p><code>VLOOKUP(A1, '[工作簿名称.xlsx]工作表名称'!A1:C10, 2, FALSE)</code></p>
-<p><code>=VLOOKUP(A2,'[Data-V3.xlsx]Sheet2'!$A$2:$C$517,3,FALSE)</code><br>
-一般是A<strong>2</strong>，选中的是数据不要包括第一行的<strong>名称</strong></p>
+    <title>prompt-学习</title>
+    <url>/2024/12/01/prompt%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>李继刚 宝玉 吴恩达</p>
+<p>how-to-write-good-prompt?</p>
+<p>。。。待续</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>rime输入法</title>
+    <url>/2024/11/16/rime%E8%BE%93%E5%85%A5%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>rime<br>
+<a href="https://rime.im/download/">下载</a></p>
+<p><a href="https://github.com/gaboolic/rime-frost">白霜词库</a></p>
+<p>常用快捷键<br>
+F4 切换方案<br>
+<code>[ 或者 ]</code><br>
+选择靠左还是靠右的字<br>
+<code>sj</code> 13:49:28<br>
+<code>ts</code> 时间戳 1731757786<br>
+<code>nl</code> 甲辰年（龙）十月十六<br>
+<code>R数字</code> 贰仟叁佰肆拾叁<br>
+<code>uU字</code> 拆字 羴、<br>
+<code>V</code> 计算器 调出emoji</p>
+<h1>双拼</h1>
+<p>小鹤双拼</p>
 ]]></content>
   </entry>
   <entry>
@@ -639,163 +599,43 @@ sk-dsdsdd(编一个)</li>
 ]]></content>
   </entry>
   <entry>
-    <title>webstack导航建立</title>
-    <url>/2024/01/31/%E5%AF%BC%E8%88%AA%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. hexo 三连</h1>
-<h1>2. 使用webstack主题</h1>
-<ul>
-<li><a href="https://github.com/HCLonely/hexo-theme-webstack">https://github.com/HCLonely/hexo-theme-webstack</a></li>
-</ul>
-<h1>3. 添加网址</h1>
-<ul>
-<li>
-<p>创建/source/_data</p>
-</li>
-<li>
-<p>_config.webstack.yml</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">name:</span> <span class="string">一级</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-star</span></span><br><span class="line">    <span class="attr">submenu:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">first</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-star</span></span><br><span class="line">        <span class="attr">config:</span> <span class="string">second</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">        <span class="string">...</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>在/source/_data中新建 second.yml</p>
-</li>
-</ul>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://...</span></span><br><span class="line">  <span class="attr">img:</span> <span class="string">&quot;...&quot;</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">...</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://...</span></span><br><span class="line">  <span class="attr">img:</span> <span class="string">&quot;...&quot;</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">...</span></span><br><span class="line"> <span class="string">...</span></span><br></pre></td></tr></table></figure>
-<h1>4. 美化(探索中</h1>
-<h2 id="侧边栏背景颜色">侧边栏背景颜色</h2>
-<p>修改\themes\webstack\source\css\xenon-core.min.css</p>
-<p>文件中搜索：<em>sidebar-menu{display:table-cell;position:relative</em></p>
-<p>修改宽度px,背景颜色</p>
-<h1>补充：</h1>
-<p>一台电脑多个github账号 创建SSH：</p>
-<ul>
-<li><a href="https://www.cnblogs.com/yuqiliu/p/12551258.html">https://www.cnblogs.com/yuqiliu/p/12551258.html</a></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>找点好玩的-资源</title>
-    <url>/2024/02/13/%E6%8E%A2%E7%B4%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info simple"><p><a href="https://www.ahhhhfs.com/">ahhhhfs</a>  <s>（已探索）</s></p>
-<p><a href="http://daxuesheng123.ysepan.com/">白嫖圣地</a></p>
-<p><a href="https://www.dgzyku.com/">大刚资源库</a></p>
-<p><a href="https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo">好玩有趣的开源项目</a></p>
-<p><a href="https://fmhy.net/">https://fmhy.net/</a></p>
-</div>
-<div class="note info simple"><p><em>💡telegram 群组导航</em></p>
-</div>
+    <title>rustdesk docker 部署</title>
+    <url>/2024/12/02/rustdesk%20docker/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>参考</h1>
 <blockquote>
-<ul>
-<li><a href="https://tgnav.github.io/">https://tgnav.github.io/</a></li>
-<li><a href="https://telegramchannels.me/zh">https://telegramchannels.me/zh</a></li>
-<li><a href="https://sites.google.com/view/honven/%E9%A6%96%E9%A1%B5?authuser=0">https://sites.google.com/view/honven/首页?authuser=0</a></li>
-<li><a href="https://teletop.org/">https://teletop.org/</a></li>
-</ul>
+<p><a href="https://iwanlab.com/docker-compose-install-rustdesk/">https://iwanlab.com/docker-compose-install-rustdesk/</a></p>
+<p><a href="https://github.com/rustdesk/rustdesk-server">https://github.com/rustdesk/rustdesk-server</a></p>
 </blockquote>
-<ul>
-<li>
-<p><em>telegram 自用群组、机器人</em></p>
-<ul>
-<li>
-<p><a href="https://t.me/youyousharechannel">油油分享评道</a></p>
-</li>
-<li>
-<p><a href="https://t.me/Aliyundrive_Share_Channel">阿里云盘发布频道</a></p>
-</li>
-<li>
-<p><a href="https://t.me/TeleTop123Bot">中文索引</a></p>
-</li>
-<li>
-<p><a href="https://t.me/SuperIndexCNBot">超级索引</a></p>
-</li>
-<li>
-<p><a href="https://t.me/abskoop">a姐分享</a></p>
-</li>
-<li>
-<p><a href="https://t.me/onesees">一览</a></p>
-</li>
-<li>
-<p><a href="https://tgsou.me/">TG搜</a></p>
-</li>
-</ul>
-</li>
-</ul>
-<div class="note info simple"><p><em>💡alist导航</em> <em><a href="https://www.ahhhhfs.com/tag/alist/">https://www.ahhhhfs.com/tag/alist/</a></em></p>
-</div>
-<p><em>数字游民</em></p>
-<p>Docker学习</p>
-<p><a href="https://yeasy.gitbook.io/docker_practice/">https://yeasy.gitbook.io/docker_practice/</a></p>
-<p><a href="https://awesomeopensource.com/">Awesome Open Source</a></p>
-<div class="note info simple"><p>书签地球 <a href="https://www.bookmarkearth.com/">https://www.bookmarkearth.com/</a></p>
-</div>
+<p>也可以使用kejilion脚本一键安装</p>
+<p>设备输入ID key即可</p>
+<p><img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241216002400241.png" alt="image-20241216002400241"></p>
 ]]></content>
   </entry>
   <entry>
-    <title>对联</title>
-    <url>/2024/02/06/%E5%AF%B9%E8%81%94/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
-<li>2024对联:  卯足干劲事事旺 大展宏兔步步高 钱兔似锦</li>
-</ul>
-<p>​	要发论文顺利，发大财，健康的美好祝福</p>
-<p>学富五车</p>
-<p>龙摆尾，论文全接收</p>
-<p>，学术界速收留。</p>
-<p>财滚滚，健康跟着走，幸福生活向我招手。</p>
-<p>sci快接收</p>
-<p>财多体健心不愁</p>
-<p>学富五车</p>
-<p>龙摆尾，</p>
-<p>新</p>
-<p>一</p>
-<p>学术文章年年有</p>
-<p>如意财源日日来</p>
-<p>年年顺景财源广</p>
-<p>岁岁平安文章多</p>
-<p>学财两旺</p>
-<p>富贵双全幸福家</p>
-<p>笔走神龙文章妙</p>
-<p>平安喜乐财自旺</p>
-<p>迎喜迎春迎富贵 接财接福接平安</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>插件收藏（一）</title>
-    <url>/2024/11/20/%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SciHub-Addon">SciHub Addon</h2>
-<p><a href="https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh">https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh</a></p>
+    <title>vlookup使用</title>
+    <url>/2024/11/16/vlookup%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>搜索特定的值（查找值），找到匹配的行后，返回该行中指定<strong>列</strong>的值。</p>
+<p><code>VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></p>
 <ul>
-<li>期刊等级显示</li>
+<li>
+<p><strong>lookup_value (必需):</strong> 你要查找的值。它可以是数字、文本、逻辑值或对单元格的引用 通常为A1</p>
+<p>⚠️ 可以将多列合并 例如：A为country B为year 可以将C=A&amp;B 进行查找</p>
+</li>
+<li>
+<p><strong>table_array (必需):</strong> 你要在其中查找数据的表格或区域。 比如 B:C</p>
+</li>
+<li>
+<p><code>2</code> 表示将要返回 B:C 中第二列的值</p>
+</li>
+<li>
+<p><code>FALSE</code> 表示执行精确匹配。</p>
+</li>
 </ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001856116.png" alt="image-20241121001856116" style="zoom:50%;" />
-<ul>
-<li>期刊等级查询</li>
-</ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001950997.png" alt="image-20241121001950997" style="zoom: 33%;" />
-<h2 id="Scouter-Language-Learning">Scouter - Language Learning</h2>
-<p><a href="https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb">https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb</a></p>
-<ul>
-<li>划词详细介绍</li>
-</ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002140438.png" alt="image-20241121002140438" style="zoom:33%;" />
-<h2 id="Bilibili-Evolved"><strong><a href="https://github.com/the1812/Bilibili-Evolved">Bilibili-Evolved</a></strong></h2>
-<p><a href="https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#%E5%AE%89%E8%A3%85">https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#安装</a></p>
-<ul>
-<li>多功能定义哔站</li>
-</ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002411146.png" alt="image-20241121002411146" style="zoom:50%;" />
-<h2 id="HCOS-Hide-Chrome-Omnibox-Suggestions">HCOS - Hide Chrome Omnibox Suggestions</h2>
-<ul>
-<li>隐藏Chrome地址栏/首页搜索框记录</li>
-</ul>
-<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121003849290.png" alt="image-20241121003849290" style="zoom:33%;" />
-<hr>
-<blockquote>
-<p>信息来源：</p>
-</blockquote>
-<ul>
-<li><a href="https://linux.do/t/topic/218841">https://linux.do/t/topic/218841</a></li>
-<li><a href="https://linux.do/t/topic/166825">https://linux.do/t/topic/166825</a></li>
-<li><a href="https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297">https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297</a></li>
-</ul>
+<h3 id=""></h3>
+<p>多个文件中的 VLOOKUP 使用</p>
+<p><code>VLOOKUP(A1, '[工作簿名称.xlsx]工作表名称'!A1:C10, 2, FALSE)</code></p>
+<p><code>=VLOOKUP(A2,'[Data-V3.xlsx]Sheet2'!$A$2:$C$517,3,FALSE)</code><br>
+一般是A<strong>2</strong>，选中的是数据不要包括第一行的<strong>名称</strong></p>
 ]]></content>
   </entry>
   <entry>
@@ -930,6 +770,34 @@ sk-dsdsdd(编一个)</li>
 ]]></content>
   </entry>
   <entry>
+    <title>对联</title>
+    <url>/2024/02/06/%E5%AF%B9%E8%81%94/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
+<li>2024对联:  卯足干劲事事旺 大展宏兔步步高 钱兔似锦</li>
+</ul>
+<p>​	要发论文顺利，发大财，健康的美好祝福</p>
+<p>学富五车</p>
+<p>龙摆尾，论文全接收</p>
+<p>，学术界速收留。</p>
+<p>财滚滚，健康跟着走，幸福生活向我招手。</p>
+<p>sci快接收</p>
+<p>财多体健心不愁</p>
+<p>学富五车</p>
+<p>龙摆尾，</p>
+<p>新</p>
+<p>一</p>
+<p>学术文章年年有</p>
+<p>如意财源日日来</p>
+<p>年年顺景财源广</p>
+<p>岁岁平安文章多</p>
+<p>学财两旺</p>
+<p>富贵双全幸福家</p>
+<p>笔走神龙文章妙</p>
+<p>平安喜乐财自旺</p>
+<p>迎喜迎春迎富贵 接财接福接平安</p>
+]]></content>
+  </entry>
+  <entry>
     <title>资源搜索(待整理)</title>
     <url>/2024/02/19/%E8%B5%84%E6%BA%90%E6%90%9C%E7%B4%A2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1><em>资源聚合</em></h1>
@@ -965,42 +833,95 @@ sk-dsdsdd(编一个)</li>
 ]]></content>
   </entry>
   <entry>
-    <title>hexo标签外挂学习</title>
-    <url>/2024/02/09/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/hexo%20%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. Tabs</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs test1 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h1>2. Note</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="2-1-icon">2.1 icon</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- &#123;% note green &#x27;fas fa-fan&#x27; simple%&#125;</span><br><span class="line">  green &#x27;fas-&#x27;</span><br><span class="line">  &#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">- &#123;% note danger no-icon %&#125;</span><br><span class="line">  no-icon</span><br><span class="line">  &#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">- &gt; 引用</span><br></pre></td></tr></table></figure>
-<h1>3. Button</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn &#x27;https://butterfly.js.org/&#x27;,Butterfly %&#125;</span><br></pre></td></tr></table></figure>
-<h1>参考</h1>
+    <title>webstack导航建立</title>
+    <url>/2024/01/31/%E5%AF%BC%E8%88%AA%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. hexo 三连</h1>
+<h1>2. 使用webstack主题</h1>
 <ul>
-<li>小嘉 <a href="https://blog.imzjw.cn/posts/bfdocs/#%E5%85%A8%E8%BE%B9%E6%A1%86%E5%8F%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A2%9C%E8%89%B2">https://blog.imzjw.cn/posts/bfdocs/#全边框及自定义颜色</a></li>
-<li></li>
+<li><a href="https://github.com/HCLonely/hexo-theme-webstack">https://github.com/HCLonely/hexo-theme-webstack</a></li>
+</ul>
+<h1>3. 添加网址</h1>
+<ul>
+<li>
+<p>创建/source/_data</p>
+</li>
+<li>
+<p>_config.webstack.yml</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">name:</span> <span class="string">一级</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-star</span></span><br><span class="line">    <span class="attr">submenu:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">first</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-star</span></span><br><span class="line">        <span class="attr">config:</span> <span class="string">second</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">        <span class="string">...</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>在/source/_data中新建 second.yml</p>
+</li>
+</ul>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://...</span></span><br><span class="line">  <span class="attr">img:</span> <span class="string">&quot;...&quot;</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">...</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://...</span></span><br><span class="line">  <span class="attr">img:</span> <span class="string">&quot;...&quot;</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">...</span></span><br><span class="line"> <span class="string">...</span></span><br></pre></td></tr></table></figure>
+<h1>4. 美化(探索中</h1>
+<h2 id="侧边栏背景颜色">侧边栏背景颜色</h2>
+<p>修改\themes\webstack\source\css\xenon-core.min.css</p>
+<p>文件中搜索：<em>sidebar-menu{display:table-cell;position:relative</em></p>
+<p>修改宽度px,背景颜色</p>
+<h1>补充：</h1>
+<p>一台电脑多个github账号 创建SSH：</p>
+<ul>
+<li><a href="https://www.cnblogs.com/yuqiliu/p/12551258.html">https://www.cnblogs.com/yuqiliu/p/12551258.html</a></li>
 </ul>
 ]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
   </entry>
   <entry>
-    <title>多hexo部署</title>
-    <url>/2024/11/02/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E5%A4%9A%E4%B8%AAhexo%E9%83%A8%E7%BD%B2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>检测ssh</p>
-<p><code>ls ~/.ssh/</code></p>
-<p><a href="https://blog.csdn.net/qq_36759224/article/details/86546729">参考</a></p>
+    <title>找点好玩的-资源</title>
+    <url>/2024/02/13/%E6%8E%A2%E7%B4%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info simple"><p><a href="https://www.ahhhhfs.com/">ahhhhfs</a>  <s>（已探索）</s></p>
+<p><a href="http://daxuesheng123.ysepan.com/">白嫖圣地</a></p>
+<p><a href="https://www.dgzyku.com/">大刚资源库</a></p>
+<p><a href="https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo">好玩有趣的开源项目</a></p>
+<p><a href="https://fmhy.net/">https://fmhy.net/</a></p>
+</div>
+<div class="note info simple"><p><em>💡telegram 群组导航</em></p>
+</div>
+<blockquote>
+<ul>
+<li><a href="https://tgnav.github.io/">https://tgnav.github.io/</a></li>
+<li><a href="https://telegramchannels.me/zh">https://telegramchannels.me/zh</a></li>
+<li><a href="https://sites.google.com/view/honven/%E9%A6%96%E9%A1%B5?authuser=0">https://sites.google.com/view/honven/首页?authuser=0</a></li>
+<li><a href="https://teletop.org/">https://teletop.org/</a></li>
+</ul>
+</blockquote>
+<ul>
+<li>
+<p><em>telegram 自用群组、机器人</em></p>
+<ul>
+<li>
+<p><a href="https://t.me/youyousharechannel">油油分享评道</a></p>
+</li>
+<li>
+<p><a href="https://t.me/Aliyundrive_Share_Channel">阿里云盘发布频道</a></p>
+</li>
+<li>
+<p><a href="https://t.me/TeleTop123Bot">中文索引</a></p>
+</li>
+<li>
+<p><a href="https://t.me/SuperIndexCNBot">超级索引</a></p>
+</li>
+<li>
+<p><a href="https://t.me/abskoop">a姐分享</a></p>
+</li>
+<li>
+<p><a href="https://t.me/onesees">一览</a></p>
+</li>
+<li>
+<p><a href="https://tgsou.me/">TG搜</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<div class="note info simple"><p><em>💡alist导航</em> <em><a href="https://www.ahhhhfs.com/tag/alist/">https://www.ahhhhfs.com/tag/alist/</a></em></p>
+</div>
+<p><em>数字游民</em></p>
+<p>Docker学习</p>
+<p><a href="https://yeasy.gitbook.io/docker_practice/">https://yeasy.gitbook.io/docker_practice/</a></p>
+<p><a href="https://awesomeopensource.com/">Awesome Open Source</a></p>
+<div class="note info simple"><p>书签地球 <a href="https://www.bookmarkearth.com/">https://www.bookmarkearth.com/</a></p>
+</div>
 ]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hello World Again</title>
@@ -1041,38 +962,69 @@ sk-dsdsdd(编一个)</li>
       </tags>
   </entry>
   <entry>
-    <title>webstack导航建立</title>
-    <url>/2024/02/24/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E5%AF%BC%E8%88%AA%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. hexo 三连</h1>
-<h1>2. 使用webstack主题</h1>
+    <title>插件收藏（一）</title>
+    <url>/2024/11/20/%E6%8F%92%E4%BB%B6%E6%94%B6%E8%97%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="SciHub-Addon">SciHub Addon</h2>
+<p><a href="https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh">https://chromewebstore.google.com/detail/scihub-addon/hfcbmognahkfhdhfhfgiioafohojeolh</a></p>
 <ul>
-<li><a href="https://github.com/HCLonely/hexo-theme-webstack">https://github.com/HCLonely/hexo-theme-webstack</a></li>
+<li>期刊等级显示</li>
 </ul>
-<h1>3. 添加网址</h1>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001856116.png" alt="image-20241121001856116" style="zoom:50%;" />
 <ul>
-<li>
-<p>创建/source/_data</p>
-</li>
-<li>
-<p>_config.webstack.yml</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">name:</span> <span class="string">一级</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-star</span></span><br><span class="line">    <span class="attr">submenu:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">first</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-star</span></span><br><span class="line">        <span class="attr">config:</span> <span class="string">second</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">        <span class="string">...</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>在/source/_data中新建 second.yml</p>
-</li>
+<li>期刊等级查询</li>
 </ul>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://...</span></span><br><span class="line">  <span class="attr">img:</span> <span class="string">&quot;...&quot;</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">...</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://...</span></span><br><span class="line">  <span class="attr">img:</span> <span class="string">&quot;...&quot;</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">...</span></span><br><span class="line"> <span class="string">...</span></span><br></pre></td></tr></table></figure>
-<h1>4. 美化(探索中</h1>
-<h2 id="侧边栏背景颜色">侧边栏背景颜色</h2>
-<p>修改\themes\webstack\source\css\xenon-core.min.css</p>
-<p>文件中搜索：<em>sidebar-menu{display:table-cell;position:relative</em></p>
-<p>修改宽度px,背景颜色</p>
-<h1>补充：</h1>
-<p>一台电脑多个github账号 创建SSH：</p>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121001950997.png" alt="image-20241121001950997" style="zoom: 33%;" />
+<h2 id="Scouter-Language-Learning">Scouter - Language Learning</h2>
+<p><a href="https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb">https://chromewebstore.google.com/detail/scouter-language-learning/mncfcjnabpfoagocanfjglfcpmmnkicb</a></p>
 <ul>
-<li><a href="https://www.cnblogs.com/yuqiliu/p/12551258.html">https://www.cnblogs.com/yuqiliu/p/12551258.html</a></li>
+<li>划词详细介绍</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002140438.png" alt="image-20241121002140438" style="zoom:33%;" />
+<h2 id="Bilibili-Evolved"><strong><a href="https://github.com/the1812/Bilibili-Evolved">Bilibili-Evolved</a></strong></h2>
+<p><a href="https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#%E5%AE%89%E8%A3%85">https://github.com/the1812/Bilibili-Evolved?tab=readme-ov-file#安装</a></p>
+<ul>
+<li>多功能定义哔站</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121002411146.png" alt="image-20241121002411146" style="zoom:50%;" />
+<h2 id="HCOS-Hide-Chrome-Omnibox-Suggestions">HCOS - Hide Chrome Omnibox Suggestions</h2>
+<ul>
+<li>隐藏Chrome地址栏/首页搜索框记录</li>
+</ul>
+<img src="https://cdn.jsdelivr.net/gh/1-debtor/tuchuang/tuchuang/image-20241121003849290.png" alt="image-20241121003849290" style="zoom:33%;" />
+<hr>
+<blockquote>
+<p>信息来源：</p>
+</blockquote>
+<ul>
+<li><a href="https://linux.do/t/topic/218841">https://linux.do/t/topic/218841</a></li>
+<li><a href="https://linux.do/t/topic/166825">https://linux.do/t/topic/166825</a></li>
+<li><a href="https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297">https://x.com/WoBaDzst9e6wbHP/status/1859229727296467297</a></li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>hexo标签外挂学习</title>
+    <url>/2024/02/09/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/hexo%20%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. Tabs</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs test1 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1>2. Note</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="2-1-icon">2.1 icon</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- &#123;% note green &#x27;fas fa-fan&#x27; simple%&#125;</span><br><span class="line">  green &#x27;fas-&#x27;</span><br><span class="line">  &#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">- &#123;% note danger no-icon %&#125;</span><br><span class="line">  no-icon</span><br><span class="line">  &#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">- &gt; 引用</span><br></pre></td></tr></table></figure>
+<h1>3. Button</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% btn &#x27;https://butterfly.js.org/&#x27;,Butterfly %&#125;</span><br></pre></td></tr></table></figure>
+<h1>参考</h1>
+<ul>
+<li>小嘉 <a href="https://blog.imzjw.cn/posts/bfdocs/#%E5%85%A8%E8%BE%B9%E6%A1%86%E5%8F%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A2%9C%E8%89%B2">https://blog.imzjw.cn/posts/bfdocs/#全边框及自定义颜色</a></li>
+<li></li>
+</ul>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>博客搭建记录</title>
@@ -1151,7 +1103,7 @@ sk-dsdsdd(编一个)</li>
 <h2 id="歌单">歌单</h2>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% aplayerlist %&#125;</span><br><span class="line">&#123;</span><br><span class="line">    &quot;narrow&quot;: false,</span><br><span class="line">    &quot;autoplay&quot;: false,</span><br><span class="line">    &quot;mode&quot;: &quot;random&quot;,//（可选）&#x27;random&#x27;, &#x27;single&#x27; (单曲播放), &#x27;circulation&#x27; (循环播放), &#x27;order&#x27; (列表播放)， 默认：&#x27;circulation&#x27; </span><br><span class="line">    &quot;showlrc&quot;: 3,</span><br><span class="line">    &quot;mutex&quot;: true,</span><br><span class="line">    &quot;theme&quot;: &quot;#e6d0b2&quot;,</span><br><span class="line">    &quot;preload&quot;: &quot;metadata&quot;,</span><br><span class="line">    &quot;listmaxheight&quot;: &quot;513px&quot;,</span><br><span class="line">    &quot;music&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;作者1&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;歌曲链接&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;图片链接&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;歌词.lrc&quot;</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;title&quot;: &quot;名字1&quot;,</span><br><span class="line">            &quot;author&quot;: &quot;Goose house&quot;,</span><br><span class="line">            &quot;url&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.mp3&quot;,</span><br><span class="line">            &quot;pic&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.jpg&quot;,</span><br><span class="line">            &quot;lrc&quot;: &quot;https://cn-south-17-aplayer-46154810.oss.dogecdn.com/hikarunara.lrc&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line">&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="图库里-找不到路径-只能把歌词打出来">图库里 找不到路径 只能把歌词打出来</h2>
-<div id="aplayer-UIBrmYtw" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+<div id="aplayer-dciEwsnm" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
 				<pre class="aplayer-lrc-content">[00:00.00]带我去找夜生活 - 告五人
 [00:01.00]作词：潘云安
 [00:02.00]作曲：潘云安
@@ -1193,7 +1145,7 @@ sk-dsdsdd(编一个)</li>
 			</div>
 			<script>
 				var ap = new APlayer({
-					element: document.getElementById("aplayer-UIBrmYtw"),
+					element: document.getElementById("aplayer-dciEwsnm"),
 					narrow: false,
 					autoplay: false,
 					showlrc: 2,
@@ -1419,6 +1371,54 @@ sk-dsdsdd(编一个)</li>
       </tags>
   </entry>
   <entry>
+    <title>webstack导航建立</title>
+    <url>/2024/02/24/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E5%AF%BC%E8%88%AA%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>1. hexo 三连</h1>
+<h1>2. 使用webstack主题</h1>
+<ul>
+<li><a href="https://github.com/HCLonely/hexo-theme-webstack">https://github.com/HCLonely/hexo-theme-webstack</a></li>
+</ul>
+<h1>3. 添加网址</h1>
+<ul>
+<li>
+<p>创建/source/_data</p>
+</li>
+<li>
+<p>_config.webstack.yml</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">name:</span> <span class="string">一级</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-star</span></span><br><span class="line">    <span class="attr">submenu:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">first</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-star</span></span><br><span class="line">        <span class="attr">config:</span> <span class="string">second</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">        <span class="string">...</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>在/source/_data中新建 second.yml</p>
+</li>
+</ul>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://...</span></span><br><span class="line">  <span class="attr">img:</span> <span class="string">&quot;...&quot;</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">...</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">...</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://...</span></span><br><span class="line">  <span class="attr">img:</span> <span class="string">&quot;...&quot;</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">...</span></span><br><span class="line"> <span class="string">...</span></span><br></pre></td></tr></table></figure>
+<h1>4. 美化(探索中</h1>
+<h2 id="侧边栏背景颜色">侧边栏背景颜色</h2>
+<p>修改\themes\webstack\source\css\xenon-core.min.css</p>
+<p>文件中搜索：<em>sidebar-menu{display:table-cell;position:relative</em></p>
+<p>修改宽度px,背景颜色</p>
+<h1>补充：</h1>
+<p>一台电脑多个github账号 创建SSH：</p>
+<ul>
+<li><a href="https://www.cnblogs.com/yuqiliu/p/12551258.html">https://www.cnblogs.com/yuqiliu/p/12551258.html</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>多hexo部署</title>
+    <url>/2024/11/02/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E5%A4%9A%E4%B8%AAhexo%E9%83%A8%E7%BD%B2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>检测ssh</p>
+<p><code>ls ~/.ssh/</code></p>
+<p><a href="https://blog.csdn.net/qq_36759224/article/details/86546729">参考</a></p>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>换系统/电脑 迁移hexo</title>
     <url>/2025/03/03/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E6%9B%B4%E6%8D%A2%E7%B3%BB%E7%BB%9F%E5%90%8E%E7%9A%84%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
@@ -1431,14 +1431,29 @@ sk-dsdsdd(编一个)</li>
 <ul>
 <li>git config --global <a href="http://user.name">user.name</a> “” ;git config --global user.email “”</li>
 <li>安装hexo npm install hexo-cli -g</li>
-<li>安装依赖 npminstall</li>
+<li>安装依赖 npm install</li>
 <li>安装git工具 npm install hexo-deployer-git --save</li>
 </ul>
 <h1>老三件套</h1>
-<p>hexo c &amp;&amp; hexo s &amp;&amp; hexo d</p>
+<p>hexo clean &amp;&amp; hexo s &amp;&amp; hexo d</p>
 <ul>
 <li>需要管理员打开 ； deploy 需要 git config --global --add safe.directory D:/…/.deploy_git</li>
 </ul>
+]]></content>
+      <categories>
+        <category>博客折腾</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解除推送限制</title>
+    <url>/2024/03/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E8%A7%A3%E9%99%A4%E6%8E%A8%E9%80%81%E9%99%90%E5%88%B6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>错误信息</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> ! [remote rejected] HEAD -&gt; master (push declined due to </span><br><span class="line">repository rule violations)</span><br></pre></td></tr></table></figure>
+<p><strong>解除 GitHub 的推送保护</strong>：</p>
+<p>如果你确定已删除所有敏感信息，可以访问 GitHub 提供的链接，解除对你推送的阻止：</p>
 ]]></content>
       <categories>
         <category>博客折腾</category>
@@ -1475,12 +1490,12 @@ sk-dsdsdd(编一个)</li>
 <h1>远程url</h1>
 <p><code>&#123;% aplayer "歌名" "艺术家名" "https：;../.mp3" "封面图.jpg" %&#125;</code></p>
 
-        <div id="aplayer-dtStcBUM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-DTxxAwYG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-dtStcBUM"),
+            element: document.getElementById("aplayer-DTxxAwYG"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -1503,21 +1518,6 @@ sk-dsdsdd(编一个)</li>
   Your browser does not support the video tag.
 </video>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;video width=&quot;640&quot; height=&quot;360&quot; controls&gt;</span><br><span class="line">  &lt;source src=&quot;https://cc99.serv00.net/d/E5/b/StartMenu_Win10.mp4&quot; type=&quot;video/mp4&quot;&gt;</span><br><span class="line">  Your browser does not support the video tag.</span><br><span class="line">&lt;/video&gt;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>博客折腾</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解除推送限制</title>
-    <url>/2024/03/15/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/%E8%A7%A3%E9%99%A4%E6%8E%A8%E9%80%81%E9%99%90%E5%88%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>错误信息</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> ! [remote rejected] HEAD -&gt; master (push declined due to </span><br><span class="line">repository rule violations)</span><br></pre></td></tr></table></figure>
-<p><strong>解除 GitHub 的推送保护</strong>：</p>
-<p>如果你确定已删除所有敏感信息，可以访问 GitHub 提供的链接，解除对你推送的阻止：</p>
 ]]></content>
       <categories>
         <category>博客折腾</category>
